@@ -26,10 +26,10 @@ Research Interests
 
 🔥 News
 ======
-*   **[Mar 2026]** Our paper "MDTree" (Phylogenetic Inference) has been accepted by **TMLR**.
-*   **[Feb 2026]** Two papers (MedLA & Cell-Aware) accepted to **AAAI 2026** (Both **Oral**!).
+*   **[Nov 2025]** Our paper "MDTree" (Phylogenetic Inference) has been accepted by **TMLR**.
+*   **[Nov 2025]** Two papers (MedLA & Cell-Aware) accepted to **AAAI 2026** (Both **Oral**!).
 <!-- *   **[Jan 2026]** "DMT-ME" (Manifold Transformation) has been accepted by **IEEE TPAMI** (IF=20). -->
-*   **[Jan 2026]** "CellScout" accepted by **IEEE TVCG**.
+*   **[Jan 2025]** "CellScout" accepted by **IEEE TVCG**.
 *   **[Jan 2025]** One paper on Time Series Fault Detection accepted by **IEEE TNNLS**.
 *   **[Dec 2025]** "PhyloGen" accepted by **NeurIPS 2025**.
 *   **[Jul 2024]** "Boosting Unsupervised Contrastive Learning" accepted by **ICML 2024**.
