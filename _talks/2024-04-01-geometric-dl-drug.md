@@ -1,11 +1,11 @@
 ---
-title: "几何深度学习方法在药及自组学单细胞数据中的应用进展"
+title: "Geometric Deep Learning for Drug Discovery and Single-Cell Omics"
 collection: talks
-type: "Talk"
+type: "Research Talk"
 permalink: /talks/2024-04-01-geometric-dl-drug
-venue: "Academic Seminar"
+venue: "Biomedical AI Symposium"
 date: 2024-04-01
-location: "China"
+location: "Hangzhou, China"
 ---
 
-几何深度学习在药物发现与单细胞组学数据分析中的应用。
+Comprehensive presentation on geometric deep learning applications in drug discovery and single-cell data analysis. Discussed graph neural networks for molecular property prediction, protein-ligand binding affinity estimation, and structure-based drug design. Presented novel approaches for learning on cellular graph representations, including cell-cell interaction networks and spatial transcriptomics data. Highlighted the integration of multi-modal biological data (genomics, proteomics, metabolomics) through geometric learning frameworks. Demonstrated state-of-the-art results on drug-target interaction prediction and cell type annotation tasks.

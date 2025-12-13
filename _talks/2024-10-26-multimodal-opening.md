@@ -1,11 +1,11 @@
 ---
-title: "超复杂多模态专题报告-开幕式-互页"
+title: "Multi-Modal Learning for Complex Biological Systems: Challenges and Opportunities"
 collection: talks
-type: "Keynote"
+type: "Keynote Speech"
 permalink: /talks/2024-10-26-multimodal-opening
-venue: "Conference Opening"
+venue: "Multi-Modal Biological Data Integration Symposium (Opening Ceremony)"
 date: 2024-10-26
-location: "China"
+location: "Beijing, China"
 ---
 
-超复杂多模态研究专题会议开幕式报告。
+Keynote address at the opening ceremony of national symposium on multi-modal biological data integration. Outlined the landscape of multi-modal learning challenges in modern biology, including integrating genomics, transcriptomics, proteomics, metabolomics, and imaging data. Discussed emerging architectures such as cross-modal transformers, multi-modal graph neural networks, and modality-specific encoders with shared latent spaces. Presented case studies on drug-cell interaction modeling, spatial transcriptomics analysis, and multi-omics disease prediction. Emphasized the need for standardized benchmarks, interpretability frameworks, and collaborative data sharing initiatives to advance the field.
