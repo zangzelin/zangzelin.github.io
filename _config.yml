@@ -9,33 +9,33 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Zelin Zang"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Zelin Zang"
-description              : &description "Zelin Zang's academic portfolio - AI Foundation & AI for Science"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Your Name"
+description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "https://zangzelin.github.io/" # the subpath of your site, e.g. "/blog"
-repository               : "zangzelin/zangzelin.github.io"
-  
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "academicpages/academicpages.github.io"
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png" # Ensure you upload an image named profile.png to your images folder
+  avatar           : "profile.png"
   name             : "Zelin Zang"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral Researcher at HK Institute of Innovation, CAS. Focusing on AI for Science, Medical Foundation Models, and Deep Manifold Learning."
-  location         : "Hong Kong"
-  employer         : "Hong Kong Institute of Innovation, CAS"
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "zangzelin@gmail.com" 
+  email            : "none@example.org" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=foERjnQAAAAJ&hl=zh-CN"
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/yourorcidurl"
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "zangzelin" # Username - Update with your username on the site
+  github           : "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
