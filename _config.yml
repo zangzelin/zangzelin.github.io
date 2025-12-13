@@ -26,16 +26,16 @@ author:
   avatar           : "zzl720.png"
   name             : "Zelin Zang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Postdoctoral Researcher at HK Institute of Innovation, CAS. Focusing on AI for Science, Medical Foundation Models, and Deep Manifold Learning."
+  location         : "Hong Kong"
+  employer         : "Hong Kong Institute of Innovation, CAS"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "zangzelin@gmail.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=foERjnQAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/yourorcidurl"
