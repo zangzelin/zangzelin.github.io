@@ -12,7 +12,7 @@ redirect_from:
 
 **Hi, I am Zelin Zang (臧泽林).**
 
-I am currently a Postdoctoral Researcher at the **Hong Kong Institute of Innovation, Chinese Academy of Sciences**, working with [Prof. Zhen Lei](https://scholar.google.com/citations?user=...) and [Prof. Jiebo Luo](https://www.cs.rochester.edu/u/jluo/).
+I am currently a Postdoctoral Researcher at the **Hong Kong Institute of Innovation, Chinese Academy of Sciences**, working with [Prof. Zhen Lei](https://scholar.google.com/citations?user=cuJ3QG8AAAAJ&hl=zh-CN) and [Prof. Jiebo Luo](https://www.cs.rochester.edu/u/jluo/).
 
 My research lies at the intersection of **AI Foundation Models** and **AI for Science**, with a particular focus on Life Sciences and Medicine. I aim to develop interpretable, scalable, and robust AI systems to solve complex problems in single-cell biology, molecular modeling, and clinical diagnosis.
 
