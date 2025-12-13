@@ -44,7 +44,7 @@ Research Interests
 *   **[Sep 2025]** "CellScout" accepted by **IEEE TVCG**.
 *   **[Sep 2025]** One papper on 3D Hand-Instrument Interaction accepted by **MIICAI 2025**
 *   **[Mar 2025]** One paper on Time Series Fault Detection accepted by **IEEE TNNLS**.
-*   **[Feb 2025]** `MUST' accepted by **BIB**.
+*   **[Feb 2025]** Three Papers (MUST, FGeneBERT, PoincareDMT) accepted by **BIB**.
 *   **[Jan 2025]** `DaCapo' accepted by **CVPR 2025**.
 <!-- *   **[Dec 2025]** "PhyloGen" accepted by **NeurIPS 2025**.
 *   **[Jul 2024]** "Boosting Unsupervised Contrastive Learning" accepted by **ICML 2024**. -->
