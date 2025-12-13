@@ -3,7 +3,7 @@ title: "Multi-center multi-omics integration predicts individualized prognosis i
 collection: publications
 category: manuscripts
 permalink: /publication/2026-natcomm-thyroid
-excerpt: 'Yaoting Sun*, <b>Zelin Zang*</b>, et al. | <i>Nature Communications</i>, 2026 | <b>Top Journal</b> | <b>Co-first Author</b>'
+excerpt: 'Yaoting Sun*, <b>Zelin Zang*</b>, et al., <i>Nature Communications</i>, 2026, <b>Top Journal</b>, <b>Co-first Author</b>'
 date: 2026-01-05
 venue: 'Nature Communications'
 paperurl: 'https://zelinzang.github.io/files/thyroid-cancer.pdf'

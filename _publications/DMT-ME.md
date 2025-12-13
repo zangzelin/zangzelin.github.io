@@ -3,7 +3,7 @@ title: "DMT-ME: MOE-Enhanced Explanable Deep Manifold Transformation for Complex
 collection: publications
 category: manuscripts
 permalink: /publication/2026-01-01-dmt-me
-excerpt: '<b>Zelin Zang</b>, et al. | <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2026 | <b>CCF-A, IF=20</b> | <b>First Author</b>'
+excerpt: '<b>Zelin Zang</b>, et al., <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2026, <b>CCF-A, IF=20</b>, <b>First Author</b>'
 date: 2026-01-01
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)'
 paperurl: 'http://zelinzang.github.io/files/dmt-me.pdf'

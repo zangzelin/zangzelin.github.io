@@ -3,7 +3,7 @@ title: "Boosting Unsupervised Contrastive Learning Using Diffusion-Based Data Au
 collection: publications
 category: conferences
 permalink: /publication/2024-07-01-boosting-contrastive
-excerpt: '<b>Zelin Zang</b>, et al. | <i>International Conference on Machine Learning (ICML)</i>, 2024 | <b>CCF-A</b> | <b>First Author</b>'
+excerpt: '<b>Zelin Zang</b>, et al., <i>International Conference on Machine Learning (ICML)</i>, 2024, <b>CCF-A</b>, <b>First Author</b>'
 date: 2024-07-01
 venue: 'International Conference on Machine Learning (ICML)'
 paperurl: 'http://zelinzang.github.io/files/icml2024.pdf'

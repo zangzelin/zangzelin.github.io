@@ -3,7 +3,7 @@ title: "A review of artificial intelligence based biological-tree construction: 
 collection: publications
 category: manuscripts
 permalink: /publication/2025-if-biotree-review
-excerpt: '<b>Zelin Zang</b>, et al. | <i>Information Fusion</i>, 2025 | <b>CCF-A, IF=15.6</b> | <b>First Author</b>'
+excerpt: '<b>Zelin Zang</b>, et al., <i>Information Fusion</i>, 2025, <b>CCF-A, IF=15.6</b>, <b>First Author</b>'
 date: 2025-01-15
 venue: 'Information Fusion'
 paperurl: 'https://zelinzang.github.io/files/biotree-review.pdf'

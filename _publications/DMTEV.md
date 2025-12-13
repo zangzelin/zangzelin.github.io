@@ -3,7 +3,7 @@ title: "DMTEV: An Explainable Deep Network for Dimension Reduction"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-01-01-evnet
-excerpt: '<b>Zelin Zang</b>, et al. | <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>, 2024 | <b>CCF-A</b> | <b>First Author</b>'
+excerpt: '<b>Zelin Zang</b>, et al., <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>, 2024, <b>CCF-A</b>, <b>First Author</b>'
 date: 2024-01-01
 venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)'
 paperurl: 'http://zelinzang.github.io/files/evnet.pdf'
