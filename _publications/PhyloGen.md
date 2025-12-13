@@ -3,7 +3,7 @@ title: "PhyloGen: Language Model-Enhanced Phylogenetic Inference via Graph Struc
 collection: publications
 category: conferences
 permalink: /publication/2024-12-01-phylogen
-excerpt: 'Published in NeurIPS 2024. Leveraging language models for enhancing phylogenetic inference through graph generation.'
+excerpt: 'Chenrui Duan*, <b>Zelin Zang*</b>, et al. | <i>Neural Information Processing Systems (NeurIPS)</i>, 2024 | <b>CCF-A</b> | <b>Co-first Author</b>'
 date: 2024-12-01
 venue: 'Neural Information Processing Systems (NeurIPS)'
 paperurl: 'http://zelinzang.github.io/files/phylogen.pdf'

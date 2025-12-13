@@ -3,7 +3,7 @@ title: "DLME: Deep Local-flatness Manifold Embedding"
 collection: publications
 category: conferences
 permalink: /publication/2022-eccv-dlme
-excerpt: 'Published in ECCV 2022. First Author. CCF-A conference.'
+excerpt: '<b>Zelin Zang</b>, et al. | <i>European Conference on Computer Vision (ECCV)</i>, 2022 | <b>CCF-A</b> | <b>First Author</b>'
 date: 2022-10-01
 venue: 'European Conference on Computer Vision (ECCV)'
 paperurl: 'https://zelinzang.github.io/files/dlme.pdf'

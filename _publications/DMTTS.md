@@ -3,7 +3,7 @@ title: "Deep Multimanifold Transformation-Based Multivariate Time Series Fault D
 collection: publications
 category: manuscripts
 permalink: /publication/2025-tnnls-dmtts
-excerpt: 'Published in IEEE Transactions on Neural Networks and Learning Systems (TNNLS). Corresponding Author. CCF-B journal.'
+excerpt: '<b>Zelin Zang</b>, et al. | <i>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</i>, 2025 | <b>CCF-B</b> | <b>Corresponding Author</b>'
 date: 2025-03-01
 venue: 'IEEE Transactions on Neural Networks and Learning Systems (TNNLS)'
 paperurl: 'https://zelinzang.github.io/files/dmt-ts.pdf'

@@ -3,7 +3,7 @@ title: "Learning Cell-Aware Hierarchical Multi-Modal Representations for Robust 
 collection: publications
 category: conferences
 permalink: /publication/2026-02-celldrug
-excerpt: 'Accepted in AAAI 2026 (Oral). First Author.'
+excerpt: '<b>Zelin Zang</b>, et al. | <i>AAAI Conference on Artificial Intelligence (AAAI)</i>, 2026 | <b>CCF-A, Oral</b> | <b>First Author</b>'
 date: 2026-02-21
 venue: 'AAAI Conference on Artificial Intelligence (AAAI)'
 paperurl: 'https://zelinzang.github.io/files/celldrug.pdf'

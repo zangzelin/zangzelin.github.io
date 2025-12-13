@@ -3,7 +3,7 @@ title: "Boosting Novel Category Discovery Over Domains with Soft Contrastive Lea
 collection: publications
 category: conferences
 permalink: /publication/2023-10-01-novel-category
-excerpt: 'Published in ICCV 2023 (Oral). Addressing novel category discovery across domains using soft contrastive learning.'
+excerpt: '<b>Zelin Zang</b>, et al. | <i>International Conference on Computer Vision (ICCV)</i>, 2023 | <b>CCF-A, Oral</b> | <b>First Author</b>'
 date: 2023-10-01
 venue: 'International Conference on Computer Vision (ICCV)'
 paperurl: 'http://zelinzang.github.io/files/iccv2023.pdf'

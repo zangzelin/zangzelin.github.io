@@ -3,7 +3,7 @@ title: "Structure-preserving visualization for single-cell RNA-Seq profiles usin
 collection: publications
 category: manuscripts
 permalink: /publication/2023-commbio-scrna
-excerpt: 'Published in Communications Biology (IF=6.5). Co-first Author (Yongjie Xu, Zelin Zang).'
+excerpt: 'Yongjie Xu*, <b>Zelin Zang*</b>, et al. | <i>Communications Biology</i>, 2023 | <b>IF=6.5</b> | <b>Co-first Author</b>'
 date: 2023-07-01
 venue: 'Communications Biology'
 paperurl: 'https://zelinzang.github.io/files/scrna-batch.pdf'

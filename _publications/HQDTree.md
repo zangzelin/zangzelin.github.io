@@ -3,7 +3,7 @@ title: "Hierarchical Quantized Diffusion Based Tree Generation Method for Hierar
 collection: publications
 category: conferences
 permalink: /publication/2026-iclr-hqdtree
-excerpt: 'Under Review at ICLR 2026 with Score of 6(weak Accept), 6(weak Accept), 10(Strong Accept). First Author.'
+excerpt: '<b>Zelin Zang</b>, et al. | <i>ICLR 2026 (Under Review)</i> | <b>CCF-A</b> | <b>First Author</b> | <b>Scores: 6,6,10</b>'
 date: 2026-01-15
 venue: 'International Conference on Learning Representations (ICLR) - Under Review'
 paperurl: 'https://zelinzang.github.io/files/hqdtree.pdf'
