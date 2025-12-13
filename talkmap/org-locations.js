@@ -1,137 +1,132 @@
 var addressPoints = [
   [
-    "CAIR\u8fdb\u5316\u6811\u7814\u7a76<br />CAIR Seminar; Hong Kong",
+    "Phylogenetic Tree Generation and Evolutionary Analysis Using Deep Learning<br />CAIR (Centre for Artificial Intelligence Research), Hong Kong; Hong Kong",
     22.350627,
     114.1849161
   ],
   [
-    "\u51e0\u4f55\u6df1\u5ea6\u5b66\u4e60\u65b9\u6cd5\u5728\u836f\u53ca\u81ea\u7ec4\u5b66\u5355\u7ec6\u80de\u6570\u636e\u4e2d\u7684\u5e94\u7528\u8fdb\u5c55<br />Academic Seminar; China",
-    35.000074,
-    104.999927
-  ],
-  [
-    "\u5343\u7ec6\u80de\u914d\u70b9\u53ca\u89c2-\u5339\u65b9\u5f0f<br />Research Meeting; China",
-    35.000074,
-    104.999927
-  ],
-  [
-    "\u534a\u751f\u9009\u8bae\u6df1\u5ea6\u5b66\u4e60-\u8986\u76d6\u6027<br />Academic Seminar; China",
-    35.000074,
-    104.999927
-  ],
-  [
-    "31\u9879\u76ee\u5f00\u59cb\u7684\u8ba8\u8bba<br />Project Kickoff Meeting; China",
-    35.000074,
-    104.999927
-  ],
-  [
-    "\u6297\u9707\u8d28\u8c31\u6280\u672f\u57fa\u4e8e\u6df1\u5ea6\u5b66\u4e60\u7684\u80bf\u7624\u5206\u578b\u548c\u9884\u540e\u6027\u7814\u7a76<br />Research Seminar; China",
-    35.000074,
-    104.999927
-  ],
-  [
-    "\u8d85\u590d\u6742\u591a\u6a21\u6001\u4e13\u9898\u62a5\u544a-\u5f00\u5e55\u5f0f-\u4e92\u9875<br />Conference Opening; China",
-    35.000074,
-    104.999927
-  ],
-  [
-    "\u6297\u9707\u8d28\u8c31\u57fa-\u57fa\u4e8e\u6df1\u5ea6\u5b66\u4e60\u7684\u80bf\u7624\u5206\u578b\u548c\u9884\u540e<br />BGI Genomics; Hangzhou, China",
+    "Geometric Deep Learning for Drug Discovery and Single-Cell Omics<br />Biomedical AI Symposium; Hangzhou, China",
     30.2489634,
     120.2052342
   ],
   [
-    "DiffAug Poster Presentation<br />ICML 2024; Vienna, Austria",
+    "Cell Annotation and Matching Methods for Single-Cell Analysis<br />Computational Biology Seminar; Beijing, China",
+    40.190632,
+    116.412144
+  ],
+  [
+    "Deep Learning for Spatial Transcriptomics: Coverage and Resolution Enhancement<br />Computational Biology Research Seminar; Beijing, China",
+    40.190632,
+    116.412144
+  ],
+  [
+    "Mass Spectrometry-Based Proteomics for Cancer Subtyping and Prognosis Prediction<br />BGI Proteomics Research Seminar; Shenzhen, China",
+    22.5445741,
+    114.0545429
+  ],
+  [
+    "Multi-Modal Learning for Complex Biological Systems: Challenges and Opportunities<br />Multi-Modal Biological Data Integration Symposium (Opening Ceremony); Beijing, China",
+    40.190632,
+    116.412144
+  ],
+  [
+    "Deep Learning for Proteomics-Based Cancer Classification and Prognosis<br />BGI Genomics (Hangzhou Genomics Institute); Hangzhou, China",
+    30.2489634,
+    120.2052342
+  ],
+  [
+    "Boosting Unsupervised Contrastive Learning Using Diffusion-Based Data Augmentation From Scratch<br />International Conference on Machine Learning (ICML 2024); Vienna, Austria",
     48.2083537,
     16.3725042
   ],
   [
-    "RAG Recent Developments of Retrieval Augmented Generation<br />Technical Seminar; China",
-    35.000074,
-    104.999927
+    "Recent Developments in Retrieval-Augmented Generation for Scientific Applications<br />AI Technology Forum; Hangzhou, China",
+    30.2489634,
+    120.2052342
   ],
   [
-    "AI\u865a\u62df\u7ec6\u80de Proposal<br />Project Proposal; Hong Kong",
+    "AI Virtual Cell: Building Computational Models of Cellular Systems<br />CAIR Research Proposal Presentation; Hong Kong",
     22.350627,
     114.1849161
   ],
   [
-    "\u67cf\u677e\u5927\u63d0\u8bd5\u73ed\u4e00\u6b21\u8ba8\u8bba<br />Internal Meeting; China",
-    35.000074,
-    104.999927
+    "Technical Discussion on Large-Scale Model Training and Optimization<br />Team Technical Meeting; Hangzhou, China",
+    30.2489634,
+    120.2052342
   ],
   [
-    "\u5e7f\u5dde\u5065\u5eb7\u7814\u8ba8\u4f1a<br />Guangzhou Health Workshop; Guangzhou, China",
+    "AI for Precision Medicine: From Data to Clinical Insights<br />Guangzhou Health Data Intelligence Workshop; Guangzhou, China",
     23.1301964,
     113.2592945
   ],
   [
-    "FINE\u8bc4\u9274-AI4Science<br />FINE Review; China",
-    35.000074,
-    104.999927
+    "FINE Review: AI for Science Research Progress and Applications<br />FINE Research Assessment; Beijing, China",
+    40.190632,
+    116.412144
   ],
   [
-    "\u535a\u58eb\u8bba\u6587\u7b54\u8fa9<br />Zhejiang University; Hangzhou, China",
+    "Deep Manifold Learning for High-Dimensional Data Analysis: Methods, Theory, and Applications<br />Zhejiang University, College of Information Science and Electronic Engineering; Hangzhou, China",
     30.2489634,
     120.2052342
   ],
   [
-    "\u5927\u91cf\u73b0\u73e0\u672c\u9ad8\u7ef4\u8bba\u575b-\u9875\u76ee\u4e09\u9875<br />Research Forum; China",
-    35.000074,
-    104.999927
-  ],
-  [
-    "\u590d\u65e6pptTPD DMTEV<br />Fudan University; Shanghai, China",
+    "Deep Learning for High-Dimensional Data Analysis and Visualization<br />High-Dimensional Data Analysis Research Forum; Shanghai, China",
     31.2312707,
     121.4700152
   ],
   [
-    "\u591a\u6a21\u6001\u52a8\u538b\u5b66\u7684\u8ba8\u8bba\u548c\u8ba1\u5212<br />Research Planning; China",
-    35.000074,
-    104.999927
+    "Deep Manifold Transformation for Explainable Visualization (DMTEV)<br />Fudan University, School of Computer Science; Shanghai, China",
+    31.2312707,
+    121.4700152
   ],
   [
-    "\u5343\u7ec6\u80de\u5b66\u4e60 \u9884\u6f14\u5c55\u9898\u5e93<br />Research Seminar; China",
-    35.000074,
-    104.999927
+    "Multi-Modal Molecular Dynamics: Research Planning and Strategic Directions<br />CAIR Strategic Research Planning Session; Hong Kong",
+    22.350627,
+    114.1849161
   ],
   [
-    "\u67cf\u677e\u5927\u63d0\u8bd5\u7248\u672c\u4e2d\u671f\u6c47\u62a5<br />Project Review; China",
-    35.000074,
-    104.999927
+    "Single-Cell Foundation Models and Cell Knowledge Base Construction<br />BGI Research Seminar; Shenzhen, China",
+    22.5445741,
+    114.0545429
   ],
   [
-    "NUSHPCAI Lecture<br />National University of Singapore, HPC-AI Lab; Singapore",
+    "Industrial AI Agent System: Mid-term Progress and Technical Achievements<br />Rootcloud AI Project Review Meeting; Shanghai, China",
+    31.2312707,
+    121.4700152
+  ],
+  [
+    "High-Performance Computing for AI: Scalable Deep Learning Systems<br />National University of Singapore, HPC-AI Lab; Singapore",
     1.357107,
     103.8194992
   ],
   [
-    "\u7f8e\u897f\u8bb2\u5ea7-AI\u5927\u6a21\u578b\u7684\u533b\u65b0\u8fdb\u5c55<br />West Coast AI Conference; USA",
-    39.7837304,
-    -100.445882
+    "Foundation Models for Medical Diagnosis and Clinical Decision Support<br />West Coast AI in Healthcare Conference; San Francisco, CA, USA",
+    37.7879363,
+    -122.4075201
   ],
   [
-    "\u86cb\u767d\u8d28\u5355\u7ec6\u80de-\u8fdb\u5c55\u6c47\u62a5<br />Research Update; China",
-    35.000074,
-    104.999927
+    "Proteomics Meets Single-Cell: Integration and Analysis Progress<br />Proteomics and Single-Cell Biology Workshop; Shanghai, China",
+    31.2312707,
+    121.4700152
   ],
   [
-    "\u897f\u6e56-\u9762\u8bd5-\u6d59\u6c5f\u5927\u5b66-\u773c\u7403\u5f02<br />Westlake University / Zhejiang University; Hangzhou, China",
+    "Research Presentation: AI for Biological Sciences and Medical Applications<br />Westlake University / Zhejiang University Joint Faculty Interview; Hangzhou, China",
     30.2489634,
     120.2052342
   ],
   [
-    "\u533b\u7597\u4eba\u5de5\u667a\u80fd<br />Medical AI Seminar; China",
-    35.000074,
-    104.999927
+    "Medical Artificial Intelligence: Bridging Research and Clinical Practice<br />Medical AI Research Seminar (Ant Group Collaboration); Hangzhou, China",
+    30.2489634,
+    120.2052342
   ],
   [
-    "\u865a\u62df\u7ec6\u80de Proposal \u67cf\u7ec6<br />Project Proposal Meeting; China",
-    35.000074,
-    104.999927
+    "Virtual Cell Foundation Models: Technical Architecture and Implementation<br />BGI Virtual Cell Project Planning Meeting; Shenzhen, China",
+    22.5445741,
+    114.0545429
   ],
   [
-    "DiffAug \u8bba\u6587\u6c47\u62a5<br />Internal Seminar; China",
-    35.000074,
-    104.999927
+    "Diffusion-Based Data Augmentation for Unsupervised Contrastive Learning<br />Lab Research Seminar; Hangzhou, China",
+    30.2489634,
+    120.2052342
   ]
 ];
