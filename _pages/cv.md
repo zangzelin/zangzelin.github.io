@@ -9,37 +9,58 @@ redirect_from:
 
 {% include base_path %}
 
+<div style="margin-bottom: 20px;">
+  <a href="#" class="btn btn--primary">Download CV (PDF)</a>
+  <!-- 如果你有 PDF 版本的 CV，可以将 href 改为 "/files/cv.pdf" -->
+</div>
+
+Work Experience
+======
+*   **Postdoctoral Researcher** (Jul 2024 - Present)
+    *   *Hong Kong Institute of Innovation, Chinese Academy of Sciences (HKII-CAS)*
+    *   **Supervisors:** [Prof. Zhen Lei](https://scholar.google.com/citations?user=G_Y0sOQAAAAJ) and [Prof. Jiebo Luo](https://www.cs.rochester.edu/u/jluo/)
+    *   **Research Focus:** AI Foundation Models, AI for Science (Life Science), and Medical AI.
+
+*   **Visiting Scholar** (Nov 2023 - May 2024)
+    *   *National University of Singapore (NUS)*
+    *   **Advisor:** [Prof. Yang You](https://www.comp.nus.edu.sg/~youy/)
+    *   **Research Focus:** Large scale optimization and foundation models.
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+*   **Ph.D. in Electronic Science and Technology** (Sept 2019 - Jun 2024)
+    *   *Zhejiang University* (Jointly trained with *Westlake University*)
+    *   **Advisor:** [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow)
+    *   **Thesis:** Deep Manifold Learning and its Applications in Bioinformatics.
 
-Work experience
+*   **B.E. in Automation** (Sept 2015 - Jun 2019)
+    *   *China University of Petroleum (East China)*
+    *   **Honor:** Outstanding Graduate, National Scholarship.
+
+Research Interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+*   **AI for Life Science:** Single-cell analysis, Spatial transcriptomics, Molecular modeling, Phylogenetic inference.
+*   **Medical AI:** LLM agents for medical reasoning, Multi-modal clinical diagnosis.
+*   **Fundamental AI:** Manifold learning, Geometric deep learning, Trustworthy AI.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+*   **Programming:** Python, C/C++, MATLAB, Shell.
+*   **Frameworks:** PyTorch, TensorFlow, Scanpy, HuggingFace.
+*   **Tools:** Git, Docker, LaTeX, Linux.
+*   **Languages:** English (Professional), Mandarin (Native).
+
+Academic Service
+======
+*   **Journal Reviewer:**
+    *   IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+    *   IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+    *   IEEE Transactions on Visualization and Computer Graphics (TVCG)
+    *   Briefings in Bioinformatics (BIB)
+    *   Nature Communications
+*   **Conference Reviewer:**
+    *   CVPR, ICCV, ECCV
+    *   NeurIPS, ICML, ICLR, AAAI, IJCAI
 
 Publications
 ======
