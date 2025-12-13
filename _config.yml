@@ -38,11 +38,11 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=foERjnQAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0003-2831-5437"
+  orcid            : "https://orcid.org/0000-0003-2831-5437"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : https://www.researchgate.net/profile/Zelin-Zang?ev=hdr_xprf
   scopus           : # URL
   zotero           : # URL
 
