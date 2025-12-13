@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 3"
+title: "CellScout: Visual Analytics for Mining Biomarkers in Cell State Discovery"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2026-02-01-cellscout
+excerpt: 'Published in IEEE TVCG. A visual analytics approach for biomarker mining in single-cell data.'
+date: 2026-02-01
+venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)'
+paperurl: 'http://zelinzang.github.io/files/cellscout.pdf'
+citation: 'Zelin Zang, et al. (2026). &quot;CellScout: Visual Analytics for Mining Biomarkers in Cell State Discovery.&quot; <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
