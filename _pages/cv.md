@@ -28,13 +28,17 @@ Work Experience
 
 Education
 ======
-*   **Ph.D. in Electronic Science and Technology** (Sept 2019 - Jun 2024)
+*   **Ph.D. in Electronic Science and Technology** (Sept 2020 - Jun 2024)
     *   *Zhejiang University* (Jointly trained with *Westlake University*)
     *   **Advisor:** [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow)
     *   **Thesis:** Deep Manifold Learning and its Applications in Bioinformatics.
 
-*   **B.E. in Automation** (Sept 2015 - Jun 2019)
-    *   *China University of Petroleum (East China)*
+*   **B.E. in Automation** (Sept 2017 - Jun 2020)
+    *   Zhejiang University of Technology - Computer Science and Technology College
+    *   **Honor:** Outstanding Graduate, National Scholarship.
+
+*   **B.E. in Automation** (Sept 2013 - Jun 2017)
+    *   *Zhejiang University - City College*
     *   **Honor:** Outstanding Graduate, National Scholarship.
 
 Research Interests
