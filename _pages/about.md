@@ -20,7 +20,7 @@ Previously, I obtained my Ph.D. from **Zhejiang University** (jointly trained wi
 
 📢 Openings
 ======
-I am actively recruiting **Interns** and **PhD Students** (Jointly trained with **Institute of Automation,CAS**, **Zhejiang University**, or **Westlake University**).
+I am actively recruiting **Interns** and **PhD Students** (Jointly trained with **Institute of Automation-CAS**, **Zhejiang University**, or **Westlake University**).
 
 We are looking for self-motivated students interested in:
 *   **Fundamental AI** (Foundation Models, Representation Learning)
