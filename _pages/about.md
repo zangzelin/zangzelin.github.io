@@ -18,6 +18,18 @@ My research lies at the intersection of **AI Foundation Models** and **AI for Sc
 
 Previously, I obtained my Ph.D. from **Zhejiang University** (jointly trained with Westlake University), supervised by [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow). I was also a CSC Visiting Scholar at the **National University of Singapore (NUS)**, advised by [Prof. Yang You](https://www.comp.nus.edu.sg/~youy/).
 
+📢 Openings
+======
+I am actively recruiting **Interns** and **PhD Students** (Jointly trained with **Zhejiang University** or **Westlake University**).
+
+We are looking for self-motivated students interested in:
+*   **Fundamental AI** (Foundation Models, Representation Learning)
+*   **AI for Life Science** (Single-cell, Molecular Biology)
+*   **Medical AI** & **AI Agents**
+*   **AI + X** (Interdisciplinary Research)
+
+If you are interested, please send your CV to **[zangzelin@gmail.com](mailto:zangzelin@gmail.com)**.
+
 Research Interests
 ======
 *   **AI for Life Sciences:** Single-cell foundation models, molecular biology, and phylogenetic inference (BioTree).
