@@ -33,7 +33,7 @@ Education
     *   **Advisor:** [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow)
     *   **Thesis:** Deep Manifold Learning and its Applications in Bioinformatics.
 
-*   **M.S. in Automation** (Sept 2017 - Jun 2020)
+*   **M.S. in Computer Science** (Sept 2017 - Jun 2020)
     *   Zhejiang University of Technology - Computer Science and Technology College
     *   **Honor:** Outstanding Graduate, National Scholarship.
 
