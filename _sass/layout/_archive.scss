@@ -40,7 +40,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -59,7 +59,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   & + p {
     text-indent: 0;
@@ -84,6 +84,20 @@
   }
 }
 
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #e1e4e8;
+  color: #24292e;
+  margin-left: 5px;
+}
 
 /*
    List view

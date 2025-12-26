@@ -3,7 +3,7 @@ title: "Artificial intelligence defines protein-based classification of thyroid 
 collection: publications
 category: manuscripts
 permalink: /publication/2022-celldiscovery-thyroid
-excerpt: 'Yaoting Sun*, Sathiyamoorthy Selvarajan*, <b>Zelin Zang*</b>, Wei Liu, Yi Zhu, Hao Zhang, Wanyuan Chen, Hao Chen, Lu Li, Xue Cai, et al., <i>Cell Discovery</i>, 2022, <b>IF=38</b>, <b>Co-first Author</b>'
+excerpt: 'Yaoting Sun*, Sathiyamoorthy Selvarajan*, <b>Zelin Zang*</b>, Wei Liu, Yi Zhu, Hao Zhang, Wanyuan Chen, Hao Chen, Lu Li, Xue Cai, et al., <i>Cell Discovery</i>, 2022, <span class="badge">IF=38</span>, <span class="badge">Co-first Author</span>'
 date: 2022-08-01
 venue: 'Cell Discovery'
 paperurl: 'https://zelinzang.github.io/files/thyroid-protein.pdf'

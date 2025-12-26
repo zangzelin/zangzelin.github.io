@@ -3,7 +3,7 @@ title: "UDRN: Unified Dimensional Reduction Neural Network for Feature Selection
 collection: publications
 category: manuscripts
 permalink: /publication/2023-nn-udrn
-excerpt: '<b>Zelin Zang</b>, Yongjie Xu, Linyan Lu, Yulan Geng, Senqiao Yang, Stan Z. Li, <i>Neural Networks</i>, 2023, <b>CCF-B</b>, <b>First Author</b>'
+excerpt: '<b>Zelin Zang</b>, Yongjie Xu, Linyan Lu, Yulan Geng, Senqiao Yang, Stan Z. Li, <i>Neural Networks</i>, 2023, <span class="badge">CCF-B</span>, <span class="badge">First Author</span>'
 date: 2023-09-01
 venue: 'Neural Networks'
 paperurl: 'https://zelinzang.github.io/files/udrn.pdf'

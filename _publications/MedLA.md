@@ -3,7 +3,7 @@ title: "MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasonin
 collection: publications
 category: conferences
 permalink: /publication/2026-02-20-medla
-excerpt: '<b>Zelin Zang</b>, et al., <i>AAAI Conference on Artificial Intelligence (AAAI)</i>, 2026, <b>CCF-A, Oral</b>, <b>Corresponding Author</b>'
+excerpt: '<b>Zelin Zang</b>, et al., <i>AAAI Conference on Artificial Intelligence (AAAI)</i>, 2026, <span class="badge">CCF-A, Oral</span>, <span class="badge">Corresponding Author</span>'
 date: 2026-02-20
 venue: 'AAAI Conference on Artificial Intelligence (AAAI)'
 paperurl: 'http://zelinzang.github.io/files/medla.pdf'
