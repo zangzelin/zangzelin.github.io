@@ -1,5 +1,5 @@
 ---
-title: "Unsupervised deep manifold attributed graph embedding"
+title: "Deep manifold embedding of attributed graphs"
 collection: publications
 category: manuscripts
 permalink: /publication/2022-neurocomputing-dmage

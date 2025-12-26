@@ -1,5 +1,5 @@
 ---
-title: "Boosting Unsupervised Contrastive Learning Using Diffusion-Based Data Augmentation From Scratch"
+title: "DiffAug: Enhance Unsupervised Contrastive Learning with Domain-Knowledge-Free Diffusion-based Data Augmentation"
 collection: publications
 category: conferences
 permalink: /publication/2024-07-01-boosting-contrastive
