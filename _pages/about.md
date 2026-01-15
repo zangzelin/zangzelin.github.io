@@ -39,14 +39,14 @@ Research Interests
 🔥 News
 ======
 *   **[Jan 2026]** Our paper "[Multi-center multi-omics integration predicts individualized prognosis in medullary thyroid carcinoma](https://www.nature.com/articles/s41467-025-67533-7)" has been accepted by **Nature Communications**.
-*   **[Jan 2026]** Our paper "MDTree" (Phylogenetic Inference) has been accepted by **TMLR**.
-*   **[Nov 2025]** Two papers (MedLA & Cell-Aware) accepted to **AAAI 2026** (Both **Oral**!).
-*   **[Sep 2025]** "CellScout" accepted by **IEEE TVCG**.
-*   **[Sep 2025]** One paper on 3D Hand-Instrument Interaction accepted by **MIICAI 2025**
-*   **[Mar 2025]** One paper on Time Series Fault Detection accepted by **IEEE TNNLS**.
-*   **[Feb 2025]** Three Papers (MUST, FGeneBERT, PoincareDMT) accepted by **BIB**.
-*   **[Jan 2025]** `DaCapo' accepted by **CVPR 2025**.
-*   **[Jul 2024]** "Boosting Unsupervised Contrastive Learning" accepted by **ICML 2024**. -->
+*   **[Jan 2026]** Our paper "[MDTree](https://openreview.net/forum?id=dTSptQNygv)" (Phylogenetic Inference) has been accepted by **TMLR**.
+*   **[Nov 2025]** Two papers ([MedLA](https://arxiv.org/abs/2509.23725) & [Cell-Aware](https://arxiv.org/abs/2511.21120)) accepted to **AAAI 2026** (Both **Oral**!).
+*   **[Sep 2025]** "[CellScout](https://ieeexplore.ieee.org/document/10764724)" accepted by **IEEE TVCG**.
+*   **[Sep 2025]** One paper on [3D Hand-Instrument Interaction](https://papers.miccai.org/miccai-2025/0757-Paper2293.html) accepted by **MICCAI 2025**.
+*   **[Mar 2025]** One paper on [Time Series Fault Detection](https://ieeexplore.ieee.org/document/10633887) accepted by **IEEE TNNLS**.
+*   **[Feb 2025]** Three Papers ([MuST](https://academic.oup.com/bib/article/26/4/bbaf405/8242581), [FGeneBERT](https://academic.oup.com/bib/article/26/6/bbaf592/8317925), [PoincaréDMT](https://academic.oup.com/bib/article/26/1/bbae687/7978273)) accepted by **BIB**.
+*   **[Jan 2025]** "[DaCapo](https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DaCapo_Score_Distillation_as_Stacked_Bridge_for_Fast_and_High-quality_CVPR_2025_paper.html)" accepted by **CVPR 2025**.
+*   **[Jul 2024]** "[DiffAug](https://icml.cc/virtual/2024/poster/32932)" accepted by **ICML 2024**. -->
 
 ---
 *For a full list of publications, please refer to my [Publications](/publications/) page.*

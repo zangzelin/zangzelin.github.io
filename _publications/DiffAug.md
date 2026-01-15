@@ -6,7 +6,7 @@ permalink: /publication/2024-07-01-boosting-contrastive
 excerpt: '<b>Zelin Zang</b>, Hao Luo, Kai Wang, Panpan Zhang, Fan Wang, Stan Li, Yang You, <i>International Conference on Machine Learning (ICML)</i>, 2024, <span class="badge">CCF-A</span>, <span class="badge">First Author</span>'
 date: 2024-07-01
 venue: 'International Conference on Machine Learning (ICML)'
-paperurl: 'http://zelinzang.github.io/files/icml2024.pdf'
+paperurl: 'https://icml.cc/virtual/2024/poster/32932'
 citation: 'Zelin Zang, Hao Luo, Kai Wang, Panpan Zhang, Fan Wang, Stan Li, Yang You. (2024). &quot;DiffAug: Enhance Unsupervised Contrastive Learning with Domain-Knowledge-Free Diffusion-based Data Augmentation.&quot; <i>International Conference on Machine Learning (ICML)</i>.'
 ---
 
