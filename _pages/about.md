@@ -38,7 +38,8 @@ Research Interests
 
 🔥 News
 ======
-*   **[Nov 2025]** Our paper "MDTree" (Phylogenetic Inference) has been accepted by **TMLR**.
+*   **[Jan 2026]** Our paper "[Multi-center multi-omics integration predicts individualized prognosis in medullary thyroid carcinoma](https://www.nature.com/articles/s41467-025-67533-7)" has been accepted by **Nature Communications**.
+*   **[Jan 2026]** Our paper "MDTree" (Phylogenetic Inference) has been accepted by **TMLR**.
 *   **[Nov 2025]** Two papers (MedLA & Cell-Aware) accepted to **AAAI 2026** (Both **Oral**!).
 *   **[Sep 2025]** "CellScout" accepted by **IEEE TVCG**.
 *   **[Sep 2025]** One paper on 3D Hand-Instrument Interaction accepted by **MIICAI 2025**
