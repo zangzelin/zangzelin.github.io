@@ -11,26 +11,67 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
+<!-- First / Co-First Author Section -->
+<h2>First / Co-First Author Publications</h2>
+<hr />
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+
+  {% if is_first %}
     {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
+{% endfor %}
 
+<!-- Corresponding Author Section -->
+<h2>Corresponding Author Publications</h2>
+<hr />
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
 
+  {% assign is_corr = false %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign is_corr = true %}
+  {% endif %}
 
+  {% if is_corr and is_first == false %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<!-- Other Publications Section -->
+<h2>Other Publications</h2>
+<hr />
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+
+  {% assign is_corr = false %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign is_corr = true %}
+  {% endif %}
+
+  {% if is_first == false and is_corr == false %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
