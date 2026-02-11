@@ -190,8 +190,7 @@
 
   .archive__item-title {
     display: inline;
-    margin-top: 0.4em;
-    margin-bottom: 0.2em;
+    margin: 0 0.35em 0 0;
     font-size: $type-size-5;
     font-weight: normal;
     font-family: $sans-serif;
@@ -203,11 +202,10 @@
 
   .archive__item-excerpt {
     display: inline;
-    margin-top: 0;
-    margin-bottom: 0.25em;
-    margin-left: 0.35em;
+    margin: 0;
     font-size: $type-size-5;
     font-weight: normal;
+    font-family: $sans-serif;
     line-height: 1.35;
     white-space: nowrap;
   }
