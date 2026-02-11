@@ -22,9 +22,15 @@
 
 /* Custom publication styles - ensures they override theme */
 
+/* Prevent horizontal scroll, allow free wrapping */
+.publications-compact {
+  overflow-x: hidden !important;
+}
+
 .publications-compact .list__item {
   margin-bottom: 0.75em;
   overflow: visible !important;
+  max-width: 100%;
 }
 
 .publications-compact .archive__item-title,
@@ -34,6 +40,10 @@
   font-weight: normal !important;
   white-space: normal !important;
   overflow: visible !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  word-break: normal !important;
+  max-width: 100% !important;
 }
 
 .publications-compact .archive__item-title {
@@ -47,4 +57,9 @@
 
 .publications-compact .archive__item-excerpt {
   margin: 0 !important;
+}
+
+/* Parent archive: no horizontal scroll */
+.archive:has(.publications-compact) {
+  overflow-x: hidden !important;
 }
