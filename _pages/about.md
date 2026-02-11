@@ -35,7 +35,7 @@ redirect_from:
 
 **Hi, I am Zelin Zang (臧泽林).**
 
-<p class="ccf-stats">📊 <strong>CCF-A Statistics:</strong> {{ ccf_a_total }} total · {{ ccf_a_first }} first-author · {{ ccf_a_corr }} corresponding-author</p>
+<p class="ccf-stats"><i class="fa fa-chart-bar" aria-hidden="true"></i> <strong>CCF-A Statistics:</strong> {{ ccf_a_total }} total · {{ ccf_a_first }} first-author · {{ ccf_a_corr }} corresponding-author</p>
 
 I am currently a Postdoctoral Researcher at the **Hong Kong Institute of Innovation, Chinese Academy of Sciences**, working with [Prof. Zhen Lei](https://scholar.google.com/citations?user=cuJ3QG8AAAAJ&hl=zh-CN) and [Prof. Jiebo Luo](https://www.cs.rochester.edu/u/jluo/).
 
@@ -43,7 +43,7 @@ My research lies at the intersection of **AI Foundation Models** and **AI for Sc
 
 Previously, I obtained my Ph.D. from **Zhejiang University** (jointly trained with Westlake University), supervised by [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow). I was also a CSC Visiting Scholar at the **National University of Singapore (NUS)**, advised by [Prof. Yang You](https://www.comp.nus.edu.sg/~youy/).
 
-📢 Openings
+<i class="fa fa-bullhorn" aria-hidden="true"></i> Openings
 ======
 I am actively recruiting **Interns** and **PhD Students** (Jointly trained with **Institute of Automation-CAS**, **Zhejiang University**, or **Westlake University**).
 
@@ -61,7 +61,7 @@ Research Interests
 *   **Medical AI:** Medical foundation models, RAG-based diagnostic reasoning, and multi-agent systems.
 *   **Fundamental AI:** Deep manifold learning, interpretable representation learning, and geometric deep learning.
 
-🔥 News
+<i class="fa fa-newspaper" aria-hidden="true"></i> News
 ======
 *   **[Jan 2026]** Two papers ([CDBridge](https://openreview.net/forum?id=Hk4Fb6kaYF) & [Doloris](https://openreview.net/forum?id=rvpDHfoTd2)) accepted by **ICLR 2026**.
 *   **[Jan 2026]** Our paper "[A Medical Multimodal Diagnostic Framework Integrating Vision-Language Models and Logic Tree Reasoning](https://arxiv.org/abs/2512.21583)" has been accepted by **IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026**.

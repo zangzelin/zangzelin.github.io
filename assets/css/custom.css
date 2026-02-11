@@ -1,3 +1,12 @@
+/* Custom styles */
+
+/* Icon spacing on homepage */
+.ccf-stats .fa,
+.page__content h2 .fa {
+  margin-right: 0.35em;
+  opacity: 0.85;
+}
+
 /* Custom publication styles - ensures they override theme */
 
 .publications-compact .list__item {
