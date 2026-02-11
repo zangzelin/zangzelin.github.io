@@ -1,5 +1,12 @@
 /* Custom styles */
 
+/* Fix layout: prevent sidebar overlap and content clipping */
+.page .page__content {
+  overflow: visible !important;
+  min-width: 0;
+  word-wrap: break-word;
+}
+
 /* Icon spacing on homepage */
 .ccf-stats .fa,
 .publication-stats .fa,
@@ -43,15 +50,15 @@
 /* ==========================================================================
    Stats Cards (CCF-A, CCF-B, SCI Q1)
    ========================================================================== */
-.stats-cards {
-  display: flex;
+.page__content .stats-cards {
+  display: flex !important;
   flex-wrap: wrap;
   gap: 0.75em;
   margin: 1em 0 1.5em;
 }
 
-.stats-card {
-  display: flex;
+.page__content .stats-card {
+  display: flex !important;
   align-items: center;
   gap: 0.5em;
   padding: 0.5em 0.85em;
@@ -61,31 +68,76 @@
   min-width: 0;
 }
 
-.stats-card__icon {
+.page__content .stats-card__icon {
   font-size: 1.1em;
   color: var(--global-text-color-light);
   opacity: 0.9;
+  flex-shrink: 0;
 }
 
-.stats-card__content {
-  display: flex;
+.page__content .stats-card__content {
+  display: flex !important;
   flex-direction: column;
   gap: 0.1em;
 }
 
-.stats-card__number {
+.page__content .stats-card__number {
   font-size: 1.25em;
   font-weight: 700;
   line-height: 1.1;
 }
 
-.stats-card__label {
+.page__content .stats-card__label {
   font-size: 0.85em;
   font-weight: 600;
   color: var(--global-text-color);
 }
 
-.stats-card__sub {
+.page__content .stats-card__sub {
+  font-size: 0.7em;
+  color: var(--global-text-color-light);
+}
+
+/* Stats cards on publications page (archive layout) */
+.archive .stats-cards {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin: 1em 0 1.5em;
+}
+
+.archive .stats-card {
+  display: flex !important;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 0.85em;
+  background-color: var(--global-code-background-color);
+  border-radius: 6px;
+  border: 1px solid var(--global-border-color);
+}
+
+.archive .stats-card__icon {
+  font-size: 1.1em;
+  color: var(--global-text-color-light);
+  opacity: 0.9;
+}
+
+.archive .stats-card__content {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.archive .stats-card__number {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.archive .stats-card__label {
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.archive .stats-card__sub {
   font-size: 0.7em;
   color: var(--global-text-color-light);
 }
@@ -105,7 +157,7 @@
 /* ==========================================================================
    Openings CTA Block
    ========================================================================== */
-.openings-cta {
+.page__content .openings-cta {
   margin: 2em 0;
   padding: 1.25em 1.5em;
   background: linear-gradient(135deg, var(--global-code-background-color) 0%, var(--global-bg-color) 100%);
@@ -114,60 +166,60 @@
   border-radius: 6px;
 }
 
-.openings-cta__title {
+.page__content .openings-cta__title {
   margin-top: 0;
   margin-bottom: 0.5em;
   font-size: 1.15em;
 }
 
-.openings-cta__title .fa {
+.page__content .openings-cta__title .fa {
   margin-right: 0.35em;
 }
 
-.openings-cta__lead {
+.page__content .openings-cta__lead {
   margin: 0 0 0.5em;
   font-size: 1em;
 }
 
-.openings-cta__topics {
+.page__content .openings-cta__topics {
   margin: 0.6em 0 0.3em;
   font-weight: 600;
   font-size: 0.95em;
 }
 
-.openings-cta__list {
+.page__content .openings-cta__list {
   margin: 0 0 0.5em;
   padding-left: 1.25em;
 }
 
-.openings-cta__action {
+.page__content .openings-cta__action {
   margin: 0.75em 0 0;
   font-size: 0.95em;
 }
 
-.openings-cta__action a {
+.page__content .openings-cta__action a {
   font-weight: 600;
 }
 
 /* ==========================================================================
    Research Interests (tag/badge style)
    ========================================================================== */
-.research-interests {
+.page__content .research-interests {
   margin: 2em 0;
 }
 
-.research-interests h2 {
+.page__content .research-interests h2 {
   margin-bottom: 0.75em;
 }
 
-.research-tags {
-  display: flex;
+.page__content .research-tags {
+  display: flex !important;
   flex-wrap: wrap;
   gap: 0.6em;
 }
 
-.research-tag {
-  display: inline-flex;
+.page__content .research-tag {
+  display: inline-flex !important;
   flex-direction: column;
   padding: 0.5em 0.85em;
   background-color: var(--global-code-background-color);
@@ -176,13 +228,13 @@
   max-width: 320px;
 }
 
-.research-tag__title {
+.page__content .research-tag__title {
   font-weight: 700;
   font-size: 0.95em;
   margin-bottom: 0.2em;
 }
 
-.research-tag__desc {
+.page__content .research-tag__desc {
   font-size: 0.88em;
   color: var(--global-text-color-light);
   line-height: 1.4;
