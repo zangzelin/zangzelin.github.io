@@ -12,6 +12,7 @@ author_profile: true
 {% include base_path %}
 
 <div class="publications-compact">
+{% assign pub_num = 0 %}
 <!-- First / Co-First Author Section -->
 <h2>First / Co-First Author (一作)</h2>
 <hr />
@@ -27,7 +28,8 @@ author_profile: true
     {% assign is_first = true %}
   {% endif %}
   {% if is_first and post.category == "manuscripts" %}
-    {% include archive-single.html %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
   {% endif %}
 {% endfor %}
 
@@ -42,7 +44,8 @@ author_profile: true
     {% assign is_first = true %}
   {% endif %}
   {% if is_first and post.category == "conferences" %}
-    {% include archive-single.html %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
   {% endif %}
 {% endfor %}
 
@@ -65,7 +68,8 @@ author_profile: true
     {% assign is_corr = true %}
   {% endif %}
   {% if is_corr and is_first == false and post.category == "manuscripts" %}
-    {% include archive-single.html %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
   {% endif %}
 {% endfor %}
 
@@ -84,7 +88,8 @@ author_profile: true
     {% assign is_corr = true %}
   {% endif %}
   {% if is_corr and is_first == false and post.category == "conferences" %}
-    {% include archive-single.html %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
   {% endif %}
 {% endfor %}
 
@@ -107,7 +112,8 @@ author_profile: true
     {% assign is_corr = true %}
   {% endif %}
   {% if is_first == false and is_corr == false and post.category == "manuscripts" %}
-    {% include archive-single.html %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
   {% endif %}
 {% endfor %}
 
@@ -126,7 +132,8 @@ author_profile: true
     {% assign is_corr = true %}
   {% endif %}
   {% if is_first == false and is_corr == false and post.category == "conferences" %}
-    {% include archive-single.html %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
   {% endif %}
 {% endfor %}
 </div>

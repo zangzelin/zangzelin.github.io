@@ -3,7 +3,7 @@ title: "Expanding the RNA Virus Universe by Deep Learning Discovery with Rider"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-nature-method-rider
-excerpt: 'Gaoyang Luo*, <b>Zelin Zang*</b>, et al., <i>Nature Methods (Under Review)</i>, <span class="badge">Top Journal</span>, <span class="badge">Co-first Author</span>'
+excerpt: 'Gaoyang Luo*, **Zelin Zang\***, et al., <i>Nature Methods (Under Review)</i>, <span class="badge">Top Journal</span>, <span class="badge">Co-first Author</span>'
 date: 2026-01-10
 venue: 'Nature Methods - Under Review'
 paperurl: 'https://zelinzang.github.io/files/rider.pdf'
