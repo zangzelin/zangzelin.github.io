@@ -1,0 +1,24 @@
+- date: "Jan 2026"
+  text: 'Two papers ([CDBridge](https://openreview.net/forum?id=Hk4Fb6kaYF) & [Doloris](https://openreview.net/forum?id=rvpDHfoTd2)) accepted by **International Conference on Learning Representations (ICLR) 2026**.'
+- date: "Jan 2026"
+  text: 'Our paper "[A Medical Multimodal Diagnostic Framework Integrating Vision-Language Models and Logic Tree Reasoning](https://arxiv.org/abs/2512.21583)" has been accepted by **IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026**.'
+- date: "Jan 2026"
+  text: 'Our paper "[Multi-center multi-omics integration predicts individualized prognosis in medullary thyroid carcinoma](https://www.nature.com/articles/s41467-025-67533-7)" has been accepted by **Nature Communications**.'
+- date: "Jan 2026"
+  text: 'Our paper "[MDTree](https://openreview.net/forum?id=dTSptQNygv)" (Phylogenetic Inference) has been accepted by **Transactions on Machine Learning Research (TMLR)**.'
+- date: "Feb 2026"
+  text: 'Our paper "[UniSurg: A Video-Native Foundation Model for Universal Understanding of Surgical Videos](https://arxiv.org/abs/2602.05638)" posted on arXiv.'
+- date: "Nov 2025"
+  text: 'Three papers ([MedLA](https://arxiv.org/abs/2509.23725), [Cell-Aware](https://arxiv.org/abs/2511.21120) & [Departures](https://arxiv.org/abs/2511.13124)) accepted to **AAAI Conference on Artificial Intelligence (AAAI) 2026** (MedLA & Cell-Aware **Oral**!).'
+- date: "Dec 2025"
+  text: 'Our survey "[The Dawn of Agentic EDA: A Survey of Autonomous Digital Chip Design](https://arxiv.org/abs/2512.23189)" posted on arXiv.'
+- date: "Sep 2025"
+  text: '"[CellScout](https://ieeexplore.ieee.org/document/10764724)" accepted by **IEEE Transactions on Visualization and Computer Graphics (TVCG)**.'
+- date: "Sep 2025"
+  text: 'One paper on [3D Hand-Instrument Interaction](https://papers.miccai.org/miccai-2025/0757-Paper2293.html) accepted by **Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025**.'
+- date: "Mar 2025"
+  text: 'One paper on [Time Series Fault Detection](https://ieeexplore.ieee.org/document/10633887) accepted by **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**.'
+- date: "Feb 2025"
+  text: 'Three Papers ([MuST](https://academic.oup.com/bib/article/26/4/bbaf405/8242581), [FGeneBERT](https://academic.oup.com/bib/article/26/6/bbaf592/8317925), [PoincaréDMT](https://academic.oup.com/bib/article/26/1/bbae687/7978273)) accepted by **Briefings in Bioinformatics (BIB)**.'
+- date: "Jan 2025"
+  text: '"[DaCapo](https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DaCapo_Score_Distillation_as_Stacked_Bridge_for_Fast_and_High-quality_CVPR_2025_paper.html)" accepted by **IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025**.'

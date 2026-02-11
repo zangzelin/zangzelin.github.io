@@ -1,5 +1,5 @@
 {% comment %}
-  Publication statistics: CCF-A, CCF-B, SCI Q1
+  Publication statistics: CCF-A, CCF-B, SCI Q1 (card-style)
   Include this in about.md and publications.html
 {% endcomment %}
 {% assign ccf_a_total = 0 %}
@@ -33,10 +33,27 @@
   {% endif %}
 {% endfor %}
 
-<p class="publication-stats">
-  <i class="fa fa-chart-bar" aria-hidden="true"></i>
-  <strong>Statistics:</strong>
-  CCF-A {{ ccf_a_total }} ({{ ccf_a_first }} first-author, {{ ccf_a_corr }} corresponding-author) ·
-  CCF-B {{ ccf_b_total }} ·
-  SCI Q1 {{ sci_q1_total }}
-</p>
+<div class="stats-cards">
+  <div class="stats-card">
+    <span class="stats-card__icon"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+    <div class="stats-card__content">
+      <span class="stats-card__number">{{ ccf_a_total }}</span>
+      <span class="stats-card__label">CCF-A</span>
+      <span class="stats-card__sub">({{ ccf_a_first }} first, {{ ccf_a_corr }} corr.)</span>
+    </div>
+  </div>
+  <div class="stats-card">
+    <span class="stats-card__icon"><i class="fa fa-award" aria-hidden="true"></i></span>
+    <div class="stats-card__content">
+      <span class="stats-card__number">{{ ccf_b_total }}</span>
+      <span class="stats-card__label">CCF-B</span>
+    </div>
+  </div>
+  <div class="stats-card">
+    <span class="stats-card__icon"><i class="fa fa-chart-line" aria-hidden="true"></i></span>
+    <div class="stats-card__content">
+      <span class="stats-card__number">{{ sci_q1_total }}</span>
+      <span class="stats-card__label">SCI Q1</span>
+    </div>
+  </div>
+</div>

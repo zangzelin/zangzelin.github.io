@@ -1,0 +1,29 @@
+{% assign news_limit = 6 %}
+{% assign news_total = site.data.news | size %}
+
+<section class="news-section">
+  <h2><i class="fa fa-newspaper" aria-hidden="true"></i> News</h2>
+  <ul class="news-list">
+    {% for item in site.data.news limit: news_limit %}
+    <li class="news-item">
+      <span class="news-item__date">[{{ item.date }}]</span>
+      <span class="news-item__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% if news_total > news_limit %}
+  <details class="news-more">
+    <summary>Show {{ news_total | minus: news_limit }} more news</summary>
+    <ul class="news-list news-list--extra">
+      {% for item in site.data.news %}
+        {% if forloop.index > news_limit %}
+        <li class="news-item">
+          <span class="news-item__date">[{{ item.date }}]</span>
+          <span class="news-item__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+</section>

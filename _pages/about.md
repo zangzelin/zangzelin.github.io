@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-**Hi, I am Zelin Zang (臧泽林).**
+{% include home-hero.html %}
 
 {% include publication-stats.html %}
 
@@ -20,39 +20,11 @@ My research lies at the intersection of **AI Foundation Models** and **AI for Sc
 
 Previously, I obtained my Ph.D. from **Zhejiang University** (jointly trained with Westlake University), supervised by [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow). I was also a CSC Visiting Scholar at the **National University of Singapore (NUS)**, advised by [Prof. Yang You](https://www.comp.nus.edu.sg/~youy/).
 
-<i class="fa fa-bullhorn" aria-hidden="true"></i> Openings
-======
-I am actively recruiting **Interns** and **PhD Students** (Jointly trained with **Institute of Automation-CAS**, **Zhejiang University**, or **Westlake University**).
+{% include openings-cta.html %}
 
-We are looking for self-motivated students interested in:
-*   **Fundamental AI** (Foundation Models, Representation Learning)
-*   **AI for Life Science** (Single-cell, Molecular Biology)
-*   **Medical AI** & **AI Agents**
-*   **AI + X** (Interdisciplinary Research)
+{% include research-interests.html %}
 
-If you are interested, please send your CV to **[zangzelin@gmail.com](mailto:zangzelin@gmail.com)**.
-
-Research Interests
-======
-*   **AI for Life Sciences:** Single-cell foundation models, molecular biology, and phylogenetic inference (BioTree).
-*   **Medical AI:** Medical foundation models, RAG-based diagnostic reasoning, and multi-agent systems.
-*   **Fundamental AI:** Deep manifold learning, interpretable representation learning, and geometric deep learning.
-
-<i class="fa fa-newspaper" aria-hidden="true"></i> News
-======
-*   **[Jan 2026]** Two papers ([CDBridge](https://openreview.net/forum?id=Hk4Fb6kaYF) & [Doloris](https://openreview.net/forum?id=rvpDHfoTd2)) accepted by **International Conference on Learning Representations (ICLR) 2026**.
-*   **[Jan 2026]** Our paper "[A Medical Multimodal Diagnostic Framework Integrating Vision-Language Models and Logic Tree Reasoning](https://arxiv.org/abs/2512.21583)" has been accepted by **IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026**.
-*   **[Jan 2026]** Our paper "[Multi-center multi-omics integration predicts individualized prognosis in medullary thyroid carcinoma](https://www.nature.com/articles/s41467-025-67533-7)" has been accepted by **Nature Communications**.
-*   **[Jan 2026]** Our paper "[MDTree](https://openreview.net/forum?id=dTSptQNygv)" (Phylogenetic Inference) has been accepted by **Transactions on Machine Learning Research (TMLR)**.
-*   **[Feb 2026]** Our paper "[UniSurg: A Video-Native Foundation Model for Universal Understanding of Surgical Videos](https://arxiv.org/abs/2602.05638)" posted on arXiv.
-*   **[Nov 2025]** Three papers ([MedLA](https://arxiv.org/abs/2509.23725), [Cell-Aware](https://arxiv.org/abs/2511.21120) & [Departures](https://arxiv.org/abs/2511.13124)) accepted to **AAAI Conference on Artificial Intelligence (AAAI) 2026** (MedLA & Cell-Aware **Oral**!).
-*   **[Dec 2025]** Our survey "[The Dawn of Agentic EDA: A Survey of Autonomous Digital Chip Design](https://arxiv.org/abs/2512.23189)" posted on arXiv.
-*   **[Sep 2025]** "[CellScout](https://ieeexplore.ieee.org/document/10764724)" accepted by **IEEE Transactions on Visualization and Computer Graphics (TVCG)**.
-*   **[Sep 2025]** One paper on [3D Hand-Instrument Interaction](https://papers.miccai.org/miccai-2025/0757-Paper2293.html) accepted by **Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025**.
-*   **[Mar 2025]** One paper on [Time Series Fault Detection](https://ieeexplore.ieee.org/document/10633887) accepted by **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**.
-*   **[Feb 2025]** Three Papers ([MuST](https://academic.oup.com/bib/article/26/4/bbaf405/8242581), [FGeneBERT](https://academic.oup.com/bib/article/26/6/bbaf592/8317925), [PoincaréDMT](https://academic.oup.com/bib/article/26/1/bbae687/7978273)) accepted by **Briefings in Bioinformatics (BIB)**.
-*   **[Jan 2025]** "[DaCapo](https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DaCapo_Score_Distillation_as_Stacked_Bridge_for_Fast_and_High-quality_CVPR_2025_paper.html)" accepted by **IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025**.
-<!-- *   **[Jul 2024]** "[DiffAug](https://icml.cc/virtual/2024/poster/32932)" accepted by **International Conference on Machine Learning (ICML) 2024**. -->
+{% include news-section.html %}
 
 ---
 *For a full list of publications, please refer to my [Publications](/publications/) page.*

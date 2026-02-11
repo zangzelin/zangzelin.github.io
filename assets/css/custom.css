@@ -8,7 +8,89 @@
   opacity: 0.85;
 }
 
-/* Publication statistics (homepage & publications page) */
+/* ==========================================================================
+   Home Hero
+   ========================================================================== */
+.home-hero {
+  margin-bottom: 1.25em;
+}
+
+.home-hero__title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.25em;
+}
+
+.home-hero__chinese {
+  font-weight: 400;
+  color: var(--global-text-color-light);
+}
+
+.home-hero__tagline {
+  font-size: 1.1rem;
+  color: var(--global-text-color-light);
+  margin: 0;
+  font-style: italic;
+}
+
+@media (min-width: 64em) {
+  .home-hero__title {
+    font-size: 2rem;
+  }
+}
+
+/* ==========================================================================
+   Stats Cards (CCF-A, CCF-B, SCI Q1)
+   ========================================================================== */
+.stats-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin: 1em 0 1.5em;
+}
+
+.stats-card {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 0.85em;
+  background-color: var(--global-code-background-color);
+  border-radius: 6px;
+  border: 1px solid var(--global-border-color);
+  min-width: 0;
+}
+
+.stats-card__icon {
+  font-size: 1.1em;
+  color: var(--global-text-color-light);
+  opacity: 0.9;
+}
+
+.stats-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+
+.stats-card__number {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.stats-card__label {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.stats-card__sub {
+  font-size: 0.7em;
+  color: var(--global-text-color-light);
+}
+
+/* Fallback: publications page may still use .publication-stats class */
 .publication-stats {
   display: inline-block;
   margin: 0.5em 0 1em;
@@ -18,6 +100,152 @@
   background-color: var(--global-code-background-color);
   border-radius: 4px;
   border-left: 3px solid var(--global-border-color);
+}
+
+/* ==========================================================================
+   Openings CTA Block
+   ========================================================================== */
+.openings-cta {
+  margin: 2em 0;
+  padding: 1.25em 1.5em;
+  background: linear-gradient(135deg, var(--global-code-background-color) 0%, var(--global-bg-color) 100%);
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid var(--global-text-color);
+  border-radius: 6px;
+}
+
+.openings-cta__title {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.15em;
+}
+
+.openings-cta__title .fa {
+  margin-right: 0.35em;
+}
+
+.openings-cta__lead {
+  margin: 0 0 0.5em;
+  font-size: 1em;
+}
+
+.openings-cta__topics {
+  margin: 0.6em 0 0.3em;
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.openings-cta__list {
+  margin: 0 0 0.5em;
+  padding-left: 1.25em;
+}
+
+.openings-cta__action {
+  margin: 0.75em 0 0;
+  font-size: 0.95em;
+}
+
+.openings-cta__action a {
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   Research Interests (tag/badge style)
+   ========================================================================== */
+.research-interests {
+  margin: 2em 0;
+}
+
+.research-interests h2 {
+  margin-bottom: 0.75em;
+}
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+}
+
+.research-tag {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0.5em 0.85em;
+  background-color: var(--global-code-background-color);
+  border-radius: 6px;
+  border: 1px solid var(--global-border-color);
+  max-width: 320px;
+}
+
+.research-tag__title {
+  font-weight: 700;
+  font-size: 0.95em;
+  margin-bottom: 0.2em;
+}
+
+.research-tag__desc {
+  font-size: 0.88em;
+  color: var(--global-text-color-light);
+  line-height: 1.4;
+}
+
+/* ==========================================================================
+   News Section (with collapse)
+   ========================================================================== */
+.news-section {
+  margin: 2em 0;
+}
+
+.news-section h2 {
+  margin-bottom: 0.6em;
+}
+
+.news-section h2 .fa {
+  margin-right: 0.35em;
+}
+
+.news-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.news-item {
+  margin-bottom: 0.6em;
+  padding-left: 0;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.news-item__date {
+  color: var(--global-text-color-light);
+  font-weight: 500;
+  margin-right: 0.35em;
+  flex-shrink: 0;
+}
+
+.news-item__text {
+  display: inline;
+}
+
+.news-more {
+  margin-top: 0.75em;
+  padding-top: 0.5em;
+  border-top: 1px dashed var(--global-border-color);
+}
+
+.news-more summary {
+  cursor: pointer;
+  color: var(--global-text-color-light);
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.news-more summary:hover {
+  color: var(--global-text-color);
+}
+
+.news-list--extra {
+  margin-top: 0.5em;
 }
 
 /* Custom publication styles - ensures they override theme */
