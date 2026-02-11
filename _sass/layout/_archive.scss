@@ -177,6 +177,8 @@
 .publications-compact {
   .list__item {
     margin-bottom: 0.75em;
+    white-space: nowrap;
+    overflow-x: auto;
   }
 
   .archive__item-number {
@@ -187,16 +189,27 @@
   }
 
   .archive__item-title {
+    display: inline;
     margin-top: 0.4em;
     margin-bottom: 0.2em;
-    font-size: $type-size-4;
+    font-size: $type-size-5;
+    font-weight: normal;
+    font-family: $sans-serif;
+
+    a {
+      color: var(--global-text-color);
+    }
   }
 
   .archive__item-excerpt {
+    display: inline;
     margin-top: 0;
     margin-bottom: 0.25em;
-    font-size: $type-size-6;
+    margin-left: 0.35em;
+    font-size: $type-size-5;
+    font-weight: normal;
     line-height: 1.35;
+    white-space: nowrap;
   }
 
   .badge {
