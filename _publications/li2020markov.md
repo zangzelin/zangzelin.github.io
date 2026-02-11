@@ -3,7 +3,7 @@ title: "Markov-lipschitz deep learning"
 collection: publications
 category: manuscripts
 permalink: /publication/2020-markov-lipschitz
-excerpt: 'Stan Z. Li, <b>Zelin Zang</b>, Lirong Wu, <i>arXiv preprint arXiv:2006.08256</i>, 2020, <span class="badge">Co-first Author</span>'
+excerpt: 'Stan Z. Li\*, **Zelin Zang\***, Lirong Wu, <i>arXiv preprint arXiv:2006.08256</i>, 2020, <span class="badge">Co-first Author</span>'
 date: 2020-01-01
 venue: 'arXiv preprint arXiv:2006.08256'
 citation: 'Stan Z. Li, Zelin Zang, Lirong Wu. (2020). &quot;Markov-lipschitz deep learning.&quot; <i>arXiv preprint arXiv:2006.08256</i>.'
