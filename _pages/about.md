@@ -38,7 +38,7 @@ Research Interests
 
 🔥 News
 ======
-*   **[Jan 2026]** Our paper "[CDBridge](https://openreview.net/forum?id=Hk4Fb6kaYF)"  and [Doloris](https://openreview.net/forum?id=rvpDHfoTd2)" have been accepted by **ICLR 2026**.
+*   **[Jan 2026]** Two papers ([CDBridge](https://openreview.net/forum?id=Hk4Fb6kaYF) & [Doloris](https://openreview.net/forum?id=rvpDHfoTd2)) accepted by **ICLR 2026**.
 *   **[Jan 2026]** Our paper "[A Medical Multimodal Diagnostic Framework Integrating Vision-Language Models and Logic Tree Reasoning](https://arxiv.org/abs/2512.21583)" has been accepted by **IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026** (CCF-B).
 *   **[Jan 2026]** Our paper "[Multi-center multi-omics integration predicts individualized prognosis in medullary thyroid carcinoma](https://www.nature.com/articles/s41467-025-67533-7)" has been accepted by **Nature Communications**.
 *   **[Jan 2026]** Our paper "[MDTree](https://openreview.net/forum?id=dTSptQNygv)" (Phylogenetic Inference) has been accepted by **TMLR**.
