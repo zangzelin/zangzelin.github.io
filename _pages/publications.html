@@ -14,10 +14,10 @@ author_profile: true
 <div class="publications-compact">
 {% assign pub_num = 0 %}
 <!-- First / Co-First Author Section -->
-<h2>First / Co-First Author (一作)</h2>
+<h2>First / Co-First Author</h2>
 <hr />
 
-<h3>Journal Articles (期刊)</h3>
+<h3>Journal Articles</h3>
 {% for post in site.publications reversed %}
   {% assign is_first = false %}
   {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
@@ -33,7 +33,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h3>Conference Papers (会议)</h3>
+<h3>Conference Papers</h3>
 {% for post in site.publications reversed %}
   {% assign is_first = false %}
   {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
@@ -50,10 +50,10 @@ author_profile: true
 {% endfor %}
 
 <!-- Corresponding Author Section -->
-<h2>Corresponding Author (通讯)</h2>
+<h2>Corresponding Author</h2>
 <hr />
 
-<h3>Journal Articles (期刊)</h3>
+<h3>Journal Articles</h3>
 {% for post in site.publications reversed %}
   {% assign is_first = false %}
   {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
@@ -73,7 +73,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h3>Conference Papers (会议)</h3>
+<h3>Conference Papers</h3>
 {% for post in site.publications reversed %}
   {% assign is_first = false %}
   {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
@@ -94,10 +94,10 @@ author_profile: true
 {% endfor %}
 
 <!-- Other Publications Section -->
-<h2>Other Publications (其他)</h2>
+<h2>Other Publications</h2>
 <hr />
 
-<h3>Journal Articles (期刊)</h3>
+<h3>Journal Articles</h3>
 {% for post in site.publications reversed %}
   {% assign is_first = false %}
   {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
@@ -117,7 +117,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<h3>Conference Papers (会议)</h3>
+<h3>Conference Papers</h3>
 {% for post in site.publications reversed %}
   {% assign is_first = false %}
   {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
