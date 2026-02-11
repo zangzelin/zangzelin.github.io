@@ -12,27 +12,44 @@ author_profile: true
 {% include base_path %}
 
 <!-- First / Co-First Author Section -->
-<h2>First / Co-First Author Publications</h2>
+<h2>First / Co-First Author (一作)</h2>
 <hr />
+
+<h3>Journal Articles (期刊)</h3>
 {% for post in site.publications reversed %}
   {% assign is_first = false %}
   {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
     {% assign is_first = true %}
   {% endif %}
-  
   {% assign author_check = post.excerpt | split: "," | first %}
   {% if author_check contains "Zelin Zang" %}
     {% assign is_first = true %}
   {% endif %}
+  {% if is_first and post.category == "manuscripts" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
-  {% if is_first %}
+<h3>Conference Papers (会议)</h3>
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% if is_first and post.category == "conferences" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 <!-- Corresponding Author Section -->
-<h2>Corresponding Author Publications</h2>
+<h2>Corresponding Author (通讯)</h2>
 <hr />
+
+<h3>Journal Articles (期刊)</h3>
 {% for post in site.publications reversed %}
   {% assign is_first = false %}
   {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
@@ -42,20 +59,39 @@ author_profile: true
   {% if author_check contains "Zelin Zang" %}
     {% assign is_first = true %}
   {% endif %}
-
   {% assign is_corr = false %}
   {% if post.excerpt contains "Corresponding Author" %}
     {% assign is_corr = true %}
   {% endif %}
+  {% if is_corr and is_first == false and post.category == "manuscripts" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
-  {% if is_corr and is_first == false %}
+<h3>Conference Papers (会议)</h3>
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign is_corr = false %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign is_corr = true %}
+  {% endif %}
+  {% if is_corr and is_first == false and post.category == "conferences" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 <!-- Other Publications Section -->
-<h2>Other Publications</h2>
+<h2>Other Publications (其他)</h2>
 <hr />
+
+<h3>Journal Articles (期刊)</h3>
 {% for post in site.publications reversed %}
   {% assign is_first = false %}
   {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
@@ -65,13 +101,30 @@ author_profile: true
   {% if author_check contains "Zelin Zang" %}
     {% assign is_first = true %}
   {% endif %}
-
   {% assign is_corr = false %}
   {% if post.excerpt contains "Corresponding Author" %}
     {% assign is_corr = true %}
   {% endif %}
+  {% if is_first == false and is_corr == false and post.category == "manuscripts" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
-  {% if is_first == false and is_corr == false %}
+<h3>Conference Papers (会议)</h3>
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign is_corr = false %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign is_corr = true %}
+  {% endif %}
+  {% if is_first == false and is_corr == false and post.category == "conferences" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
