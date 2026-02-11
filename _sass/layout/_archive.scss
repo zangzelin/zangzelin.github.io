@@ -177,8 +177,6 @@
 .publications-compact {
   .list__item {
     margin-bottom: 0.75em;
-    white-space: nowrap;
-    overflow-x: auto;
   }
 
   .archive__item-number {
@@ -189,8 +187,8 @@
   }
 
   .archive__item-title {
-    display: inline;
-    margin: 0 0.35em 0 0;
+    display: block;
+    margin: 0 0 0.2em 0;
     font-size: $type-size-5;
     font-weight: normal;
     font-family: $sans-serif;
@@ -201,13 +199,12 @@
   }
 
   .archive__item-excerpt {
-    display: inline;
-    margin: 0;
+    display: block;
+    margin: 0 0 0.5em 0;
     font-size: $type-size-5;
     font-weight: normal;
     font-family: $sans-serif;
     line-height: 1.35;
-    white-space: nowrap;
   }
 
   .badge {

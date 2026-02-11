@@ -24,6 +24,7 @@
 
 .publications-compact .list__item {
   margin-bottom: 0.75em;
+  overflow: visible !important;
 }
 
 .publications-compact .archive__item-title,
@@ -31,10 +32,12 @@
   display: block !important;
   font-size: 1em !important;
   font-weight: normal !important;
+  white-space: normal !important;
+  overflow: visible !important;
 }
 
 .publications-compact .archive__item-title {
-  margin: 0 0.35em 0 0 !important;
+  margin: 0 0 0.2em 0 !important;
 }
 
 .publications-compact .archive__item-title a {
