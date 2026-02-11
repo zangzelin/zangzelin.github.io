@@ -170,6 +170,53 @@
    Features
    ========================================================================== */
 
+/*
+   Publications compact layout
+   ========================================================================== */
+
+.publications-compact {
+  .list__item {
+    margin-bottom: 0.75em;
+  }
+
+  .archive__item-title {
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+    font-size: $type-size-4;
+  }
+
+  .archive__item-excerpt {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    font-size: $type-size-6;
+    line-height: 1.35;
+  }
+
+  .badge {
+    padding: 0.15em 0.3em;
+    font-size: 70%;
+    margin-left: 4px;
+  }
+
+  h2 {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+  }
+
+  h3 {
+    margin-top: 0.6em;
+    margin-bottom: 0.3em;
+  }
+
+  hr {
+    margin: 0.5em 0;
+  }
+}
+
+/*
+   Features
+   ========================================================================== */
+
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
