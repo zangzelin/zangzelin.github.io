@@ -10,32 +10,9 @@ redirect_from:
 
 {% include base_path %}
 
-{% assign ccf_a_total = 0 %}
-{% assign ccf_a_first = 0 %}
-{% assign ccf_a_corr = 0 %}
-{% for post in site.publications %}
-  {% if post.excerpt contains "CCF-A" %}
-    {% assign ccf_a_total = ccf_a_total | plus: 1 %}
-    {% assign is_first = false %}
-    {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" %}
-      {% assign is_first = true %}
-    {% endif %}
-    {% assign author_check = post.excerpt | split: "," | first %}
-    {% if author_check contains "Zelin Zang" %}
-      {% assign is_first = true %}
-    {% endif %}
-    {% if is_first %}
-      {% assign ccf_a_first = ccf_a_first | plus: 1 %}
-    {% endif %}
-    {% if post.excerpt contains "Corresponding Author" %}
-      {% assign ccf_a_corr = ccf_a_corr | plus: 1 %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
 **Hi, I am Zelin Zang (臧泽林).**
 
-<p class="ccf-stats"><i class="fa fa-chart-bar" aria-hidden="true"></i> <strong>CCF-A Statistics:</strong> {{ ccf_a_total }} total · {{ ccf_a_first }} first-author · {{ ccf_a_corr }} corresponding-author</p>
+{% include publication-stats.html %}
 
 I am currently a Postdoctoral Researcher at the **Hong Kong Institute of Innovation, Chinese Academy of Sciences**, working with [Prof. Zhen Lei](https://scholar.google.com/citations?user=cuJ3QG8AAAAJ&hl=zh-CN) and [Prof. Jiebo Luo](https://www.cs.rochester.edu/u/jluo/).
 

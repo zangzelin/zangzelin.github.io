@@ -1,0 +1,42 @@
+{% comment %}
+  Publication statistics: CCF-A, CCF-B, SCI Q1
+  Include this in about.md and publications.html
+{% endcomment %}
+{% assign ccf_a_total = 0 %}
+{% assign ccf_a_first = 0 %}
+{% assign ccf_a_corr = 0 %}
+{% assign ccf_b_total = 0 %}
+{% assign sci_q1_total = 0 %}
+{% for post in site.publications %}
+  {% if post.excerpt contains "CCF-A" %}
+    {% assign ccf_a_total = ccf_a_total | plus: 1 %}
+    {% assign is_first = false %}
+    {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" %}
+      {% assign is_first = true %}
+    {% endif %}
+    {% assign author_check = post.excerpt | split: "," | first %}
+    {% if author_check contains "Zelin Zang" %}
+      {% assign is_first = true %}
+    {% endif %}
+    {% if is_first %}
+      {% assign ccf_a_first = ccf_a_first | plus: 1 %}
+    {% endif %}
+    {% if post.excerpt contains "Corresponding Author" %}
+      {% assign ccf_a_corr = ccf_a_corr | plus: 1 %}
+    {% endif %}
+  {% endif %}
+  {% if post.excerpt contains "CCF-B" %}
+    {% assign ccf_b_total = ccf_b_total | plus: 1 %}
+  {% endif %}
+  {% if post.excerpt contains "Top Journal" or post.excerpt contains "IF=" or post.excerpt contains "SCI" %}
+    {% assign sci_q1_total = sci_q1_total | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<p class="publication-stats">
+  <i class="fa fa-chart-bar" aria-hidden="true"></i>
+  <strong>Statistics:</strong>
+  CCF-A {{ ccf_a_total }} ({{ ccf_a_first }} first-author, {{ ccf_a_corr }} corresponding-author) ·
+  CCF-B {{ ccf_b_total }} ·
+  SCI Q1 {{ sci_q1_total }}
+</p>
