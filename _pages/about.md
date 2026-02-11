@@ -44,7 +44,9 @@ Research Interests
 *   **[Jan 2026]** Our paper "[A Medical Multimodal Diagnostic Framework Integrating Vision-Language Models and Logic Tree Reasoning](https://arxiv.org/abs/2512.21583)" has been accepted by **IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026**.
 *   **[Jan 2026]** Our paper "[Multi-center multi-omics integration predicts individualized prognosis in medullary thyroid carcinoma](https://www.nature.com/articles/s41467-025-67533-7)" has been accepted by **Nature Communications**.
 *   **[Jan 2026]** Our paper "[MDTree](https://openreview.net/forum?id=dTSptQNygv)" (Phylogenetic Inference) has been accepted by **Transactions on Machine Learning Research (TMLR)**.
-*   **[Nov 2025]** Two papers ([MedLA](https://arxiv.org/abs/2509.23725) & [Cell-Aware](https://arxiv.org/abs/2511.21120)) accepted to **AAAI Conference on Artificial Intelligence (AAAI) 2026** (Both **Oral**!).
+*   **[Feb 2026]** Our paper "[UniSurg: A Video-Native Foundation Model for Universal Understanding of Surgical Videos](https://arxiv.org/abs/2602.05638)" posted on arXiv.
+*   **[Nov 2025]** Three papers ([MedLA](https://arxiv.org/abs/2509.23725), [Cell-Aware](https://arxiv.org/abs/2511.21120) & [Departures](https://arxiv.org/abs/2511.13124)) accepted to **AAAI Conference on Artificial Intelligence (AAAI) 2026** (MedLA & Cell-Aware **Oral**!).
+*   **[Dec 2025]** Our survey "[The Dawn of Agentic EDA: A Survey of Autonomous Digital Chip Design](https://arxiv.org/abs/2512.23189)" posted on arXiv.
 *   **[Sep 2025]** "[CellScout](https://ieeexplore.ieee.org/document/10764724)" accepted by **IEEE Transactions on Visualization and Computer Graphics (TVCG)**.
 *   **[Sep 2025]** One paper on [3D Hand-Instrument Interaction](https://papers.miccai.org/miccai-2025/0757-Paper2293.html) accepted by **Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025**.
 *   **[Mar 2025]** One paper on [Time Series Fault Detection](https://ieeexplore.ieee.org/document/10633887) accepted by **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)**.
