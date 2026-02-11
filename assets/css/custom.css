@@ -23,17 +23,14 @@
 /* Custom publication styles - ensures they override theme */
 
 .publications-compact .list__item {
-  white-space: nowrap !important;
-  overflow-x: auto;
   margin-bottom: 0.75em;
 }
 
 .publications-compact .archive__item-title,
 .publications-compact .archive__item-excerpt {
-  display: inline !important;
+  display: block !important;
   font-size: 1em !important;
   font-weight: normal !important;
-  white-space: nowrap !important;
 }
 
 .publications-compact .archive__item-title {
