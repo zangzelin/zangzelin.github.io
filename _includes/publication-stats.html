@@ -132,11 +132,29 @@
     </div>
   </div>
   <div class="stats-card">
-    <span class="stats-card__icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+    <span class="stats-card__icon"><i class="fa fa-quote-right" aria-hidden="true"></i></span>
     <div class="stats-card__content">
-      <span class="stats-card__number">{{ pubs_total }}</span>
-      <span class="stats-card__label">Total Publications</span>
-      <span class="stats-card__sub">{{ pubs_first }} first-author, {{ pubs_co_first }} co-first, {{ pubs_corr }} corr. author, {{ pubs_other }} other author</span>
+      <span class="stats-card__number">
+        {% if site.data.scholar.citation_count %}
+          {{ site.data.scholar.citation_count }}
+        {% else %}
+          {{ pubs_total }}
+        {% endif %}
+      </span>
+      <span class="stats-card__label">
+        {% if site.data.scholar.citation_count %}
+          Total Citations
+        {% else %}
+          Total Publications
+        {% endif %}
+      </span>
+      <span class="stats-card__sub">
+        {% if site.data.scholar.citation_count %}
+          from Google Scholar
+        {% else %}
+          {{ pubs_first }} first-author, {{ pubs_co_first }} co-first
+        {% endif %}
+      </span>
     </div>
   </div>
 </div>
