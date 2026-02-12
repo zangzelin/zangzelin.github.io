@@ -4,24 +4,38 @@
 {% endcomment %}
 {% assign ccf_a_total = 0 %}
 {% assign ccf_a_first = 0 %}
+{% assign ccf_a_co_first = 0 %}
 {% assign ccf_a_corr = 0 %}
 {% assign ccf_a_other = 0 %}
 {% assign ccf_b_total = 0 %}
 {% assign ccf_b_first = 0 %}
+{% assign ccf_b_co_first = 0 %}
 {% assign ccf_b_corr = 0 %}
 {% assign ccf_b_other = 0 %}
 {% assign sci_q1_total = 0 %}
 {% assign sci_q1_first = 0 %}
+{% assign sci_q1_co_first = 0 %}
 {% assign sci_q1_corr = 0 %}
 {% assign sci_q1_other = 0 %}
 {% for post in site.publications %}
   {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" %}
+  {% assign is_co_first = false %}
+  {% if post.excerpt contains "Co-first Author" %}
+    {% assign is_co_first = true %}
+  {% elsif post.excerpt contains "First Author" %}
     {% assign is_first = true %}
   {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
+  
+  {% unless is_first or is_co_first %}
+    {% assign author_check = post.excerpt | split: "," | first %}
+    {% if author_check contains "Zelin Zang" %}
+      {% assign is_first = true %}
+    {% endif %}
+  {% endunless %}
+
+  {% assign is_corr = false %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign is_corr = true %}
   {% endif %}
 
   {% if post.excerpt contains "CCF-A" %}
@@ -29,10 +43,13 @@
     {% if is_first %}
       {% assign ccf_a_first = ccf_a_first | plus: 1 %}
     {% endif %}
-    {% if post.excerpt contains "Corresponding Author" %}
+    {% if is_co_first %}
+      {% assign ccf_a_co_first = ccf_a_co_first | plus: 1 %}
+    {% endif %}
+    {% if is_corr %}
       {% assign ccf_a_corr = ccf_a_corr | plus: 1 %}
     {% endif %}
-    {% unless is_first or post.excerpt contains "Corresponding Author" %}
+    {% unless is_first or is_co_first or is_corr %}
       {% assign ccf_a_other = ccf_a_other | plus: 1 %}
     {% endunless %}
   {% endif %}
@@ -42,10 +59,13 @@
     {% if is_first %}
       {% assign ccf_b_first = ccf_b_first | plus: 1 %}
     {% endif %}
-    {% if post.excerpt contains "Corresponding Author" %}
+    {% if is_co_first %}
+      {% assign ccf_b_co_first = ccf_b_co_first | plus: 1 %}
+    {% endif %}
+    {% if is_corr %}
       {% assign ccf_b_corr = ccf_b_corr | plus: 1 %}
     {% endif %}
-    {% unless is_first or post.excerpt contains "Corresponding Author" %}
+    {% unless is_first or is_co_first or is_corr %}
       {% assign ccf_b_other = ccf_b_other | plus: 1 %}
     {% endunless %}
   {% endif %}
@@ -55,10 +75,13 @@
     {% if is_first %}
       {% assign sci_q1_first = sci_q1_first | plus: 1 %}
     {% endif %}
-    {% if post.excerpt contains "Corresponding Author" %}
+    {% if is_co_first %}
+      {% assign sci_q1_co_first = sci_q1_co_first | plus: 1 %}
+    {% endif %}
+    {% if is_corr %}
       {% assign sci_q1_corr = sci_q1_corr | plus: 1 %}
     {% endif %}
-    {% unless is_first or post.excerpt contains "Corresponding Author" %}
+    {% unless is_first or is_co_first or is_corr %}
       {% assign sci_q1_other = sci_q1_other | plus: 1 %}
     {% endunless %}
   {% endif %}
@@ -70,7 +93,7 @@
     <div class="stats-card__content">
       <span class="stats-card__number">{{ ccf_a_total }}</span>
       <span class="stats-card__label">CCF-A</span>
-      <span class="stats-card__sub">{{ ccf_a_first }} first-author, {{ ccf_a_corr }} corr. author, {{ ccf_a_other }} other author</span>
+      <span class="stats-card__sub">{{ ccf_a_first }} first-author, {{ ccf_a_co_first }} co-first, {{ ccf_a_corr }} corr. author, {{ ccf_a_other }} other author</span>
     </div>
   </div>
   <div class="stats-card">
@@ -78,7 +101,7 @@
     <div class="stats-card__content">
       <span class="stats-card__number">{{ ccf_b_total }}</span>
       <span class="stats-card__label">CCF-B</span>
-      <span class="stats-card__sub">{{ ccf_b_first }} first-author, {{ ccf_b_corr }} corr. author, {{ ccf_b_other }} other author</span>
+      <span class="stats-card__sub">{{ ccf_b_first }} first-author, {{ ccf_b_co_first }} co-first, {{ ccf_b_corr }} corr. author, {{ ccf_b_other }} other author</span>
     </div>
   </div>
   <div class="stats-card">
@@ -86,7 +109,7 @@
     <div class="stats-card__content">
       <span class="stats-card__number">{{ sci_q1_total }}</span>
       <span class="stats-card__label">SCI Q1</span>
-      <span class="stats-card__sub">{{ sci_q1_first }} first-author, {{ sci_q1_corr }} corr. author, {{ sci_q1_other }} other author</span>
+      <span class="stats-card__sub">{{ sci_q1_first }} first-author, {{ sci_q1_co_first }} co-first, {{ sci_q1_corr }} corr. author, {{ sci_q1_other }} other author</span>
     </div>
   </div>
 </div>
