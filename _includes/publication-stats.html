@@ -6,18 +6,23 @@
 {% assign ccf_a_first = 0 %}
 {% assign ccf_a_corr = 0 %}
 {% assign ccf_b_total = 0 %}
+{% assign ccf_b_first = 0 %}
+{% assign ccf_b_corr = 0 %}
 {% assign sci_q1_total = 0 %}
+{% assign sci_q1_first = 0 %}
+{% assign sci_q1_corr = 0 %}
 {% for post in site.publications %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+
   {% if post.excerpt contains "CCF-A" %}
     {% assign ccf_a_total = ccf_a_total | plus: 1 %}
-    {% assign is_first = false %}
-    {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" %}
-      {% assign is_first = true %}
-    {% endif %}
-    {% assign author_check = post.excerpt | split: "," | first %}
-    {% if author_check contains "Zelin Zang" %}
-      {% assign is_first = true %}
-    {% endif %}
     {% if is_first %}
       {% assign ccf_a_first = ccf_a_first | plus: 1 %}
     {% endif %}
@@ -25,11 +30,25 @@
       {% assign ccf_a_corr = ccf_a_corr | plus: 1 %}
     {% endif %}
   {% endif %}
+
   {% if post.excerpt contains "CCF-B" %}
     {% assign ccf_b_total = ccf_b_total | plus: 1 %}
+    {% if is_first %}
+      {% assign ccf_b_first = ccf_b_first | plus: 1 %}
+    {% endif %}
+    {% if post.excerpt contains "Corresponding Author" %}
+      {% assign ccf_b_corr = ccf_b_corr | plus: 1 %}
+    {% endif %}
   {% endif %}
+
   {% if post.excerpt contains "Top Journal" or post.excerpt contains "IF=" or post.excerpt contains "SCI" %}
     {% assign sci_q1_total = sci_q1_total | plus: 1 %}
+    {% if is_first %}
+      {% assign sci_q1_first = sci_q1_first | plus: 1 %}
+    {% endif %}
+    {% if post.excerpt contains "Corresponding Author" %}
+      {% assign sci_q1_corr = sci_q1_corr | plus: 1 %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -47,6 +66,7 @@
     <div class="stats-card__content">
       <span class="stats-card__number">{{ ccf_b_total }}</span>
       <span class="stats-card__label">CCF-B</span>
+      <span class="stats-card__sub">({{ ccf_b_first }} first, {{ ccf_b_corr }} corr.)</span>
     </div>
   </div>
   <div class="stats-card">
@@ -54,6 +74,7 @@
     <div class="stats-card__content">
       <span class="stats-card__number">{{ sci_q1_total }}</span>
       <span class="stats-card__label">SCI Q1</span>
+      <span class="stats-card__sub">({{ sci_q1_first }} first, {{ sci_q1_corr }} corr.)</span>
     </div>
   </div>
 </div>
