@@ -3,7 +3,7 @@ title: "DMT-ME: MOE-Enhanced Explanable Deep Manifold Transformation for Complex
 collection: publications
 category: manuscripts
 permalink: /publication/2026-01-01-dmt-me
-excerpt: '<b>Zelin Zang</b>, Yuhao Wang, Jinlin Wu, Hong Liu, Yue Shen, Zhen Lei, Stan. Z Li, <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2026, <span class="badge">CCF-A, IF=20</span>, <span class="badge">First Author</span>'
+excerpt: '<b>Zelin Zang</b>, Yuhao Wang, Jinlin Wu, Hong Liu, Yue Shen, Zhen Lei, Stan. Z Li, <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2026, <span class="badge">CCF-A, SCI Q1, IF=20</span>, <span class="badge">First Author</span>'
 date: 2026-01-01
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)'
 paperurl: 'http://zelinzang.github.io/files/dmt-me.pdf'
