@@ -82,7 +82,7 @@
 }
 
 .page__content .stats-card__number {
-  font-size: 1.25em;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.1;
 }
@@ -315,7 +315,7 @@
 
 .pub-page__stats .stats-card__number,
 .archive .stats-card__number {
-  font-size: 1.25em;
+  font-size: 2rem;
   font-weight: 700;
 }
 
