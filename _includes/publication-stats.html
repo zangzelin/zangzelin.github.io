@@ -57,7 +57,7 @@
     {% assign pubs_other = pubs_other | plus: 1 %}
   {% endunless %}
 
-  {% if post.excerpt contains "CCF-A" %}
+  {% if post.excerpt contains "CCF/CAAI-A" %}
     {% assign ccf_a_total = ccf_a_total | plus: 1 %}
     {% if is_first %}
       {% assign ccf_a_first = ccf_a_first | plus: 1 %}
