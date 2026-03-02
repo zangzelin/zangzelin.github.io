@@ -57,7 +57,7 @@
     {% assign pubs_other = pubs_other | plus: 1 %}
   {% endunless %}
 
-  {% if post.excerpt contains "CCF/CAAI-A" %}
+  {% if post.excerpt contains "CCF-A" %}
     {% assign ccf_a_total = ccf_a_total | plus: 1 %}
     {% if is_first %}
       {% assign ccf_a_first = ccf_a_first | plus: 1 %}
@@ -111,7 +111,7 @@
     <span class="stats-card__icon"><i class="fa fa-trophy" aria-hidden="true"></i></span>
     <div class="stats-card__content">
       <span class="stats-card__number">{{ ccf_a_total }}</span>
-      <span class="stats-card__label">CCF-A</span>
+      <span class="stats-card__label">CCF/CAAI-A</span>
       <span class="stats-card__sub">{{ ccf_a_first }} first-author, {{ ccf_a_co_first }} co-first, {{ ccf_a_corr }} corr. author, {{ ccf_a_other }} other author</span>
     </div>
   </div>
