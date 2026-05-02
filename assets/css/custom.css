@@ -31,8 +31,7 @@
 }
 
 /* Fix layout: prevent sidebar overlap and content clipping */
-.page .page__content {
-  overflow: visible !important;
+.page__content {
   min-width: 0;
   word-wrap: break-word;
 }
@@ -109,15 +108,15 @@
    Stats Cards (CCF-A, CCF-B, SCI Q1)
    ========================================================================== */
 .page__content .stats-cards {
-  display: flex !important;
+  display: flex;
   flex-wrap: wrap;
   gap: 0.75em;
   margin: 1em 0 1.5em;
 }
 
 .page__content .stats-card {
-  display: flex !important;
-  align-items: flex-start !important;
+  display: flex;
+  align-items: flex-start;
   gap: 0.5em;
   padding: 0.65em 0.85em;
   background-color: var(--global-code-background-color);
@@ -142,7 +141,7 @@
 }
 
 .page__content .stats-card__content {
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   gap: 0.15em;
 }
@@ -293,13 +292,13 @@
 }
 
 .page__content .research-tags {
-  display: flex !important;
+  display: flex;
   flex-wrap: wrap;
   gap: 0.7em;
 }
 
 .page__content .research-tag {
-  display: flex !important;
+  display: flex;
   flex: 1 1 260px;
   flex-direction: column;
   padding: 0.9em 1.1em;
@@ -469,16 +468,16 @@
 /* Stats cards on publications page */
 .pub-page__stats .stats-cards,
 .archive .stats-cards {
-  display: flex !important;
+  display: flex;
   flex-wrap: wrap;
   gap: 0.75em;
-  margin: 0 0 0 !important;
+  margin: 0;
 }
 
 .pub-page__stats .stats-card,
 .archive .stats-card {
-  display: flex !important;
-  align-items: flex-start !important;
+  display: flex;
+  align-items: flex-start;
   gap: 0.5em;
   padding: 0.65em 0.85em;
   background-color: var(--global-code-background-color);
@@ -503,7 +502,7 @@
 
 .pub-page__stats .stats-card__content,
 .archive .stats-card__content {
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   gap: 0.15em;
 }
@@ -531,7 +530,7 @@
 
 /* Prevent horizontal scroll, allow free wrapping */
 .publications-compact {
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 /* Section headings - clearer hierarchy */
@@ -570,7 +569,7 @@
 /* Publication entry - improved spacing and hierarchy */
 .publications-compact .list__item {
   margin-bottom: 1.25em;
-  overflow: visible !important;
+  overflow: visible;
   max-width: 100%;
   padding-bottom: 1.25em;
   border-bottom: 1px solid var(--global-border-color);
@@ -581,16 +580,16 @@
 }
 
 .publications-compact .archive__item-title {
-  display: block !important;
-  font-size: 1.05em !important;
-  font-weight: 600 !important;
-  margin: 0 0 0.4em 0 !important;
+  display: block;
+  font-size: 1.05em;
+  font-weight: 600;
+  margin: 0 0 0.4em 0;
   line-height: 1.4;
 }
 
 .publications-compact .archive__item-title a {
-  color: var(--global-text-color) !important;
-  font-weight: 600 !important;
+  color: var(--global-text-color);
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -607,16 +606,16 @@
 
 /* Authors + venue - slightly smaller, better readability */
 .publications-compact .archive__item-excerpt {
-  display: block !important;
-  font-size: 0.9em !important;
-  font-weight: normal !important;
-  white-space: normal !important;
-  overflow: visible !important;
-  overflow-wrap: break-word !important;
-  word-wrap: break-word !important;
-  word-break: normal !important;
-  max-width: 100% !important;
-  margin: 0 !important;
+  display: block;
+  font-size: 0.9em;
+  font-weight: normal;
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  max-width: 100%;
+  margin: 0;
   line-height: 1.5;
   color: var(--global-text-color);
 }
@@ -628,11 +627,6 @@
   padding: 0.2em 0.4em;
   font-size: 70%;
   font-weight: 600;
-}
-
-/* Parent archive: no horizontal scroll */
-.archive:has(.publications-compact) {
-  overflow-x: hidden !important;
 }
 
 /* Mobile optimization for publications */
@@ -653,11 +647,11 @@
   }
   
   .publications-compact .archive__item-title {
-    font-size: 1em !important;
+    font-size: 1em;
   }
   
   .publications-compact .archive__item-excerpt {
-    font-size: 0.85em !important;
+    font-size: 0.85em;
   }
   
   .pub-page__stats .stats-card__sub {

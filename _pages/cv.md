@@ -9,13 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- CV PDF download temporarily hidden until PDF is available -->
-<!--
-<div style="margin-bottom: 20px;">
-  <a href="/files/cv.pdf" class="btn btn--primary">Download CV (PDF)</a>
-</div>
--->
-
 Work Experience
 ======
 *   **Research Assistant Professor(RAP)** (Jul 2024 - Present)
@@ -88,4 +81,3 @@ Teaching
   
 Service and leadership
 ======
-

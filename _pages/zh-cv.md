@@ -10,13 +10,6 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- CV PDF 下载功能暂时隐藏，等 PDF 文件准备好后再启用 -->
-<!--
-<div style="margin-bottom: 20px;">
-  <a href="/files/cv.pdf" class="btn btn--primary">下载简历 (PDF)</a>
-</div>
--->
-
 工作经历
 ======
 *   **研究助理教授（Research Assistant Professor, RAP）** (2024 年 7 月 - 至今)
