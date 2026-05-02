@@ -4,9 +4,10 @@
    Language Switch Button
    ========================================================================== */
 .lang-switch {
-  position: absolute;
-  top: 1.5em;
-  right: 1.5em;
+  position: relative;
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
   z-index: 100;
 }
 
@@ -32,11 +33,10 @@
 
 @media (max-width: 64em) {
   .lang-switch {
-    position: relative;
-    top: 0;
-    right: 0;
-    margin-bottom: 1em;
+    float: none;
+    display: block;
     text-align: right;
+    margin-left: 0;
   }
 }
 
