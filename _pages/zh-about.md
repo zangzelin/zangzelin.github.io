@@ -11,8 +11,6 @@ redirect_from:
 
 {% include base_path %}
 
-{% include lang-switch.html %}
-
 {% include home-hero-zh.html %}
 
 {% include publication-stats.html %}
