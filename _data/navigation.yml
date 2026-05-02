@@ -16,16 +16,19 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
-    
+      
   # - title: "Portfolio"
   #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
+      
   - title: "CV"
     url: /cv/
-    
+
+  - title: "中文"
+    url: /zh/
+      
   # - title: "CV"
   #   url: /cv-json/
     

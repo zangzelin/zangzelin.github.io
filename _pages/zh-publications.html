@@ -1,0 +1,144 @@
+---
+layout: archive
+title: "论文"
+permalink: /zh/publications/
+author_profile: true
+lang: zh
+---
+
+{% if site.author.googlescholar %}
+  <p class="pub-page__intro">您也可以在 <a href="{{site.author.googlescholar}}">我的 Google Scholar 主页</a> 上查看我的论文。</p>
+{% endif %}
+
+{% include base_path %}
+
+<div class="pub-page__stats">
+  {% include publication-stats.html %}
+</div>
+
+<div class="publications-compact">
+{% assign pub_num = 0 %}
+<!-- 第一作者 / 共同第一作者 -->
+<h2>第一作者 / 共同第一作者</h2>
+<hr />
+
+<h3>期刊论文</h3>
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% if is_first and post.category == "manuscripts" %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
+  {% endif %}
+{% endfor %}
+
+<h3>会议论文</h3>
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% if is_first and post.category == "conferences" %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
+  {% endif %}
+{% endfor %}
+
+<!-- 通讯作者 -->
+<h2>通讯作者</h2>
+<hr />
+
+<h3>期刊论文</h3>
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign is_corr = false %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign is_corr = true %}
+  {% endif %}
+  {% if is_corr and is_first == false and post.category == "manuscripts" %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
+  {% endif %}
+{% endfor %}
+
+<h3>会议论文</h3>
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign is_corr = false %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign is_corr = true %}
+  {% endif %}
+  {% if is_corr and is_first == false and post.category == "conferences" %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
+  {% endif %}
+{% endfor %}
+
+<!-- 其他论文 -->
+<h2>其他论文</h2>
+<hr />
+
+<h3>期刊论文</h3>
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign is_corr = false %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign is_corr = true %}
+  {% endif %}
+  {% if is_first == false and is_corr == false and post.category == "manuscripts" %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
+  {% endif %}
+{% endfor %}
+
+<h3>会议论文</h3>
+{% for post in site.publications reversed %}
+  {% assign is_first = false %}
+  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" %}
+    {% assign is_first = true %}
+  {% endif %}
+  {% assign is_corr = false %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign is_corr = true %}
+  {% endif %}
+  {% if is_first == false and is_corr == false and post.category == "conferences" %}
+    {% assign pub_num = pub_num | plus: 1 %}
+    {% include archive-single.html number=pub_num %}
+  {% endif %}
+{% endfor %}
+</div>
