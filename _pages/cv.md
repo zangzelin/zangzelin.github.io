@@ -9,10 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- CV PDF download temporarily hidden until PDF is available -->
+<!--
 <div style="margin-bottom: 20px;">
-  <a href="#" class="btn btn--primary">Download CV (PDF)</a>
-  <!-- 如果你有 PDF 版本的 CV，可以将 href 改为 "/files/cv.pdf" -->
+  <a href="/files/cv.pdf" class="btn btn--primary">Download CV (PDF)</a>
 </div>
+-->
 
 Work Experience
 ======
@@ -86,4 +88,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+
