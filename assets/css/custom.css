@@ -1,5 +1,45 @@
 /* Custom styles */
 
+/* ==========================================================================
+   Language Switch Button
+   ========================================================================== */
+.lang-switch {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  z-index: 100;
+}
+
+.lang-switch__link {
+  display: inline-block;
+  padding: 0.4em 0.9em;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  background-color: var(--global-code-background-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.lang-switch__link:hover {
+  background-color: var(--global-border-color);
+  color: var(--global-text-color);
+  text-decoration: none;
+  border-color: var(--global-text-color-light);
+}
+
+@media (max-width: 64em) {
+  .lang-switch {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-bottom: 1em;
+    text-align: right;
+  }
+}
+
 /* Fix layout: prevent sidebar overlap and content clipping */
 .page .page__content {
   overflow: visible !important;
