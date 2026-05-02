@@ -1,0 +1,30 @@
+- date: "May 2026"
+  text: '我们的论文 "HDTree: Generative Modeling of Cellular Hierarchies for Robust Lineage Inference" 被 **International Conference on Machine Learning (ICML) 2026** 接收 (<span class="badge">CCF-A</span>, **顶级 AI 会议**)。'
+- date: "Mar 2026"
+  text: '我们的论文 "Adaptive Prototype-guided Personalized Propagation for Heterophilic Graphs with Missing Data" 被 **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)** 接收 (<span class="badge">SCI Q1</span>, **顶级 AI/ML 期刊**)。'
+- date: "Feb 2026"
+  text: '我们的论文 "[ReGenHOI: Unifying Reconstruction and Generation for 3D Human–Object Interaction Understanding]()" 被 **IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026** 接收 (<span class="badge">CCF-A</span>, **顶级视觉会议**)。'
+- date: "Feb 2026"
+  text: '我们的论文 "[UniSurg: A Video-Native Foundation Model for Universal Understanding of Surgical Videos](https://arxiv.org/abs/2602.05638)" 发布于 arXiv。'
+- date: "Jan 2026"
+  text: '两篇论文 ([CDBridge](https://openreview.net/forum?id=Hk4Fb6kaYF) & [Doloris](https://openreview.net/forum?id=rvpDHfoTd2)) 被 **International Conference on Learning Representations (ICLR) 2026** 接收 (<span class="badge">CCF-A</span>, **顶级 AI 会议**)。'
+- date: "Jan 2026"
+  text: '我们的论文 "[A Medical Multimodal Diagnostic Framework Integrating Vision-Language Models and Logic Tree Reasoning](https://arxiv.org/abs/2512.21583)" 被 **IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026** 接收 (<span class="badge">CCF-B</span>, **顶级信号处理会议**)。'
+- date: "Jan 2026"
+  text: '我们的论文 "[Multi-center multi-omics integration predicts individualized prognosis in medullary thyroid carcinoma](https://www.nature.com/articles/s41467-025-67533-7)" 被 **Nature Communications** 接收 (<span class="badge">SCI Q1</span>, **IF=15.7**, **顶级综合期刊**)。'
+- date: "Jan 2026"
+  text: '我们的论文 "[MDTree](https://openreview.net/forum?id=dTSptQNygv)" (系统发育推断) 被 **Transactions on Machine Learning Research (TMLR)** 接收 (<span class="badge">SCI</span>, **顶级 ML 期刊**)。'
+- date: "Nov 2025"
+  text: '三篇论文 ([MedLA](https://arxiv.org/abs/2509.23725), [Cell-Aware](https://arxiv.org/abs/2511.21120) & [Departures](https://arxiv.org/abs/2511.13124)) 被 **AAAI Conference on Artificial Intelligence (AAAI) 2026** 接收 (<span class="badge">CCF-A</span>, **顶级 AI 会议**)。MedLA & Cell-Aware 入选 **Oral Presentation** (**前 ~5%**)。'
+- date: "Dec 2025"
+  text: '我们的综述 "[The Dawn of Agentic EDA: A Survey of Autonomous Digital Chip Design](https://arxiv.org/abs/2512.23189)" 发布于 arXiv。'
+- date: "Sep 2025"
+  text: '"[CellScout](https://ieeexplore.ieee.org/document/10764724)" 被 **IEEE Transactions on Visualization and Computer Graphics (TVCG)** 接收 (<span class="badge">CCF-A</span>, <span class="badge">SCI Q1</span>, **顶级可视化期刊**)。'
+- date: "Sep 2025"
+  text: '一篇关于 [3D Hand-Instrument Interaction](https://papers.miccai.org/miccai-2025/0757-Paper2293.html) 的论文被 **Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025** 接收 (<span class="badge">顶级医学 AI 会议</span>, <span class="badge">CCF-B</span>)。'
+- date: "Mar 2025"
+  text: '一篇关于 [Time Series Fault Detection](https://ieeexplore.ieee.org/document/10633887) 的论文被 **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)** 接收 (<span class="badge">CCF-B</span>, <span class="badge">SCI Q1</span>, **IF=10.4**)。'
+- date: "Feb 2025"
+  text: '三篇论文 ([MuST](https://academic.oup.com/bib/article/26/4/bbaf405/8242581), [FGeneBERT](https://academic.oup.com/bib/article/26/6/bbaf592/8317925), [PoincaréDMT](https://academic.oup.com/bib/article/26/1/bbae687/7978273)) 被 **Briefings in Bioinformatics (BIB)** 接收 (<span class="badge">CCF-B</span>, <span class="badge">SCI Q1</span>, **顶级生物信息学期刊**)。'
+- date: "Jan 2025"
+  text: '"[DaCapo](https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DaCapo_Score_Distillation_as_Stacked_Bridge_for_Fast_and_High-quality_CVPR_2025_paper.html)" 被 **IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025** 接收 (<span class="badge">CCF-A</span>, **顶级视觉会议**)。'

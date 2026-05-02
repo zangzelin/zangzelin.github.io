@@ -1,0 +1,29 @@
+{% assign news_limit = 6 %}
+{% assign news_total = site.data.news_zh | size %}
+
+<section class="news-section">
+  <h2><i class="fa fa-newspaper" aria-hidden="true"></i> 新闻动态</h2>
+  <ul class="news-list">
+    {% for item in site.data.news_zh limit: news_limit %}
+    <li class="news-item">
+      <span class="news-item__date">[{{ item.date }}]</span>
+      <span class="news-item__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% if news_total > news_limit %}
+  <details class="news-more">
+    <summary>显示更多 {{ news_total | minus: news_limit }} 条新闻</summary>
+    <ul class="news-list news-list--extra">
+      {% for item in site.data.news_zh %}
+        {% if forloop.index > news_limit %}
+        <li class="news-item">
+          <span class="news-item__date">[{{ item.date }}]</span>
+          <span class="news-item__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+</section>

@@ -10,6 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
+{% include lang-switch.html %}
+
 {% include home-hero.html %}
 
 {% include publication-stats.html %}
