@@ -3,7 +3,7 @@ title: "MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasonin
 collection: publications
 category: conferences
 permalink: /publication/2026-02-20-medla
-excerpt: 'Siqi Ma, Jiajie Huang, Bolin Yang, Fan Zhang, Jinlin Wu, Yue Shen, Guohui Fan, Zhu Zhang, <b>Zelin Zang</b>, <i>AAAI Conference on Artificial Intelligence (AAAI)</i>, 2026, <span class="badge">CCF-A, Oral</span>, <span class="badge">Corresponding Author</span>'
+excerpt: 'Siqi Ma, Jiajie Huang, Bolin Yang, Fan Zhang, Jinlin Wu, Yue Shen, Guohui Fan, Zhu Zhang, <b>Zelin Zang&dagger;</b>, <i>AAAI Conference on Artificial Intelligence (AAAI)</i>, 2026, <span class="badge">CCF-A, Oral</span>, <span class="badge">Corresponding Author</span>'
 date: 2026-02-20
 venue: 'AAAI Conference on Artificial Intelligence (AAAI)'
 paperurl: 'https://arxiv.org/abs/2509.23725'
