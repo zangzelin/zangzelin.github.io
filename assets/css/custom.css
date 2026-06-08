@@ -358,6 +358,128 @@
 }
 
 /* ==========================================================================
+   Shared Section Heading
+   ========================================================================== */
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.85em;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.section-heading h2 .fa {
+  margin-right: 0.4em;
+  opacity: 0.8;
+}
+
+.section-heading__link {
+  flex-shrink: 0;
+  font-size: 0.82em;
+  font-weight: 600;
+}
+
+.pub-legend {
+  margin: -0.35em 0 0.9em;
+  font-size: 0.78em;
+  color: var(--global-text-color-light);
+}
+
+/* ==========================================================================
+   Selected Publications
+   ========================================================================== */
+.selected-publications {
+  margin: 2.25em 0;
+}
+
+.selected-publications__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.selected-paper {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 10rem;
+  padding: 1rem 1.05rem;
+  background-color: var(--global-code-background-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.selected-paper:hover {
+  transform: translateY(-2px);
+  border-color: var(--global-link-color);
+  background-color: var(--global-bg-color-alt);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.selected-paper h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.98rem;
+  font-weight: 650;
+  line-height: 1.32;
+}
+
+.selected-paper h3 a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.selected-paper h3 a:hover {
+  color: var(--global-link-color);
+  text-decoration: underline;
+}
+
+.selected-paper__meta {
+  margin: 0 0 0.45rem;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--global-text-color-light);
+}
+
+.selected-paper__meta b,
+.selected-paper__meta strong,
+.selected-paper__meta i {
+  color: var(--global-text-color);
+}
+
+.selected-paper__note {
+  margin: 0 0 0.75rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--global-text-color);
+  opacity: 0.9;
+}
+
+.selected-paper__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: auto;
+}
+
+.selected-paper__badges .badge {
+  padding: 0.14rem 0.38rem;
+  border-radius: 0.25rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--global-text-color);
+  background: var(--global-border-color);
+}
+
+/* ==========================================================================
    News Section (with collapse)
    ========================================================================== */
 .news-section {
@@ -446,6 +568,19 @@
 }
 
 @media (max-width: 48em) {
+  .section-heading {
+    align-items: flex-start;
+  }
+
+  .selected-publications__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .selected-paper {
+    min-height: 0;
+    padding: 0.9rem 0.95rem;
+  }
+
   .news-item {
     flex-direction: column;
     gap: 0.35em;
