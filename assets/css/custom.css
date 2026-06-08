@@ -387,7 +387,7 @@
 }
 
 .pub-legend {
-  margin: -0.35em 0 0.9em;
+  margin: -0.65em 0 1.15em;
   font-size: 0.78em;
   color: var(--global-text-color-light);
 }
@@ -396,55 +396,70 @@
    Selected Publications
    ========================================================================== */
 .selected-publications {
-  margin: 2.25em 0;
+  margin: 1.8em 0 2.2em;
 }
 
-.selected-publications__grid {
+.selected-publications__group {
+  margin-top: 1.2em;
+}
+
+.selected-publications__group h3 {
+  margin: 0 0 0.55rem;
+  font-size: 0.88rem;
+  font-weight: 650;
+  color: var(--global-text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
+}
+
+.selected-publications__list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.85rem;
+  gap: 0.55rem;
 }
 
 .selected-paper {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  min-height: 10rem;
-  padding: 1rem 1.05rem;
+  min-height: 0;
+  padding: 0.72rem 0.82rem;
   background-color: var(--global-code-background-color);
   border: 1px solid var(--global-border-color);
-  border-radius: 8px;
+  border-left: 3px solid var(--global-border-color);
+  border-radius: 6px;
   transition: all 0.2s ease;
 }
 
 .selected-paper:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   border-color: var(--global-link-color);
+  border-left-color: var(--global-link-color);
   background-color: var(--global-bg-color-alt);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04);
 }
 
-.selected-paper h3 {
-  margin: 0 0 0.45rem;
-  font-size: 0.98rem;
+.selected-paper h4 {
+  margin: 0 0 0.28rem;
+  font-size: 0.88rem;
   font-weight: 650;
-  line-height: 1.32;
+  line-height: 1.28;
 }
 
-.selected-paper h3 a {
+.selected-paper h4 a {
   color: var(--global-text-color);
   text-decoration: none;
 }
 
-.selected-paper h3 a:hover {
+.selected-paper h4 a:hover {
   color: var(--global-link-color);
   text-decoration: underline;
 }
 
 .selected-paper__meta {
-  margin: 0 0 0.45rem;
-  font-size: 0.78rem;
-  line-height: 1.45;
+  margin: 0 0 0.38rem;
+  font-size: 0.72rem;
+  line-height: 1.38;
   color: var(--global-text-color-light);
 }
 
@@ -465,14 +480,14 @@
 .selected-paper__badges {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.28rem;
   margin-top: auto;
 }
 
 .selected-paper__badges .badge {
-  padding: 0.14rem 0.38rem;
+  padding: 0.1rem 0.32rem;
   border-radius: 0.25rem;
-  font-size: 0.68rem;
+  font-size: 0.62rem;
   font-weight: 600;
   line-height: 1.25;
   color: var(--global-text-color);
@@ -483,7 +498,7 @@
    News Section (with collapse)
    ========================================================================== */
 .news-section {
-  margin: 2.25em 0;
+  margin: 1.9em 0;
 }
 
 .news-section h2 {
@@ -505,10 +520,10 @@
 }
 
 .news-item {
-  margin-bottom: 0.7em;
+  margin-bottom: 0.5em;
   padding-left: 0;
-  font-size: 0.93em;
-  line-height: 1.5;
+  font-size: 0.88em;
+  line-height: 1.45;
   display: flex;
   gap: 0.5em;
 }
@@ -516,18 +531,21 @@
 .news-item__date {
   color: var(--global-text-color-light);
   font-weight: 500;
-  font-size: 0.85em;
-  background: var(--global-code-background-color);
-  padding: 0.15em 0.4em;
+  font-size: 0.82em;
+  background: transparent;
+  padding: 0.05em 0;
   border-radius: 4px;
   flex-shrink: 0;
   font-family: monospace;
   white-space: nowrap;
+  opacity: 0.78;
 }
 
 .news-item__text {
   display: inline;
   flex: 1;
+  color: var(--global-text-color);
+  opacity: 0.92;
 }
 
 .news-more {
@@ -572,13 +590,13 @@
     align-items: flex-start;
   }
 
-  .selected-publications__grid {
+  .selected-publications__list {
     grid-template-columns: 1fr;
   }
 
   .selected-paper {
     min-height: 0;
-    padding: 0.9rem 0.95rem;
+    padding: 0.68rem 0.78rem;
   }
 
   .news-item {
@@ -609,6 +627,62 @@
 
 .pub-page__stats {
   margin-bottom: 1.75em;
+}
+
+.publication-filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.35rem 0 1.4rem;
+  padding: 0.65rem 0;
+  border-top: 1px solid var(--global-border-color);
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.publication-filter__label {
+  margin-right: 0.15rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  color: var(--global-text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
+}
+
+.publication-filter__chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.7rem;
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.publication-filter__chip:hover,
+.publication-filter__chip.is-active {
+  border-color: var(--global-link-color);
+  color: var(--global-link-color);
+  background: var(--global-code-background-color);
+}
+
+.publication-filter__count {
+  margin-left: auto;
+  font-size: 0.74rem;
+  color: var(--global-text-color-light);
+}
+
+@media (max-width: 48em) {
+  .publication-filter__count {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
 }
 
 /* Stats cards on publications page */

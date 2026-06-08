@@ -12,7 +12,33 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+{% assign item_type = include.type | default: "list" %}
+{% assign pub_filter_tags = "" %}
+{% if post.collection == 'publications' %}
+  {% assign pub_filter_tags = "all" %}
+  {% if post.selected %}
+    {% assign pub_filter_tags = pub_filter_tags | append: " selected" %}
+  {% endif %}
+  {% assign author_check = post.excerpt | split: "," | first %}
+  {% if author_check contains "Zelin Zang" or post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+    {% assign pub_filter_tags = pub_filter_tags | append: " first" %}
+  {% endif %}
+  {% if post.excerpt contains "Corresponding Author" %}
+    {% assign pub_filter_tags = pub_filter_tags | append: " corresponding" %}
+  {% endif %}
+  {% if post.excerpt contains "CCF-A" %}
+    {% assign pub_filter_tags = pub_filter_tags | append: " ccf-a" %}
+  {% endif %}
+  {% assign pub_text = post.title | append: " " | append: post.excerpt | append: " " | append: post.venue %}
+  {% if pub_text contains "AI4Science" or pub_text contains "AI4Sciences" or pub_text contains "single-cell" or pub_text contains "Single-Cell" or pub_text contains "cellular" or pub_text contains "Cell" or pub_text contains "gene" or pub_text contains "protein" or pub_text contains "omics" or pub_text contains "bio" or pub_text contains "Thyroid" or pub_text contains "thyroid" %}
+    {% assign pub_filter_tags = pub_filter_tags | append: " ai4science" %}
+  {% endif %}
+  {% if pub_text contains "Medical" or pub_text contains "medical" or pub_text contains "MedLA" or pub_text contains "Medicine" or pub_text contains "clinical" or pub_text contains "diagnosis" or pub_text contains "diagnostic" or pub_text contains "surgical" or pub_text contains "Thyroid" or pub_text contains "thyroid" %}
+    {% assign pub_filter_tags = pub_filter_tags | append: " medical-ai" %}
+  {% endif %}
+{% endif %}
+
+<div class="{{ item_type }}__item"{% if post.collection == 'publications' %} data-pub-tags="{{ pub_filter_tags | strip }}"{% endif %}>
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">

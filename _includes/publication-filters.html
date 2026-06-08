@@ -1,0 +1,81 @@
+<div class="publication-filter" data-publication-filter>
+  <span class="publication-filter__label">
+    {% if page.lang == "zh" %}筛选{% else %}Filter{% endif %}
+  </span>
+  <button type="button" class="publication-filter__chip is-active" data-filter="all">
+    {% if page.lang == "zh" %}全部{% else %}All{% endif %}
+  </button>
+  <button type="button" class="publication-filter__chip" data-filter="selected">
+    {% if page.lang == "zh" %}代表论文{% else %}Selected{% endif %}
+  </button>
+  <button type="button" class="publication-filter__chip" data-filter="first">
+    {% if page.lang == "zh" %}第一作者{% else %}First Author{% endif %}
+  </button>
+  <button type="button" class="publication-filter__chip" data-filter="corresponding">
+    {% if page.lang == "zh" %}通讯作者{% else %}Corresponding{% endif %}
+  </button>
+  <button type="button" class="publication-filter__chip" data-filter="ccf-a">CCF-A</button>
+  <button type="button" class="publication-filter__chip" data-filter="ai4science">AI4Science</button>
+  <button type="button" class="publication-filter__chip" data-filter="medical-ai">
+    {% if page.lang == "zh" %}医学 AI{% else %}Medical AI{% endif %}
+  </button>
+  <span class="publication-filter__count" aria-live="polite"></span>
+</div>
+
+<script>
+  (function () {
+    var root = document.querySelector('[data-publication-filter]');
+    var list = document.querySelector('.publications-compact');
+    if (!root || !list) return;
+
+    var buttons = Array.prototype.slice.call(root.querySelectorAll('[data-filter]'));
+    var items = Array.prototype.slice.call(list.querySelectorAll('.list__item[data-pub-tags]'));
+    var count = root.querySelector('.publication-filter__count');
+    var itemLabel = '{% if page.lang == "zh" %}篇{% else %}items{% endif %}';
+
+    function hasVisibleItemsUntil(element, stopTags) {
+      var node = element.nextElementSibling;
+      while (node && stopTags.indexOf(node.tagName) === -1) {
+        if (node.classList && node.classList.contains('list__item') && !node.hidden) return true;
+        node = node.nextElementSibling;
+      }
+      return false;
+    }
+
+    function updateHeadings() {
+      Array.prototype.slice.call(list.querySelectorAll('h3')).forEach(function (heading) {
+        heading.hidden = !hasVisibleItemsUntil(heading, ['H2', 'H3']);
+      });
+      Array.prototype.slice.call(list.querySelectorAll('h2')).forEach(function (heading) {
+        var hasItems = hasVisibleItemsUntil(heading, ['H2']);
+        heading.hidden = !hasItems;
+        if (heading.nextElementSibling && heading.nextElementSibling.tagName === 'HR') {
+          heading.nextElementSibling.hidden = !hasItems;
+        }
+      });
+    }
+
+    function update(filter) {
+      var visible = 0;
+      items.forEach(function (item) {
+        var tags = (item.getAttribute('data-pub-tags') || '').split(/\s+/);
+        var show = filter === 'all' || tags.indexOf(filter) !== -1;
+        item.hidden = !show;
+        if (show) visible += 1;
+      });
+      buttons.forEach(function (button) {
+        button.classList.toggle('is-active', button.getAttribute('data-filter') === filter);
+      });
+      updateHeadings();
+      if (count) count.textContent = visible + ' ' + itemLabel;
+    }
+
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        update(button.getAttribute('data-filter'));
+      });
+    });
+
+    update('all');
+  }());
+</script>
