@@ -25,6 +25,10 @@ redirect_from:
 
 {% include research-interests-zh.html %}
 
+{% include publication-legend.html %}
+
+{% include selected-publications-zh.html %}
+
 {% include news-section-zh.html %}
 
 ---
