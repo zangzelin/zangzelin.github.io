@@ -112,7 +112,7 @@
   grid-template-columns: repeat(2, minmax(16rem, 1fr));
   gap: 0.9rem;
   margin: 1.25rem 0 1.75rem;
-  max-width: 52rem;
+  width: min(100%, 48rem);
 }
 
 .page__content .stats-card {
@@ -125,6 +125,8 @@
   border: 1px solid var(--global-border-color);
   min-width: 0;
   min-height: 6.6rem;
+  width: 100%;
+  justify-self: stretch;
   transition: all 0.2s ease;
 }
 
