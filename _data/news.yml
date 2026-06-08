@@ -5,6 +5,8 @@
 - date: "May 2026"
   text: 'Our paper "HDTree: Generative Modeling of Cellular Hierarchies for Robust Lineage Inference" accepted by **International Conference on Machine Learning (ICML) 2026** (<span class="badge">CCF-A</span>, **Premier AI Conference**).'
 - date: "Mar 2026"
+  text: 'Two papers accepted by **IEEE Visualization and Visual Analytics (VIS) 2026**: "CellPrism: A Visual Analytics System for Exploring AI-Driven Virtual Cells in Drug Discovery" and "[VeriLLMed: Visual Debugging of Medical Large Language Models with Knowledge Graphs](https://arxiv.org/abs/2604.23356)" (<span class="badge">CCF-A</span>).'
+- date: "Mar 2026"
   text: 'Our paper "Adaptive Prototype-guided Personalized Propagation for Heterophilic Graphs with Missing Data" accepted by **IEEE Transactions on Neural Networks and Learning Systems (TNNLS)** (<span class="badge">SCI Q1</span>, **Top AI/ML Journal**).'
 - date: "Feb 2026"
   text: 'Our paper "ReGenHOI: Unifying Reconstruction and Generation for 3D Human–Object Interaction Understanding" accepted by **IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026** (<span class="badge">CCF-A</span>, **Premier AI Conference**).'
