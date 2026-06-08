@@ -568,10 +568,10 @@
 
 /* Publication entry - improved spacing and hierarchy */
 .publications-compact .list__item {
-  margin-bottom: 1.25em;
+  margin-bottom: 0;
   overflow: visible;
   max-width: 100%;
-  padding-bottom: 1.25em;
+  padding: 0.95rem 0 1.05rem;
   border-bottom: 1px solid var(--global-border-color);
 }
 
@@ -579,12 +579,23 @@
   border-bottom: none;
 }
 
+.publications-compact .publication-entry {
+  display: grid;
+  grid-template-columns: 2.2rem minmax(0, 1fr);
+  column-gap: 0.55rem;
+  align-items: start;
+}
+
+.publications-compact .publication-entry__body {
+  min-width: 0;
+}
+
 .publications-compact .archive__item-title {
   display: block;
-  font-size: 1.05em;
+  font-size: 0.98rem;
   font-weight: 600;
-  margin: 0 0 0.4em 0;
-  line-height: 1.4;
+  margin: 0 0 0.35rem 0;
+  line-height: 1.32;
 }
 
 .publications-compact .archive__item-title a {
@@ -598,16 +609,21 @@
 }
 
 .publications-compact .archive__item-number {
+  display: block;
+  padding-top: 0.08rem;
   font-weight: 500;
   color: var(--global-text-color-light);
-  margin-right: 0.5em;
-  font-size: 0.9em;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.65;
 }
 
 /* Authors + venue - slightly smaller, better readability */
 .publications-compact .archive__item-excerpt {
   display: block;
-  font-size: 0.9em;
+  font-size: 0.82rem;
   font-weight: normal;
   white-space: normal;
   overflow: visible;
@@ -616,17 +632,32 @@
   word-break: normal;
   max-width: 100%;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.52;
+  color: var(--global-text-color-light);
+}
+
+.publications-compact .archive__item-excerpt b,
+.publications-compact .archive__item-excerpt strong {
+  color: var(--global-text-color);
+  font-weight: 650;
+}
+
+.publications-compact .archive__item-excerpt i {
   color: var(--global-text-color);
 }
 
 /* Badges inline - compact and aligned */
 .publications-compact .archive__item-excerpt .badge {
-  margin-left: 0.3em;
+  display: inline-block;
+  margin-left: 0.35em;
   vertical-align: middle;
-  padding: 0.2em 0.4em;
-  font-size: 70%;
+  padding: 0.14rem 0.38rem;
+  border-radius: 0.25rem;
+  font-size: 0.68em;
   font-weight: 600;
+  line-height: 1.25;
+  color: var(--global-text-color);
+  background: var(--global-border-color);
 }
 
 /* Mobile optimization for publications */
@@ -642,16 +673,20 @@
   }
   
   .publications-compact .list__item {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+    padding: 0.85rem 0 0.95rem;
+  }
+
+  .publications-compact .publication-entry {
+    grid-template-columns: 1.8rem minmax(0, 1fr);
+    column-gap: 0.45rem;
   }
   
   .publications-compact .archive__item-title {
-    font-size: 1em;
+    font-size: 0.96rem;
   }
   
   .publications-compact .archive__item-excerpt {
-    font-size: 0.85em;
+    font-size: 0.8rem;
   }
   
   .pub-page__stats .stats-card__sub {
