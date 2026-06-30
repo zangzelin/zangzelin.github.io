@@ -13,7 +13,7 @@ Work Experience
 ======
 *   **Research Assistant Professor(RAP)** (Jul 2024 - Present)
     *   *Westlake University*
-    *   **Supervisors:** [Prof. Zhen Lei](https://scholar.google.com/citations?user=G_Y0sOQAAAAJ) and [Prof. Jiebo Luo](https://www.cs.rochester.edu/u/jluo/)
+    *   **Supervisor:** [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow)
     *   **Research Focus:** AI Foundation Models, AI for Science (Life Science), and Medical AI.
 
 *   **Visiting Scholar** (Nov 2023 - May 2024)

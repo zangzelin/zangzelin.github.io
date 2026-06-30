@@ -14,7 +14,7 @@ redirect_from:
 ======
 *   **研究助理教授（Research Assistant Professor, RAP）** (2024 年 7 月 - 至今)
     *   *西湖大学*
-    *   **合作导师:** [雷震教授](https://scholar.google.com/citations?user=G_Y0sOQAAAAJ)（IEEE Fellow）和 [罗杰波教授](https://www.cs.rochester.edu/u/jluo/)
+    *   **合作导师:** [李子青教授](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)（IEEE Fellow）
     *   **研究方向:** AI 基础模型、AI for Science（生命科学）、医学 AI
 
 *   **访问学者** (2023 年 11 月 - 2024 年 5 月)
