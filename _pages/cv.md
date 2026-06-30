@@ -12,7 +12,7 @@ redirect_from:
 Work Experience
 ======
 *   **Research Assistant Professor(RAP)** (Jul 2024 - Present)
-    *   *Hong Kong Institute of Innovation, Chinese Academy of Sciences (HKII-CAS)*
+    *   *Westlake University*
     *   **Supervisors:** [Prof. Zhen Lei](https://scholar.google.com/citations?user=G_Y0sOQAAAAJ) and [Prof. Jiebo Luo](https://www.cs.rochester.edu/u/jluo/)
     *   **Research Focus:** AI Foundation Models, AI for Science (Life Science), and Medical AI.
 

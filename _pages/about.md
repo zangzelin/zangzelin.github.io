@@ -14,7 +14,7 @@ redirect_from:
 
 {% include publication-stats.html %}
 
-I am currently a Research Assistant Professor(RAP) at the **Hong Kong Institute of Innovation, Chinese Academy of Sciences**, working with [Prof. Zhen Lei (IEEE Fellow)](https://scholar.google.com/citations?user=cuJ3QG8AAAAJ&hl=zh-CN) and [Prof. Jiebo Luo (IEEE Fellow)](https://www.cs.rochester.edu/u/jluo/).
+I am currently a Research Assistant Professor(RAP) at **Westlake University**, working with [Prof. Zhen Lei (IEEE Fellow)](https://scholar.google.com/citations?user=cuJ3QG8AAAAJ&hl=zh-CN) and [Prof. Jiebo Luo (IEEE Fellow)](https://www.cs.rochester.edu/u/jluo/).
 
 My research lies at the intersection of **AI Foundation Models** and **AI for Science**, with a particular focus on Life Sciences and Medicine. I aim to develop interpretable, scalable, and robust AI systems to solve complex problems in single-cell biology, molecular modeling, and clinical diagnosis.
 
