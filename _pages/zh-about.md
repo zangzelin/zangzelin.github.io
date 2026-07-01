@@ -15,7 +15,7 @@ redirect_from:
 
 {% include publication-stats.html %}
 
-我现任**西湖大学**研究助理教授，与[李子青教授（IEEE Fellow）](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)合作。
+我现任**中国科学院香港创新研究院**研究助理教授，与[李子青教授（IEEE Fellow）](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)合作。
 
 我的研究方向位于**AI 基础模型**与**AI for Science**的交叉领域，专注于生命科学和医学。我致力于开发可解释、可扩展、鲁棒的 AI 系统，以解决单细胞生物学、分子建模和临床诊断中的复杂问题。
 

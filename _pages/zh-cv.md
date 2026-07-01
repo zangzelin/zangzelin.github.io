@@ -13,7 +13,7 @@ redirect_from:
 工作经历
 ======
 *   **研究助理教授（Research Assistant Professor, RAP）** (2024 年 7 月 - 至今)
-    *   *西湖大学*
+    *   *中国科学院香港创新研究院（HKII-CAS）*
     *   **合作导师:** [李子青教授](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)（IEEE Fellow）
     *   **研究方向:** AI 基础模型、AI for Science（生命科学）、医学 AI
 
