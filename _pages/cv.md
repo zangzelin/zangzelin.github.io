@@ -12,7 +12,7 @@ redirect_from:
 Work Experience
 ======
 *   **Research Assistant Professor(RAP)** (Jul 2024 - Present)
-    *   *Hong Kong Institute of Innovation, Chinese Academy of Sciences (HKII-CAS)*
+    *   *Westlake University*
     *   **Supervisor:** [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow)
     *   **Research Focus:** AI Foundation Models, AI for Science (Life Science), and Medical AI.
 
