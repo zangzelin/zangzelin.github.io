@@ -14,7 +14,7 @@ Work Experience
 *   **Research Assistant Professor(RAP)** (Jul 2024 - Present)
     *   *Westlake University*
     *   **Supervisor:** [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow)
-    *   **Research Focus:** AI Foundation Models, AI for Science (Life Science), and Medical AI.
+    *   **Research Focus:** Fundamental AI, foundation models, deep manifold learning, AI for Science, and Medical AI.
 
 *   **Visiting Scholar** (Nov 2023 - May 2024)
     *   *National University of Singapore (NUS)*
@@ -38,9 +38,9 @@ Education
 
 Research Interests
 ======
-*   **AI for Life Science:** Single-cell analysis, Spatial transcriptomics, Molecular modeling, Phylogenetic inference.
-*   **Medical AI:** LLM agents for medical reasoning, Multi-modal clinical diagnosis.
-*   **Fundamental AI:** Manifold learning, Geometric deep learning, Trustworthy AI.
+*   **Fundamental AI:** Representation learning, deep manifold learning, geometric deep learning, trustworthy AI.
+*   **Foundation Models and Agents:** Multimodal foundation models, LLM agents, scalable and interpretable AI systems.
+*   **AI for Science and Medicine:** Single-cell analysis, spatial transcriptomics, molecular modeling, medical reasoning.
 
 Skills
 ======
