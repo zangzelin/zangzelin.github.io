@@ -15,7 +15,7 @@ redirect_from:
 
 {% include publication-stats.html %}
 
-我现任**西湖大学**研究助理教授，与[李子青教授（IEEE Fellow）](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)合作。
+我现任**中国科学院香港创新研究院**研究助理教授，与[李子青教授（IEEE Fellow）](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)合作。
 
 我的核心研究聚焦于**基础 AI**与**基础模型**。我重点关注表示学习、深度流形学习、几何深度学习、多模态基础模型和可信 AI 智能体，目标是构建可解释、可扩展、鲁棒的 AI 系统。
 
