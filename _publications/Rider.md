@@ -1,11 +1,11 @@
 ---
-title: "Expanding the RNA Virus Universe by Deep Learning Discovery with Rider"
+title: "Expanding the RNA Virus Universe by Scalable Structure-Guided Discovery"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-nature-method-rider
-excerpt: 'Gaoyang Luo\*, **Zelin Zang\***, et al., <i>Nature Methods (Under Review)</i>, <span class="badge">Top Journal</span>, <span class="badge">Co-first Author</span>'
+excerpt: 'Gaoyang Luo, **Zelin Zang**, Stan Z. Li, Feng Ju, <i>Nature Communications (Accepted in Principle)</i>, <span class="badge">SCI Q1, IF=15.7</span>, <span class="badge">Top Multidisciplinary Journal</span>'
 date: 2026-01-10
-venue: 'Nature Methods - Under Review'
+venue: 'Nature Communications - Accepted in Principle'
 paperurl: 'https://zelinzang.github.io/files/rider.pdf'
-citation: 'Gaoyang Luo*, Zelin Zang*, et al. (2026). &quot;Expanding the RNA Virus Universe by Deep Learning Discovery with Rider.&quot; <i>Under Review at Nature Methods</i>.'
+citation: 'Gaoyang Luo, Zelin Zang, Stan Z. Li, Feng Ju. (2026). &quot;Expanding the RNA Virus Universe by Scalable Structure-Guided Discovery.&quot; <i>Nature Communications</i> (accepted in principle).'
 ---
