@@ -12,8 +12,8 @@ redirect_from:
 Work Experience
 ======
 *   **Research Assistant Professor(RAP)** (Jul 2024 - Present)
-    *   *Westlake University*
-    *   **Supervisor:** [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow)
+    *   *Hong Kong Institute of Innovation, Chinese Academy of Sciences (HKII-CAS) and Westlake University*
+    *   **Supervisors:** [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ) (IEEE Fellow), Prof. Zhen Lei, and Prof. Jiebo Luo
     *   **Research Focus:** Fundamental AI, foundation models, deep manifold learning, AI for Science, and Medical AI.
 
 *   **Visiting Scholar** (Nov 2023 - May 2024)
