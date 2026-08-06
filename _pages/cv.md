@@ -39,6 +39,7 @@ Education
 Research Interests
 ======
 *   **Fundamental AI:** Representation learning, deep manifold learning, geometric deep learning, trustworthy AI.
+*   **AI Scientists & Autonomous Discovery:** Automated hypothesis generation and testing, self-driving experiments, automated scientific knowledge discovery.
 *   **Foundation Models and Agents:** Multimodal foundation models, LLM agents, scalable and interpretable AI systems.
 *   **AI for Science and Medicine:** Single-cell analysis, spatial transcriptomics, molecular modeling, medical reasoning.
 
