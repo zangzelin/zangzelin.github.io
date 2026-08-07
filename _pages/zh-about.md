@@ -15,7 +15,7 @@ redirect_from:
 
 {% include publication-stats.html %}
 
-我现任**香港创新研究院（HKII）**和**西湖大学**研究助理教授，与[李子青教授（IEEE Fellow）](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)、雷震教授和罗杰波教授合作。
+我现任**香港创新研究院（HKII）**和**西湖大学**研究助理教授，与[李子青教授（IEEE Fellow）](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)、[雷震教授（IEEE Fellow）](https://www.cbsr.ia.ac.cn/users/zlei/)和[罗杰波教授（IEEE Fellow）](https://www.cs.rochester.edu/people/faculty/luo_jiebo/index.html)合作。
 
 我的核心研究聚焦于**基础 AI**与**基础模型**。我重点关注表示学习、深度流形学习、几何深度学习、多模态基础模型和可信 AI 智能体，目标是构建可解释、可扩展、鲁棒的 AI 系统。我最近特别关注**AI 科学家与自主知识发现**，目标是构建能够自主提出假设、设计并执行实验、从而发现新科学知识的智能体系统。
 

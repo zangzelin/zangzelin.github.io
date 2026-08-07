@@ -14,7 +14,7 @@ redirect_from:
 
 {% include publication-stats.html %}
 
-I am currently a Research Assistant Professor(RAP) at **Hong Kong Institute of Innovation** and **Westlake University**, working with [Prof. Stan Z. Li (IEEE Fellow)](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ), Prof. Zhen Lei, and Prof. Jiebo Luo.
+I am currently a Research Assistant Professor(RAP) at **Hong Kong Institute of Innovation** and **Westlake University**, working with [Prof. Stan Z. Li (IEEE Fellow)](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ), [Prof. Zhen Lei (IEEE Fellow)](https://www.cbsr.ia.ac.cn/users/zlei/), and [Prof. Jiebo Luo (IEEE Fellow)](https://www.cs.rochester.edu/people/faculty/luo_jiebo/index.html).
 
 My core research focuses on **Fundamental AI** and **Foundation Models**. I am particularly interested in representation learning, deep manifold learning, geometric deep learning, multimodal foundation models, and trustworthy AI agents, aiming to build interpretable, scalable, and robust AI systems. My latest interest is **AI Scientists and autonomous knowledge discovery** — building agentic systems that can autonomously form hypotheses, design and run experiments, and discover new scientific knowledge.
 
