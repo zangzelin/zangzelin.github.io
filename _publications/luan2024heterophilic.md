@@ -7,5 +7,6 @@ excerpt: 'Sitao Luan, Chenqing Hua, Qincheng Lu, Liheng Ma, Lirong Wu, Xinyu Wan
 date: 2024-01-01
 venue: 'arXiv preprint arXiv:2407.09618'
 paperurl: 'https://arxiv.org/abs/2407.09618'
+bibtexurl: '/files/bibtex/luan2024heterophilic.bib'
 citation: 'Sitao Luan, Chenqing Hua, Qincheng Lu, Liheng Ma, Lirong Wu, Xinyu Wang, Minkai Xu, Xiao-Wen Chang, Zelin Zang, Doina Precup, Rex Ying, Stan Z. Li, Jian Tang, Guy Wolf, Stefanie Jegelka. (2024). &quot;The heterophilic graph learning handbook: Benchmarks, models, theoretical analysis, applications and challenges.&quot; <i>arXiv preprint arXiv:2407.09618</i>.'
 ---

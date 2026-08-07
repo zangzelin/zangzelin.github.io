@@ -7,5 +7,6 @@ excerpt: 'Mengran Li\*, **Zelin Zang\***, Wenbin Xing, Junzhou Chen, Ronghui Zha
 date: 2026-02-20
 venue: 'AAAI Conference on Artificial Intelligence (AAAI)'
 paperurl: 'https://arxiv.org/abs/2511.21120'
+bibtexurl: '/files/bibtex/CellAware.bib'
 citation: 'Mengran Li*, Zelin Zang*, Wenbin Xing, Junzhou Chen, Ronghui Zhang, Jiebo Luo, Stan Z. Li. (2026). &quot;Learning Cell-Aware Hierarchical Multi-Modal Representations for Robust Molecular Modeling.&quot; <i>AAAI Conference on Artificial Intelligence (AAAI)</i>.'
 ---

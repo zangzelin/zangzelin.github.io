@@ -7,5 +7,6 @@ excerpt: '**Zelin Zang\***, Yongjie Xu\*, Bozhen Hu, Yue Yuan, Cheng Tan, Jun Xi
 date: 2025-01-20
 venue: 'Briefings in Bioinformatics'
 paperurl: 'https://academic.oup.com/bib/article/26/1/bbae687/7978273'
+bibtexurl: '/files/bibtex/PoincareDMT.bib'
 citation: 'Zelin Zang*, Yongjie Xu*, Bozhen Hu, Yue Yuan, Cheng Tan, Jun Xia, Stan Z. Li. (2025). &quot;Complex hierarchical structures analysis in single-cell data with Poincaré deep manifold transformation.&quot; <i>Briefings in Bioinformatics</i>.'
 ---

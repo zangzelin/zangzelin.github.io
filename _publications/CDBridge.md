@@ -7,5 +7,6 @@ excerpt: 'Chang Yu, Siyuan Li, Zicheng Liu, Jingbo Zhou, Xianglong Guo, Kai Yu, 
 date: 2026-04-25
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://openreview.net/forum?id=Hk4Fb6kaYF'
+bibtexurl: '/files/bibtex/CDBridge.bib'
 citation: 'Chang Yu, Siyuan Li, Zicheng Liu, Jingbo Zhou, Xianglong Guo, Kai Yu, Yuqing Zhou, Ken Li, Zelin Zang, Zhen Lei, Stan Z. Li. (2026). &quot;CDBridge: A Cross-omics Post-training Bridge Strategy for Context-aware Biological Modeling.&quot; <i>International Conference on Learning Representations (ICLR)</i>.'
 ---

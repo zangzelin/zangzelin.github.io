@@ -7,5 +7,6 @@ excerpt: 'Yongjie Xu\*, **Zelin Zang\***, Jun Xia, Cheng Tan, Yulan Geng, Stan Z
 date: 2023-07-01
 venue: 'Communications Biology'
 paperurl: 'https://doi.org/10.1101/2022.07.09.499435'
+bibtexurl: '/files/bibtex/scRNABatch.bib'
 citation: 'Yongjie Xu*, Zelin Zang*, Jun Xia, Cheng Tan, Yulan Geng, Stan Z. Li. (2023). &quot;Structure-preserving visualization for single-cell RNA-Seq profiles using deep manifold transformation with batch-correction.&quot; <i>Communications Biology</i>.'
 ---

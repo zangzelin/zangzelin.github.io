@@ -913,3 +913,177 @@
     display: none;
   }
 }
+
+/* ==========================================================================
+   Code / Software Section (homepage)
+   ========================================================================== */
+.code-section {
+  margin: 1.8em 0 2.2em;
+}
+
+.code-section .section-heading {
+  margin-bottom: 0.85em;
+}
+
+.code-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.code-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  padding: 0.72rem 0.82rem;
+  background-color: var(--global-code-background-color);
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--global-border-color);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.code-card:hover {
+  transform: translateY(-1px);
+  border-color: var(--global-link-color);
+  border-left-color: var(--global-link-color);
+  background-color: var(--global-bg-color-alt);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04);
+}
+
+.code-card__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.28rem;
+}
+
+.code-card__name {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 650;
+  line-height: 1.28;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.code-card__name a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.code-card__name a .fa-github,
+.code-card__head .fa-github {
+  margin-right: 0.3em;
+  color: var(--global-text-color-light);
+  opacity: 0.85;
+}
+
+.code-card__name a:hover {
+  color: var(--global-link-color);
+  text-decoration: underline;
+}
+
+.code-card__stars {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2em;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  opacity: 0.85;
+  white-space: nowrap;
+}
+
+.code-card__stars .fa {
+  color: #f5a623;
+  opacity: 0.9;
+}
+
+.code-card__desc {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--global-text-color);
+  opacity: 0.9;
+}
+
+.code-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+  margin-top: auto;
+}
+
+.code-card__tags .badge {
+  padding: 0.1rem 0.32rem;
+  border-radius: 0.25rem;
+  font-size: 0.62rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--global-text-color);
+  background: var(--global-border-color);
+}
+
+.code-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.55rem;
+  padding-top: 0.45rem;
+  border-top: 1px dashed var(--global-border-color);
+}
+
+.code-card__links a {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--global-link-color);
+  text-decoration: none;
+}
+
+.code-card__links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 48em) {
+  .code-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .code-card {
+    min-height: 0;
+    padding: 0.68rem 0.78rem;
+  }
+}
+
+/* ==========================================================================
+   Research Banner (home page theme figure)
+   ========================================================================== */
+.research-banner {
+  margin: 1.5rem 0 1.75rem;
+  padding: 0;
+}
+
+.research-banner img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--global-border-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+}
+
+[data-theme="dark"] .research-banner img {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 48em) {
+  .research-banner {
+    margin: 1rem 0 1.25rem;
+  }
+}

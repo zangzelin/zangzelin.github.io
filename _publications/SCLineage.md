@@ -7,4 +7,5 @@ excerpt: '<b>Zelin Zang</b>, et al., <i>Nature Machine Intelligence (Under Revie
 date: 2026-01-08
 venue: 'Nature Machine Intelligence - Under Review'
 citation: 'Zelin Zang, et al. (2026). &quot;Single Cell Lineage Foundation Model.&quot; <i>Under Review at Nature Machine Intelligence</i>.'
+bibtexurl: '/files/bibtex/SCLineage.bib'
 ---

@@ -8,6 +8,7 @@ excerpt: 'Siqi Ma, Jiajie Huang, Bolin Yang, Fan Zhang, Jinlin Wu, Yue Shen, Guo
 date: 2026-02-20
 venue: 'AAAI Conference on Artificial Intelligence (AAAI)'
 paperurl: 'https://arxiv.org/abs/2509.23725'
+bibtexurl: '/files/bibtex/MedLA.bib'
 citation: 'Siqi Ma, Jiajie Huang, Bolin Yang, Fan Zhang, Jinlin Wu, Yue Shen, Guohui Fan, Zhu Zhang, Zelin Zang. (2026). &quot;MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models.&quot; <i>AAAI Conference on Artificial Intelligence (AAAI)</i>.'
 ---
 

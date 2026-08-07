@@ -7,5 +7,6 @@ excerpt: '<b>Zelin Zang</b>, Siyuan Li, Di Wu, Jianzhu Guo, Yongjie Xu, Stan Z. 
 date: 2022-06-01
 venue: 'Neurocomputing'
 paperurl: 'https://doi.org/10.1016/j.neucom.2022.09.100'
+bibtexurl: '/files/bibtex/DMAGE.bib'
 citation: 'Zelin Zang, Siyuan Li, Di Wu, Jianzhu Guo, Yongjie Xu, Stan Z. Li. (2022). &quot;Deep manifold embedding of attributed graphs.&quot; <i>Neurocomputing</i>.'
 ---

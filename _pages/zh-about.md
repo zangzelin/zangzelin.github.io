@@ -25,7 +25,11 @@ redirect_from:
 
 {% include openings-cta-zh.html %}
 
+{% include code-zh.html %}
+
 {% include research-interests-zh.html %}
+
+{% include research-banner.html %}
 
 {% include publication-legend.html %}
 

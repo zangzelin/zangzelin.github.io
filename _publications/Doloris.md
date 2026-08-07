@@ -8,5 +8,6 @@ excerpt: 'Changxi Chi, Jun Xia, Yufei Huang, Zhuoli Ouyang, Cheng Tan, Yunfan Li
 date: 2026-04-25
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://openreview.net/forum?id=rvpDHfoTd2'
+bibtexurl: '/files/bibtex/Doloris.bib'
 citation: 'Changxi Chi, Jun Xia, Yufei Huang, Zhuoli Ouyang, Cheng Tan, Yunfan Liu, Jingbo Zhou, Chang Yu, Liangyu Yuan, Siyuan Li, Zelin Zang, Stan Z. Li. (2026). &quot;Doloris: Dual Conditional Diffusion Implicit Bridges with Sparsity Masking Strategy for Unpaired Single-Cell Perturbation Estimation.&quot; <i>International Conference on Learning Representations (ICLR)</i>.'
 ---

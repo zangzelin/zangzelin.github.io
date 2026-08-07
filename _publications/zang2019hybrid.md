@@ -7,5 +7,6 @@ excerpt: '<b>Zelin Zang</b>, Wanliang Wang, Yuhang Song, Linyan Lu, Weikun Li, Y
 date: 2019-01-01
 venue: 'Computational intelligence and neuroscience'
 paperurl: 'https://doi.org/10.1155/2019/7172842'
+bibtexurl: '/files/bibtex/zang2019hybrid.bib'
 citation: 'Zelin Zang, Wanliang Wang, Yuhang Song, Linyan Lu, Weikun Li, Yule Wang, Yanwei Zhao. (2019). &quot;Hybrid Deep Neural Network Scheduler for Job-Shop Problem Based on Convolution Two-Dimensional Transformation.&quot; <i>Computational intelligence and neuroscience</i>.'
 ---

@@ -7,5 +7,6 @@ excerpt: 'Kailong Zhao, Yuhao Xia, Fujin Zhang, <b>Zelin Zang</b>, Stan Z. Li, G
 date: 2023-01-01
 venue: 'Communications biology'
 paperurl: 'https://doi.org/10.1038/s42003-023-04605-8'
+bibtexurl: '/files/bibtex/zhao2023protein.bib'
 citation: 'Kailong Zhao, Yuhao Xia, Fujin Zhang, Zelin Zang, Stan Z. Li, Guijun Zhang. (2023). &quot;Protein structure and folding pathway prediction based on remote homologs recognition using PAthreader.&quot; <i>Communications biology</i>.'
 ---

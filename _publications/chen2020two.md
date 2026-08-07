@@ -7,5 +7,6 @@ excerpt: 'Guoqi Chen, Wanliang Wang, Zheng Wang, Honghai Liu, <b>Zelin Zang</b>,
 date: 2020-01-01
 venue: 'Applied Intelligence'
 paperurl: 'https://doi.org/10.1007/s10489-020-01725-0'
+bibtexurl: '/files/bibtex/chen2020two.bib'
 citation: 'Guoqi Chen, Wanliang Wang, Zheng Wang, Honghai Liu, Zelin Zang, Weikun Li. (2020). &quot;Two-dimensional discrete feature based spatial attention CapsNet For sEMG signal recognition.&quot; <i>Applied Intelligence</i>.'
 ---

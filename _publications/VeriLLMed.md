@@ -7,6 +7,7 @@ excerpt: 'Yurui Xiang, Xingyi Mao, Rui Sheng, Zixin Chen, <b>Zelin Zang</b>, Yuy
 date: 2026-03-31
 venue: 'IEEE Visualization and Visual Analytics (VIS)'
 paperurl: 'https://arxiv.org/abs/2604.23356'
+bibtexurl: '/files/bibtex/VeriLLMed.bib'
 citation: 'Yurui Xiang, Xingyi Mao, Rui Sheng, Zixin Chen, Zelin Zang, Yuyang Wu, Haipeng Zeng, Huamin Qu, Yushi Sun, Yanna Lin. (2026). &quot;VeriLLMed: Visual Debugging of Medical Large Language Models with Knowledge Graphs.&quot; <i>IEEE Visualization and Visual Analytics (VIS)</i>.'
 ---
 

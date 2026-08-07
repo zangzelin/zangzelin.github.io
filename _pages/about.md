@@ -24,7 +24,11 @@ Previously, I obtained my Ph.D. from **Zhejiang University** (jointly trained wi
 
 {% include openings-cta.html %}
 
+{% include code.html %}
+
 {% include research-interests.html %}
+
+{% include research-banner.html %}
 
 {% include publication-legend.html %}
 

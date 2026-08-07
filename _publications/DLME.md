@@ -8,5 +8,6 @@ excerpt: '<b>Zelin Zang</b>, Siyuan Li, Di Wu, Ge Wang, Kai Wang, Lei Shang, Bai
 date: 2022-10-01
 venue: 'European Conference on Computer Vision (ECCV)'
 paperurl: 'https://arxiv.org/abs/2207.03160'
+bibtexurl: '/files/bibtex/DLME.bib'
 citation: 'Zelin Zang, Siyuan Li, Di Wu, Ge Wang, Kai Wang, Lei Shang, Baigui Sun, Hao Li, Stan Z. Li. (2022). &quot;DLME: Deep Local-flatness Manifold Embedding.&quot; <i>ECCV 2022</i>.'
 ---

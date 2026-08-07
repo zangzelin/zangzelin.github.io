@@ -7,5 +7,6 @@ excerpt: 'Changxi Chi, Yufei Huang, Jun Xia, Jingbo Zheng, Yunfan Liu, <b>Zelin 
 date: 2026-02-20
 venue: 'AAAI Conference on Artificial Intelligence (AAAI)'
 paperurl: 'https://arxiv.org/abs/2511.13124'
+bibtexurl: '/files/bibtex/Departures.bib'
 citation: 'Changxi Chi, Yufei Huang, Jun Xia, Jingbo Zheng, Yunfan Liu, Zelin Zang, Stan Z. Li. (2026). &quot;Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges.&quot; <i>AAAI Conference on Artificial Intelligence (AAAI)</i>.'
 ---

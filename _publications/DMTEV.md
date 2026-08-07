@@ -8,6 +8,7 @@ excerpt: '<b>Zelin Zang</b>, Shenghui Cheng, Hanchen Xia, Liangyu Li, Yaoting Su
 date: 2024-01-01
 venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)'
 paperurl: 'https://doi.org/10.1109/TVCG.2022.3223399'
+bibtexurl: '/files/bibtex/DMTEV.bib'
 citation: 'Zelin Zang, Shenghui Cheng, Hanchen Xia, Liangyu Li, Yaoting Sun, Yongjie Xu, Lei Shang, Baigui Sun, Stan Z. Li. (2024). &quot;DMTEV: An Explainable Deep Network for Dimension Reduction.&quot; <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>.'
 ---
 

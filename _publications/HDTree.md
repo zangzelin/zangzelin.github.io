@@ -8,5 +8,6 @@ excerpt: '<b>Zelin Zang</b>, WenZhe Li, Yongjie Xu, Chang Yu, Changxi Chi, Jingb
 date: 2026-05-01
 venue: 'International Conference on Machine Learning (ICML)'
 paperurl: 'https://arxiv.org/abs/2506.23287'
+bibtexurl: '/files/bibtex/HDTree.bib'
 citation: 'Zelin Zang, WenZhe Li, Yongjie Xu, Chang Yu, Changxi Chi, Jingbo Zhou, Zhen Lei, Stan Z. Li. (2026). &quot;HDTree: Generative Modeling of Cellular Hierarchies for Robust Lineage Inference.&quot; <i>International Conference on Machine Learning (ICML)</i>.'
 ---

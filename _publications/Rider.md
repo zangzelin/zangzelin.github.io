@@ -7,5 +7,6 @@ excerpt: 'Gaoyang Luo, **Zelin Zang**, Stan Z. Li, Feng Ju, <i>Nature Communicat
 date: 2026-01-10
 venue: 'Nature Communications - Accepted in Principle'
 paperurl: 'https://doi.org/10.1101/2025.11.24.690314'
+bibtexurl: '/files/bibtex/Rider.bib'
 citation: 'Gaoyang Luo, Zelin Zang, Stan Z. Li, Feng Ju. (2026). &quot;Expanding the RNA Virus Universe by Scalable Structure-Guided Discovery.&quot; <i>Nature Communications</i> (accepted in principle).'
 ---

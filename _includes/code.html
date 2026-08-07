@@ -1,0 +1,33 @@
+<section class="code-section">
+  <div class="section-heading">
+    <h2><i class="fab fa-github" aria-hidden="true"></i> Code / Software</h2>
+    <a class="section-heading__link" href="https://github.com/{{ site.author.github }}" rel="noopener noreferrer" target="_blank">GitHub</a>
+  </div>
+
+  <div class="code-grid">
+    {% for project in site.data.code %}
+    <article class="code-card">
+      <div class="code-card__head">
+        <h3 class="code-card__name"><a href="https://github.com/{{ project.repo }}" rel="noopener noreferrer" target="_blank"><i class="fab fa-github" aria-hidden="true"></i>{{ project.name }}</a></h3>
+        {% if project.stars %}
+        <span class="code-card__stars" title="GitHub stars"><i class="fa fa-star" aria-hidden="true"></i>{{ project.stars }}</span>
+        {% endif %}
+      </div>
+      <p class="code-card__desc">{{ project.description }}</p>
+      <div class="code-card__tags">
+        {% for tag in project.tags %}
+        <span class="badge">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      <div class="code-card__links">
+        {% if project.paper_link %}
+        <a href="{{ project.paper_link }}">Paper</a>
+        {% endif %}
+        {% if project.website and project.repo %}
+        <a href="{{ project.website }}" rel="noopener noreferrer" target="_blank">Project page</a>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
