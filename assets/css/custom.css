@@ -986,7 +986,7 @@
   text-decoration: underline;
 }
 
-.code-card__stars {
+.code-card__year {
   flex-shrink: 0;
   display: inline-flex;
   align-items: center;
@@ -998,9 +998,9 @@
   white-space: nowrap;
 }
 
-.code-card__stars .fa {
-  color: #f5a623;
-  opacity: 0.9;
+.code-card__year .fa {
+  color: var(--global-link-color);
+  opacity: 0.85;
 }
 
 .code-card__desc {

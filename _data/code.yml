@@ -5,7 +5,7 @@
 #   description - one-sentence English summary
 #   description_zh - one-sentence Chinese summary
 #   repo        - GitHub repository path (owner/repo)
-#   stars       - approximate star count at time of writing
+#   year        - publication year of the associated paper
 #   paper_link  - optional page/permalink of the associated publication
 #   website     - optional project homepage / paper URL
 #   tags        - language or category labels
@@ -16,7 +16,7 @@
   description_zh: >-
     基于扩散模型的数据增广方法，无需领域知识即可增强无监督对比学习。
   repo: zangzelin/code_diffaug
-  stars: 22
+  year: 2024
   paper_link: /publication/2024-07-01-boosting-contrastive
   website: https://icml.cc/virtual/2024/poster/32932
   tags:
@@ -30,7 +30,7 @@
   description_zh: >-
     基于多模态结构变换的统一空间转录组多任务分析方法。
   repo: zangzelin/code_Must
-  stars: 30
+  year: 2025
   paper_link: /publication/2025-bib-must
   website: https://academic.oup.com/bib/article/26/4/bbaf405/8242581
   tags:
@@ -44,7 +44,7 @@
   description_zh: >-
     基于 MoE 的可解释深度流形变换方法，用于复杂数据的嵌入与可视化。
   repo: zangzelin/code_dmtme
-  stars: 27
+  year: 2026
   paper_link: /publication/2026-01-01-dmt-me
   website: https://doi.org/10.1109/tpami.2026.3705888
   tags:
@@ -58,7 +58,7 @@
   description_zh: >-
     深度局部平坦流形嵌入方法，用于高维数据的可视化。
   repo: zangzelin/code_ECCV2022_DLME
-  stars: 17
+  year: 2022
   paper_link: /publication/2022-eccv-dlme
   website: https://arxiv.org/abs/2207.03160
   tags:
@@ -71,7 +71,7 @@
   description_zh: >-
     用于维度缩减的可解释深度网络。
   repo: zangzelin/code_EVNet_DMTEV
-  stars: 10
+  year: 2024
   paper_link: /publication/2024-01-01-evnet
   website: https://doi.org/10.1109/TVCG.2022.3223399
   tags:
@@ -85,7 +85,7 @@
   description_zh: >-
     基于无监督软对比学习的多元时间序列故障检测方法。
   repo: zangzelin/code_USD
-  stars: 10
+  year: 2025
   paper_link: /publication/2025-icassp-usd
   website: https://doi.org/10.1109/icassp49660.2025.10890487
   tags:
@@ -99,7 +99,7 @@
   description_zh: >-
     用于跨领域新类别发现增强的软对比学习方法。
   repo: zangzelin/code_san_share
-  stars: 7
+  year: 2023
   paper_link: /publication/2023-10-01-novel-category
   website: https://openaccess.thecvf.com/content/ICCV2023/html/Zang_Boosting_Novel_Category_Discovery_Over_Domains_with_Soft_Contrastive_Learning_ICCV_2023_paper.html
   tags:
@@ -112,7 +112,7 @@
   description_zh: >-
     属性图的深度流形嵌入方法。
   repo: zangzelin/paper_code_DMAGE
-  stars: 5
+  year: 2022
   paper_link: /publication/2022-neurocomputing-dmage
   website: https://doi.org/10.1016/j.neucom.2022.09.100
   tags:
@@ -125,7 +125,7 @@
   description_zh: >-
     细胞层级结构的生成式建模方法，用于鲁棒的谱系推断。
   repo: zangzelin/code_HDTree_icml
-  stars: 0
+  year: 2026
   paper_link: /publication/2026-icml-hdtree
   website: https://arxiv.org/abs/2506.23287
   tags:

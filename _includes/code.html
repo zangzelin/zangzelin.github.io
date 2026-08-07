@@ -9,8 +9,8 @@
     <article class="code-card">
       <div class="code-card__head">
         <h3 class="code-card__name"><a href="https://github.com/{{ project.repo }}" rel="noopener noreferrer" target="_blank"><i class="fab fa-github" aria-hidden="true"></i>{{ project.name }}</a></h3>
-        {% if project.stars %}
-        <span class="code-card__stars" title="GitHub stars"><i class="fa fa-star" aria-hidden="true"></i>{{ project.stars }}</span>
+        {% if project.year %}
+        <span class="code-card__year" title="Publication year"><i class="fa fa-calendar" aria-hidden="true"></i>{{ project.year }}</span>
         {% endif %}
       </div>
       <p class="code-card__desc">{{ project.description }}</p>
