@@ -52,6 +52,8 @@ Skills
 
 Academic Service
 ======
+*   **Editorial Board Member:**
+    *   Neurocomputing (Elsevier), Editorial Board Member (Aug 2026 – Jul 2029)
 *   **Journal Reviewer:**
     *   IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
     *   IEEE Transactions on Neural Networks and Learning Systems (TNNLS)

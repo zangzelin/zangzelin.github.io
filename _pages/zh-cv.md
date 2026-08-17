@@ -53,6 +53,8 @@ redirect_from:
 
 学术服务
 ======
+*   **编委:**
+    *   Neurocomputing（Elsevier），编委会成员（2026-08 至 2029-07）
 *   **期刊审稿人:**
     *   IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
     *   IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
