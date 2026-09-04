@@ -2,6 +2,7 @@
 title: "Complex hierarchical structures analysis in single-cell data with Poincaré deep manifold transformation"
 collection: publications
 category: manuscripts
+author_role: first
 permalink: /publication/2025-bib-poincaredmt
 excerpt: '**Zelin Zang\***, Yongjie Xu\*, Bozhen Hu, Yue Yuan, Cheng Tan, Jun Xia, Stan Z. Li, <i>Briefings in Bioinformatics</i>, 2025, <span class="badge">CCF-B, SCI Q1, AI4SCI</span>, <span class="badge">Co-first Author</span>'
 date: 2025-01-20

@@ -19,11 +19,11 @@
   {% if post.selected %}
     {% assign pub_filter_tags = pub_filter_tags | append: " selected" %}
   {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" or post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
+  {% assign pub_role = post.author_role | default: "coauthor" %}
+  {% if pub_role == "first" or pub_role == "cofirst" %}
     {% assign pub_filter_tags = pub_filter_tags | append: " first" %}
   {% endif %}
-  {% if post.excerpt contains "Corresponding Author" %}
+  {% if pub_role == "corresponding" %}
     {% assign pub_filter_tags = pub_filter_tags | append: " corresponding" %}
   {% endif %}
   {% if post.excerpt contains "CCF-A" %}

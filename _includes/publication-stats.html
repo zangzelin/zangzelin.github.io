@@ -23,23 +23,16 @@
 {% assign pubs_corr = 0 %}
 {% assign pubs_other = 0 %}
 {% for post in site.publications %}
+  {% comment %} Author role comes from the structured author_role front-matter field (first / cofirst / corresponding / coauthor); missing field falls back to coauthor. {% endcomment %}
+  {% assign role = post.author_role | default: "coauthor" %}
   {% assign is_first = false %}
   {% assign is_co_first = false %}
-  {% if post.excerpt contains "Co-first Author" %}
-    {% assign is_co_first = true %}
-  {% elsif post.excerpt contains "First Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  
-  {% unless is_first or is_co_first %}
-    {% assign author_check = post.excerpt | split: "," | first %}
-    {% if author_check contains "Zelin Zang" %}
-      {% assign is_first = true %}
-    {% endif %}
-  {% endunless %}
-
   {% assign is_corr = false %}
-  {% if post.excerpt contains "Corresponding Author" %}
+  {% if role == "first" %}
+    {% assign is_first = true %}
+  {% elsif role == "cofirst" %}
+    {% assign is_co_first = true %}
+  {% elsif role == "corresponding" %}
     {% assign is_corr = true %}
   {% endif %}
 

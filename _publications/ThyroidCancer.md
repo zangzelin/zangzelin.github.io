@@ -2,6 +2,7 @@
 title: "Multi-center multi-omics integration predicts individualized prognosis in medullary thyroid carcinoma"
 collection: publications
 category: manuscripts
+author_role: cofirst
 selected: true
 permalink: /publication/2026-natcomm-thyroid
 excerpt: 'Yan Zhou\*, Yingrui Wang\*, Xiao Shi\*, Jiatong Wang\*, **Zelin Zang\***, Likun Zhang\*, Zhiqiang Gui, Xue Cai, Pingping Hu, Jiaxi Wang, Hanqing Liu, Zhihong Wang, Haixia Guan, Xiaohong Wu, Cenkai Shen, Yi He, Mo Li, Hao Zhang, Jianbiao Wang, Yijun Wu, Chuang Chen, Yi Zhu, Yaoting Sun, Zhiyan Liu, Yu Wang, Tiannan Guo, <i>Nature Communications</i>, 2026, <span class="badge">SCI Q1, IF=15.7</span>, <span class="badge">Co-first Author</span>'

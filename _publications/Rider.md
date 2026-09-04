@@ -2,6 +2,7 @@
 title: "Expanding the RNA Virus Universe by Scalable Structure-Guided Discovery"
 collection: publications
 category: manuscripts
+author_role: coauthor
 permalink: /publication/2026-nature-method-rider
 excerpt: 'Gaoyang Luo, **Zelin Zang**, Stan Z. Li, Feng Ju, <i>Nature Communications (Accepted in Principle)</i>, <span class="badge">SCI Q1, IF=15.7</span>, <span class="badge">Top Multidisciplinary Journal</span>'
 date: 2026-01-10

@@ -2,6 +2,7 @@
 title: "USD: Unsupervised Soft Contrastive Learning for Fault Detection in Multivariate Time Series"
 collection: publications
 category: conferences
+author_role: corresponding
 permalink: /publication/2025-icassp-usd
 excerpt: 'Hong Liu, Xiuxiu Qiu, Yiming Shi, <b>Zelin Zang&dagger;</b>, <i>IEEE ICASSP</i>, 2025, <span class="badge">CCF-B</span>, <span class="badge">Corresponding Author</span>'
 date: 2025-04-01

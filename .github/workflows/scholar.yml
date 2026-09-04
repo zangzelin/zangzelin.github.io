@@ -1,0 +1,42 @@
+name: Monthly Scholar Citation Update
+
+on:
+  schedule:
+    - cron: '23 3 4 * *'   # 4th of every month, ~03:23 UTC (off the :00/:30 marks)
+  workflow_dispatch:
+
+concurrency:
+  group: scholar-update
+  cancel-in-progress: false
+
+jobs:
+  citations:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write           # This workflow pushes to the repository
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: pip install requests beautifulsoup4 pyyaml
+
+    - name: Update citation count
+      # update_citations.py only rewrites _data/scholar.yml when it successfully
+      # fetches a new count, so a scrape failure keeps the previous value.
+      run: python3 update_citations.py
+
+    - name: Commit changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add _data/scholar.yml
+        git diff --cached --quiet && echo "No changes to commit" || {
+          git commit -m "Update Google Scholar citation count"
+          git push
+        }

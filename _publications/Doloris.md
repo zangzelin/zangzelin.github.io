@@ -2,6 +2,7 @@
 title: "Doloris: Dual Conditional Diffusion Implicit Bridges with Sparsity Masking Strategy for Unpaired Single-Cell Perturbation Estimation"
 collection: publications
 category: conferences
+author_role: corresponding
 selected: true
 permalink: /publication/2026-iclr-doloris
 excerpt: 'Changxi Chi, Jun Xia, Yufei Huang, Zhuoli Ouyang, Cheng Tan, Yunfan Liu, Jingbo Zhou, Chang Yu, Liangyu Yuan, Siyuan Li, <b>Zelin Zang&dagger;</b>, Stan Z. Li, <i>International Conference on Learning Representations (ICLR)</i>, 2026, <span class="badge">CCF-A</span>, <span class="badge">Poster</span>, <span class="badge">Corresponding Author</span>'

@@ -2,6 +2,7 @@
 title: "Architecture-Agnostic Masked Image Modeling--From ViT back to CNN"
 collection: publications
 category: conferences
+author_role: coauthor
 permalink: /publication/2023-architecture-agnostic
 excerpt: 'Siyuan Li, Di Wu, Fang Wu, <b>Zelin Zang</b>, Stan Li, <i>International Conference on Machine Learning (ICML23)</i>, 2023, <span class="badge">CCF-A</span>'
 date: 2023-01-01

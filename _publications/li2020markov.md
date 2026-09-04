@@ -2,6 +2,7 @@
 title: "Markov-lipschitz deep learning"
 collection: publications
 category: manuscripts
+author_role: cofirst
 permalink: /publication/2020-markov-lipschitz
 excerpt: 'Stan Z. Li\*, **Zelin Zang\***, Lirong Wu, <i>arXiv preprint arXiv:2006.08256</i>, 2020, <span class="badge">Co-first Author</span>'
 date: 2020-01-01

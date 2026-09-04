@@ -2,6 +2,7 @@
 title: "MuST: Advancing Unified Spatial Transcriptomics Multitask Analysis with Multimodal Structure Transformation"
 collection: publications
 category: manuscripts
+author_role: first
 permalink: /publication/2025-bib-must
 excerpt: '<b>Zelin Zang</b>, Liangyu Li, Yongjie Xu, Chenrui Duan, Yue Shen, Yi Sun, Zhen Lei, Stan Z. Li, <i>Briefings in Bioinformatics</i>, 2025, <span class="badge">CCF-B, SCI Q1, AI4SCI</span>, <span class="badge">First Author</span>'
 date: 2025-02-01

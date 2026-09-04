@@ -2,6 +2,7 @@
 title: "The Dawn of Agentic EDA: A Survey of Autonomous Digital Chip Design"
 collection: publications
 category: manuscripts
+author_role: first
 permalink: /publication/2025-agentic-eda
 excerpt: '<b>Zelin Zang</b>, Yutong Song, Bingo Wing-Kuen Ling, Aoxiao Wang, Fuji Yang, <i>arXiv preprint arXiv:2512.23189</i>, 2025'
 date: 2025-12-01

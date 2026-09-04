@@ -2,6 +2,7 @@
 title: "Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges"
 collection: publications
 category: conferences
+author_role: coauthor
 permalink: /publication/2026-aaai-departures
 excerpt: 'Changxi Chi, Yufei Huang, Jun Xia, Jingbo Zheng, Yunfan Liu, <b>Zelin Zang</b>, Stan Z. Li, <i>AAAI Conference on Artificial Intelligence (AAAI)</i>, 2026, <span class="badge">CCF-A</span>'
 date: 2026-02-20

@@ -21,41 +21,39 @@ author_profile: true
 
 {% include selected-publications.html %}
 
+{% comment %}
+  Papers are grouped by the structured `author_role` front-matter field
+  (first / cofirst / corresponding / coauthor), NOT by string-matching the
+  excerpt. Add `author_role` to a new publication's front matter; entries
+  without the field fall back to "coauthor".
+{% endcomment %}
+
 <div class="publications-compact">
 {% assign pub_num = 0 %}
+
 <!-- First / Co-First Author Section -->
 <h2>First / Co-First Author</h2>
 <hr />
 
 <h3>Journal Articles</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% if is_first and post.category == "manuscripts" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "first" or role == "cofirst" %}
+    {% if post.category == "manuscripts" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
 <h3>Conference Papers</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% if is_first and post.category == "conferences" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "first" or role == "cofirst" %}
+    {% if post.category == "conferences" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -65,41 +63,23 @@ author_profile: true
 
 <h3>Journal Articles</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign is_corr = false %}
-  {% if post.excerpt contains "Corresponding Author" %}
-    {% assign is_corr = true %}
-  {% endif %}
-  {% if is_corr and is_first == false and post.category == "manuscripts" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "corresponding" %}
+    {% if post.category == "manuscripts" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
 <h3>Conference Papers</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign is_corr = false %}
-  {% if post.excerpt contains "Corresponding Author" %}
-    {% assign is_corr = true %}
-  {% endif %}
-  {% if is_corr and is_first == false and post.category == "conferences" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "corresponding" %}
+    {% if post.category == "conferences" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -109,41 +89,23 @@ author_profile: true
 
 <h3>Journal Articles</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign is_corr = false %}
-  {% if post.excerpt contains "Corresponding Author" %}
-    {% assign is_corr = true %}
-  {% endif %}
-  {% if is_first == false and is_corr == false and post.category == "manuscripts" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "coauthor" %}
+    {% if post.category == "manuscripts" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
 <h3>Conference Papers</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign is_corr = false %}
-  {% if post.excerpt contains "Corresponding Author" %}
-    {% assign is_corr = true %}
-  {% endif %}
-  {% if is_first == false and is_corr == false and post.category == "conferences" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "coauthor" %}
+    {% if post.category == "conferences" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 </div>

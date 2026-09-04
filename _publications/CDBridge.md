@@ -2,6 +2,7 @@
 title: "CDBridge: A Cross-omics Post-training Bridge Strategy for Context-aware Biological Modeling"
 collection: publications
 category: conferences
+author_role: coauthor
 permalink: /publication/2026-iclr-cdbridge
 excerpt: 'Chang Yu, Siyuan Li, Zicheng Liu, Jingbo Zhou, Xianglong Guo, Kai Yu, Yuqing Zhou, Ken Li, <b>Zelin Zang</b>, Zhen Lei, Stan Z. Li, <i>International Conference on Learning Representations (ICLR)</i>, 2026, <span class="badge">Poster</span>'
 date: 2026-04-25

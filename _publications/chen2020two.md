@@ -2,6 +2,7 @@
 title: "Two-dimensional discrete feature based spatial attention CapsNet For sEMG signal recognition"
 collection: publications
 category: manuscripts
+author_role: coauthor
 permalink: /publication/2020-two-dimensional
 excerpt: 'Guoqi Chen, Wanliang Wang, Zheng Wang, Honghai Liu, <b>Zelin Zang</b>, Weikun Li, <i>Applied Intelligence</i>, 2020, <span class="badge">CCF-C</span> <span class="badge">SCI Q2</span>'
 date: 2020-01-01

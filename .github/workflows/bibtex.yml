@@ -1,0 +1,35 @@
+name: Regenerate Publication BibTeX
+
+on:
+  push:
+    paths:
+      - '_publications/**'
+      - 'scripts/generate_bibtex.py'
+  workflow_dispatch:
+
+jobs:
+  bibtex:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write           # This workflow pushes to the repository
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Generate BibTeX files
+      run: python3 scripts/generate_bibtex.py
+
+    - name: Commit changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add files/bibtex _publications
+        git diff --cached --quiet && echo "No changes to commit" || {
+          git commit -m "Regenerate publication BibTeX files"
+          git push
+        }

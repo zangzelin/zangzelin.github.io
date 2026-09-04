@@ -2,6 +2,7 @@
 title: "Neural network diffusion"
 collection: publications
 category: manuscripts
+author_role: coauthor
 permalink: /publication/2024-neural-network
 excerpt: 'Kai Wang, Dongwen Tang, Boya Zeng, Yida Yin, Zhaopan Xu, Yukun Zhou, <b>Zelin Zang</b>, Trevor Darrell, Zhuang Liu, Yang You, <i>arXiv preprint arXiv:2402.13144</i>, 2024'
 date: 2024-01-01

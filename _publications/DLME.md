@@ -2,6 +2,7 @@
 title: "DLME: Deep Local-flatness Manifold Embedding"
 collection: publications
 category: conferences
+author_role: first
 selected: true
 permalink: /publication/2022-eccv-dlme
 excerpt: '<b>Zelin Zang</b>, Siyuan Li, Di Wu, Ge Wang, Kai Wang, Lei Shang, Baigui Sun, Hao Li, Stan Z. Li, <i>European Conference on Computer Vision (ECCV)</i>, 2022, <span class="badge">CCF-B / CAAI-A / THU-A</span>, <span class="badge">First Author</span>'

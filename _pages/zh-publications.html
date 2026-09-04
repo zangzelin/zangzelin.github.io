@@ -22,6 +22,13 @@ lang: zh
 
 {% include selected-publications-zh.html %}
 
+{% comment %}
+  论文按 front matter 中的结构化字段 author_role
+  （first / cofirst / corresponding / coauthor）分组，
+  不再对 excerpt 做字符串匹配。新增论文时请在 front matter
+  加 author_role 字段；缺省按 coauthor 处理。
+{% endcomment %}
+
 <div class="publications-compact">
 {% assign pub_num = 0 %}
 <h2>第一作者 / 共同第一作者</h2>
@@ -29,33 +36,23 @@ lang: zh
 
 <h3>期刊论文</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% if is_first and post.category == "manuscripts" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "first" or role == "cofirst" %}
+    {% if post.category == "manuscripts" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
 <h3>会议论文</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% if is_first and post.category == "conferences" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "first" or role == "cofirst" %}
+    {% if post.category == "conferences" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -64,41 +61,23 @@ lang: zh
 
 <h3>期刊论文</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign is_corr = false %}
-  {% if post.excerpt contains "Corresponding Author" %}
-    {% assign is_corr = true %}
-  {% endif %}
-  {% if is_corr and is_first == false and post.category == "manuscripts" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "corresponding" %}
+    {% if post.category == "manuscripts" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
 <h3>会议论文</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign is_corr = false %}
-  {% if post.excerpt contains "Corresponding Author" %}
-    {% assign is_corr = true %}
-  {% endif %}
-  {% if is_corr and is_first == false and post.category == "conferences" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "corresponding" %}
+    {% if post.category == "conferences" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -107,41 +86,23 @@ lang: zh
 
 <h3>期刊论文</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign is_corr = false %}
-  {% if post.excerpt contains "Corresponding Author" %}
-    {% assign is_corr = true %}
-  {% endif %}
-  {% if is_first == false and is_corr == false and post.category == "manuscripts" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "coauthor" %}
+    {% if post.category == "manuscripts" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
 <h3>会议论文</h3>
 {% for post in site.publications reversed %}
-  {% assign is_first = false %}
-  {% if post.excerpt contains "First Author" or post.excerpt contains "Co-first Author" or post.excerpt contains "first Author" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign author_check = post.excerpt | split: "," | first %}
-  {% if author_check contains "Zelin Zang" %}
-    {% assign is_first = true %}
-  {% endif %}
-  {% assign is_corr = false %}
-  {% if post.excerpt contains "Corresponding Author" %}
-    {% assign is_corr = true %}
-  {% endif %}
-  {% if is_first == false and is_corr == false and post.category == "conferences" %}
-    {% assign pub_num = pub_num | plus: 1 %}
-    {% include archive-single.html number=pub_num %}
+  {% assign role = post.author_role | default: "coauthor" %}
+  {% if role == "coauthor" %}
+    {% if post.category == "conferences" %}
+      {% assign pub_num = pub_num | plus: 1 %}
+      {% include archive-single.html number=pub_num %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 </div>

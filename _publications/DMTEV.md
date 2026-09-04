@@ -2,6 +2,7 @@
 title: "DMTEV: An Explainable Deep Network for Dimension Reduction"
 collection: publications
 category: manuscripts
+author_role: first
 selected: true
 permalink: /publication/2024-01-01-evnet
 excerpt: '<b>Zelin Zang</b>, Shenghui Cheng, Hanchen Xia, Liangyu Li, Yaoting Sun, Yongjie Xu, Lei Shang, Baigui Sun, Stan Z. Li, <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>, 2024, <span class="badge">CCF-A</span>, <span class="badge">First Author</span>'
