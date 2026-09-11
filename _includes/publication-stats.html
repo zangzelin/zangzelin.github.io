@@ -23,16 +23,19 @@
 {% assign pubs_corr = 0 %}
 {% assign pubs_other = 0 %}
 {% for post in site.publications %}
-  {% comment %} Author role comes from the structured author_role front-matter field (first / cofirst / corresponding / coauthor); missing field falls back to coauthor. {% endcomment %}
+  {% comment %} author_role remains the primary grouping field. author_roles can record overlapping roles for statistics, such as co-first and corresponding author on the same paper. {% endcomment %}
   {% assign role = post.author_role | default: "coauthor" %}
+  {% assign roles = post.author_roles | default: empty %}
   {% assign is_first = false %}
   {% assign is_co_first = false %}
   {% assign is_corr = false %}
-  {% if role == "first" %}
+  {% if role == "first" or roles contains "first" %}
     {% assign is_first = true %}
-  {% elsif role == "cofirst" %}
+  {% endif %}
+  {% if role == "cofirst" or roles contains "cofirst" %}
     {% assign is_co_first = true %}
-  {% elsif role == "corresponding" %}
+  {% endif %}
+  {% if role == "corresponding" or roles contains "corresponding" %}
     {% assign is_corr = true %}
   {% endif %}
 
@@ -82,7 +85,7 @@
     {% endunless %}
   {% endif %}
 
-  {% if post.excerpt contains "Top Journal" or post.excerpt contains "IF=" or post.excerpt contains "SCI Q1" or post.excerpt contains "SCI" %}
+  {% if post.excerpt contains "Top Journal" or post.excerpt contains "IF=" or post.excerpt contains "SCI Q1" %}
     {% assign sci_q1_total = sci_q1_total | plus: 1 %}
     {% if is_first %}
       {% assign sci_q1_first = sci_q1_first | plus: 1 %}
