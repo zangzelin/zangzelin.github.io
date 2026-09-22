@@ -85,7 +85,7 @@
     {% endunless %}
   {% endif %}
 
-  {% if post.excerpt contains "Top Journal" or post.excerpt contains "IF=" or post.excerpt contains "SCI Q1" %}
+  {% if post.excerpt contains "SCI Q1" %}
     {% assign sci_q1_total = sci_q1_total | plus: 1 %}
     {% if is_first %}
       {% assign sci_q1_first = sci_q1_first | plus: 1 %}

@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 author_role: first
 permalink: /publication/2023-nn-udrn
-excerpt: '<b>Zelin Zang</b>, Yongjie Xu, Linyan Lu, Yulan Geng, Senqiao Yang, Stan Z. Li, <i>Neural Networks</i>, 2023, <span class="badge">CCF-B</span>, <span class="badge">First Author</span>'
+excerpt: '<b>Zelin Zang</b>, Yongjie Xu, Linyan Lu, Yulan Geng, Senqiao Yang, Stan Z. Li, <i>Neural Networks</i>, 2023, <span class="badge">CCF-B</span>, <span class="badge">SCI Q1</span>, <span class="badge">First Author</span>'
 date: 2023-09-01
 venue: 'Neural Networks'
 paperurl: 'https://doi.org/10.1016/j.neunet.2023.02.018'

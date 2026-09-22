@@ -5,7 +5,7 @@ category: manuscripts
 author_role: first
 selected: true
 permalink: /publication/2024-01-01-evnet
-excerpt: '<b>Zelin Zang</b>, Shenghui Cheng, Hanchen Xia, Liangyu Li, Yaoting Sun, Yongjie Xu, Lei Shang, Baigui Sun, Stan Z. Li, <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>, 2024, <span class="badge">CCF-A</span>, <span class="badge">First Author</span>'
+excerpt: '<b>Zelin Zang</b>, Shenghui Cheng, Hanchen Xia, Liangyu Li, Yaoting Sun, Yongjie Xu, Lei Shang, Baigui Sun, Stan Z. Li, <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>, 2024, <span class="badge">CCF-A</span>, <span class="badge">SCI Q1</span>, <span class="badge">First Author</span>'
 date: 2024-01-01
 venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)'
 paperurl: 'https://doi.org/10.1109/TVCG.2022.3223399'

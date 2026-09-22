@@ -5,7 +5,7 @@ category: manuscripts
 author_role: corresponding
 selected: true
 permalink: /publication/2026-02-01-cellscout
-excerpt: 'Rui Sheng, <b>Zelin Zang&dagger;</b>, Jiachen Wang, Yan Luo, Zixin Chen, Yan Zhou, Shaolun Ruan, Huamin Qu, <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>, 2026, <span class="badge">CCF-A</span>, <span class="badge">Corresponding Author</span>'
+excerpt: 'Rui Sheng, <b>Zelin Zang&dagger;</b>, Jiachen Wang, Yan Luo, Zixin Chen, Yan Zhou, Shaolun Ruan, Huamin Qu, <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>, 2026, <span class="badge">CCF-A</span>, <span class="badge">SCI Q1</span>, <span class="badge">Corresponding Author</span>'
 date: 2026-02-01
 venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)'
 paperurl: 'https://doi.org/10.1109/tvcg.2025.3636102'
