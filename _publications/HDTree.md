@@ -3,6 +3,7 @@ title: "HDTree: Generative Modeling of Cellular Hierarchies for Robust Lineage I
 collection: publications
 category: conferences
 author_role: first
+rankings: [CCF-A, CAAI-A]
 selected: true
 permalink: /publication/2026-icml-hdtree
 excerpt: '<b>Zelin Zang</b>, WenZhe Li, Yongjie Xu, Chang Yu, Changxi Chi, Jingbo Zhou, Zhen Lei, Stan Z. Li, <i>International Conference on Machine Learning (ICML)</i>, 2026, <span class="badge">CCF-A</span>, <span class="badge">First Author</span>'

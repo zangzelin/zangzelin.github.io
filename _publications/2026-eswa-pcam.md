@@ -3,6 +3,7 @@ title: "PCaM: Progressive Cross-Attention Mechanism for Robust Foreground-Aware 
 collection: publications
 category: manuscripts
 author_role: corresponding
+rankings: [SCI-Q1]
 permalink: /publication/2026-eswa-pcam
 excerpt: 'Yixuan Dong, Hongliang Zhang, Liangyu Li, Bolin Yang, Haijie Yang, Wing-Kuen Ling, Miao Xu, Fuji Yang, <b>Zelin Zang&dagger;</b>, <i>Expert Systems With Applications</i>, 2026, <span class="badge">CCF-C</span>, <span class="badge">SCI Q1</span>, <span class="badge">Corresponding Author</span>'
 date: 2026-09-03

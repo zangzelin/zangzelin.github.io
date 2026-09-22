@@ -1,17 +1,18 @@
 {% comment %}
-  Publication statistics: CCF/CAAI-A, CCF-B, SCI Q1 (card-style)
-  Include this in about.md and publications.html
+  Publication statistics are generated from structured front-matter fields.
+  Add `rankings: [CCF-A, CAAI-A, SCI-Q1]` as applicable when adding a paper.
+  `author_role` is the primary role; `author_roles` records overlapping roles.
 {% endcomment %}
 {% assign ccf_a_total = 0 %}
 {% assign ccf_a_first = 0 %}
 {% assign ccf_a_co_first = 0 %}
 {% assign ccf_a_corr = 0 %}
 {% assign ccf_a_other = 0 %}
-{% assign ccf_b_total = 0 %}
-{% assign ccf_b_first = 0 %}
-{% assign ccf_b_co_first = 0 %}
-{% assign ccf_b_corr = 0 %}
-{% assign ccf_b_other = 0 %}
+{% assign caai_a_total = 0 %}
+{% assign caai_a_first = 0 %}
+{% assign caai_a_co_first = 0 %}
+{% assign caai_a_corr = 0 %}
+{% assign caai_a_other = 0 %}
 {% assign sci_q1_total = 0 %}
 {% assign sci_q1_first = 0 %}
 {% assign sci_q1_co_first = 0 %}
@@ -23,9 +24,9 @@
 {% assign pubs_corr = 0 %}
 {% assign pubs_other = 0 %}
 {% for post in site.publications %}
-  {% comment %} author_role remains the primary grouping field. author_roles can record overlapping roles for statistics, such as co-first and corresponding author on the same paper. {% endcomment %}
   {% assign role = post.author_role | default: "coauthor" %}
   {% assign roles = post.author_roles | default: empty %}
+  {% assign rankings = post.rankings | default: empty %}
   {% assign is_first = false %}
   {% assign is_co_first = false %}
   {% assign is_corr = false %}
@@ -35,7 +36,7 @@
   {% if role == "cofirst" or roles contains "cofirst" %}
     {% assign is_co_first = true %}
   {% endif %}
-  {% if role == "corresponding" or roles contains "corresponding" %}
+  {% if role == "corresponding" or role == "cocorresponding" or roles contains "corresponding" or roles contains "cocorresponding" %}
     {% assign is_corr = true %}
   {% endif %}
 
@@ -53,7 +54,7 @@
     {% assign pubs_other = pubs_other | plus: 1 %}
   {% endunless %}
 
-  {% if post.excerpt contains "CCF-A" or post.excerpt contains "CAAI-A" %}
+  {% if rankings contains "CCF-A" %}
     {% assign ccf_a_total = ccf_a_total | plus: 1 %}
     {% if is_first %}
       {% assign ccf_a_first = ccf_a_first | plus: 1 %}
@@ -69,23 +70,23 @@
     {% endunless %}
   {% endif %}
 
-  {% if post.excerpt contains "CCF-B" %}
-    {% assign ccf_b_total = ccf_b_total | plus: 1 %}
+  {% if rankings contains "CAAI-A" %}
+    {% assign caai_a_total = caai_a_total | plus: 1 %}
     {% if is_first %}
-      {% assign ccf_b_first = ccf_b_first | plus: 1 %}
+      {% assign caai_a_first = caai_a_first | plus: 1 %}
     {% endif %}
     {% if is_co_first %}
-      {% assign ccf_b_co_first = ccf_b_co_first | plus: 1 %}
+      {% assign caai_a_co_first = caai_a_co_first | plus: 1 %}
     {% endif %}
     {% if is_corr %}
-      {% assign ccf_b_corr = ccf_b_corr | plus: 1 %}
+      {% assign caai_a_corr = caai_a_corr | plus: 1 %}
     {% endif %}
     {% unless is_first or is_co_first or is_corr %}
-      {% assign ccf_b_other = ccf_b_other | plus: 1 %}
+      {% assign caai_a_other = caai_a_other | plus: 1 %}
     {% endunless %}
   {% endif %}
 
-  {% if post.excerpt contains "SCI Q1" %}
+  {% if rankings contains "SCI-Q1" %}
     {% assign sci_q1_total = sci_q1_total | plus: 1 %}
     {% if is_first %}
       {% assign sci_q1_first = sci_q1_first | plus: 1 %}
@@ -107,24 +108,42 @@
     <span class="stats-card__icon"><i class="fa fa-trophy" aria-hidden="true"></i></span>
     <div class="stats-card__content">
       <span class="stats-card__number">{{ ccf_a_total }}</span>
-      <span class="stats-card__label">CCF/CAAI-A</span>
-      <span class="stats-card__sub">{{ ccf_a_first }} first-author, {{ ccf_a_co_first }} co-first, {{ ccf_a_corr }} corr. author, {{ ccf_a_other }} other author</span>
+      <span class="stats-card__label">CCF-A</span>
+      <span class="stats-card__sub">
+        {% if page.lang == "zh" %}
+          一作 {{ ccf_a_first }} · 共同一作 {{ ccf_a_co_first }} · 通讯/共同通讯 {{ ccf_a_corr }} · 其他作者 {{ ccf_a_other }}
+        {% else %}
+          {{ ccf_a_first }} first · {{ ccf_a_co_first }} co-first · {{ ccf_a_corr }} corresponding/co-corresponding · {{ ccf_a_other }} other
+        {% endif %}
+      </span>
     </div>
   </div>
   <div class="stats-card">
     <span class="stats-card__icon"><i class="fa fa-award" aria-hidden="true"></i></span>
     <div class="stats-card__content">
-      <span class="stats-card__number">{{ ccf_b_total }}</span>
-      <span class="stats-card__label">CCF-B</span>
-      <span class="stats-card__sub">{{ ccf_b_first }} first-author, {{ ccf_b_co_first }} co-first, {{ ccf_b_corr }} corr. author, {{ ccf_b_other }} other author</span>
+      <span class="stats-card__number">{{ caai_a_total }}</span>
+      <span class="stats-card__label">CAAI-A</span>
+      <span class="stats-card__sub">
+        {% if page.lang == "zh" %}
+          一作 {{ caai_a_first }} · 共同一作 {{ caai_a_co_first }} · 通讯/共同通讯 {{ caai_a_corr }} · 其他作者 {{ caai_a_other }}
+        {% else %}
+          {{ caai_a_first }} first · {{ caai_a_co_first }} co-first · {{ caai_a_corr }} corresponding/co-corresponding · {{ caai_a_other }} other
+        {% endif %}
+      </span>
     </div>
   </div>
   <div class="stats-card">
     <span class="stats-card__icon"><i class="fa fa-chart-line" aria-hidden="true"></i></span>
     <div class="stats-card__content">
       <span class="stats-card__number">{{ sci_q1_total }}</span>
-      <span class="stats-card__label">SCI Q1</span>
-      <span class="stats-card__sub">{{ sci_q1_first }} first-author, {{ sci_q1_co_first }} co-first, {{ sci_q1_corr }} corr. author, {{ sci_q1_other }} other author</span>
+      <span class="stats-card__label">{% if page.lang == "zh" %}SCI 一区{% else %}SCI Q1{% endif %}</span>
+      <span class="stats-card__sub">
+        {% if page.lang == "zh" %}
+          一作 {{ sci_q1_first }} · 共同一作 {{ sci_q1_co_first }} · 通讯/共同通讯 {{ sci_q1_corr }} · 其他作者 {{ sci_q1_other }}
+        {% else %}
+          {{ sci_q1_first }} first · {{ sci_q1_co_first }} co-first · {{ sci_q1_corr }} corresponding/co-corresponding · {{ sci_q1_other }} other
+        {% endif %}
+      </span>
     </div>
   </div>
   <div class="stats-card">
@@ -132,21 +151,21 @@
     <div class="stats-card__content">
       <span class="stats-card__number">
         {% if site.data.scholar.citation_count %}
-          {{ site.data.scholar.citation_count }}
+          {{ site.data.scholar.citation_count }}+
         {% else %}
           {{ pubs_total }}
         {% endif %}
       </span>
       <span class="stats-card__label">
         {% if site.data.scholar.citation_count %}
-          Total Citations
+          {% if page.lang == "zh" %}Google Scholar 引用{% else %}Google Scholar Citations{% endif %}
         {% else %}
           Total Publications
         {% endif %}
       </span>
       <span class="stats-card__sub">
         {% if site.data.scholar.citation_count %}
-          from Google Scholar
+          {% if page.lang == "zh" %}每月自动更新{% else %}Updated automatically each month{% endif %}
         {% else %}
           {{ pubs_first }} first-author, {{ pubs_co_first }} co-first
         {% endif %}
@@ -154,3 +173,10 @@
     </div>
   </div>
 </div>
+<p class="stats-cards__note">
+  {% if page.lang == "zh" %}
+    作者身份可重叠：同一篇论文可同时计入共同一作和通讯/共同通讯。
+  {% else %}
+    Author roles may overlap when one paper is both co-first-authored and corresponding/co-corresponding-authored.
+  {% endif %}
+</p>

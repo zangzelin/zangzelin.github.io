@@ -3,6 +3,7 @@ title: "Deep Multimanifold Transformation-Based Multivariate Time Series Fault D
 collection: publications
 category: manuscripts
 author_role: corresponding
+rankings: [CAAI-A, SCI-Q1]
 permalink: /publication/2025-tnnls-dmtts
 excerpt: 'Hong Liu, Xiuxiu Qiu, Yiming Shi, Miao Xu, <b>Zelin Zang&dagger;</b>, Zhen Lei, <i>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</i>, 2025, <span class="badge">CCF-B / CAAI-A</span>, <span class="badge">SCI Q1</span>, <span class="badge">Corresponding Author</span>'
 date: 2025-03-01

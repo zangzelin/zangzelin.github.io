@@ -3,6 +3,7 @@ title: "FGeneBERT: Function-driven pre-trained gene language model for metagenom
 collection: publications
 category: manuscripts
 author_role: coauthor
+rankings: [SCI-Q1]
 permalink: /publication/2025-bib-fgenebert
 excerpt: 'Chenrui Duan, <b>Zelin Zang</b>, Yongjie Xu, Hang He, Siyuan Li, Zihan Liu, Zhen Lei, Ju-Sheng Zheng, Stan Z. Li, <i>Briefings in Bioinformatics</i>, 2025, <span class="badge">CCF-B, SCI Q1, AI4SCI</span>'
 date: 2025-11-10

@@ -3,6 +3,7 @@ title: "Adaptive Prototype-guided Personalized Propagation for Heterophilic Grap
 collection: publications
 category: manuscripts
 author_role: coauthor
+rankings: [CAAI-A, SCI-Q1]
 permalink: /publication/2026-tnnls-adaptive-prototype
 excerpt: 'Mengran Li, Wenbin Xing, <b>Zelin Zang</b>, Bo Li, Chengyang Zhang, Yong Zhang, Junzhou Chen, Ronghui Zhang, Yongfu Li, Chuan Hu, Xiaolei Ma, Zibin Zheng, <i>IEEE Transactions on Neural Networks and Learning Systems</i>, 2026, <span class="badge">CCF-B / CAAI-A</span>, <span class="badge">SCI Q1</span>'
 date: 2026-03-11

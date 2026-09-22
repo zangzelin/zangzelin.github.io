@@ -3,6 +3,7 @@ title: "DiffAug: Enhance Unsupervised Contrastive Learning with Domain-Knowledge
 collection: publications
 category: conferences
 author_role: first
+rankings: [CCF-A, CAAI-A]
 selected: true
 permalink: /publication/2024-07-01-boosting-contrastive
 excerpt: '<b>Zelin Zang</b>, Hao Luo, Kai Wang, Panpan Zhang, Fan Wang, Stan Li, Yang You, <i>International Conference on Machine Learning (ICML)</i>, 2024, <span class="badge">CCF-A</span>, <span class="badge">First Author</span>'

@@ -3,6 +3,7 @@ title: "Precise control and prediction of the greenhouse growth environment of D
 collection: publications
 category: manuscripts
 author_role: coauthor
+rankings: [SCI-Q1]
 permalink: /publication/2018-precise-control
 excerpt: 'Jin-Ting Ding, Hang-Yao Tu, <b>Ze-Lin Zang</b>, Min Huang, Sheng-Jun Zhou, <i>Computers and electronics in agriculture</i>, 2018, <span class="badge">SCI Q1</span>'
 date: 2018-01-01

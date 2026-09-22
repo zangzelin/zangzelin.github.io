@@ -3,6 +3,7 @@ title: "Boosting Novel Category Discovery Over Domains with Soft Contrastive Lea
 collection: publications
 category: conferences
 author_role: first
+rankings: [CCF-A, CAAI-A]
 selected: true
 permalink: /publication/2023-10-01-novel-category
 excerpt: '<b>Zelin Zang</b>, Lei Shang, Senqiao Yang, Fei Wang, Baigui Sun, Xuansong Xie, Stan Z. Li, <i>International Conference on Computer Vision (ICCV)</i>, 2023, <span class="badge">CCF-A, Oral</span>, <span class="badge">First Author</span>'

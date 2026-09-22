@@ -3,6 +3,7 @@ title: "CellScout: Visual Analytics for Mining Biomarkers in Cell State Discover
 collection: publications
 category: manuscripts
 author_role: corresponding
+rankings: [CCF-A, CAAI-A, SCI-Q1]
 selected: true
 permalink: /publication/2026-02-01-cellscout
 excerpt: 'Rui Sheng, <b>Zelin Zang&dagger;</b>, Jiachen Wang, Yan Luo, Zixin Chen, Yan Zhou, Shaolun Ruan, Huamin Qu, <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>, 2026, <span class="badge">CCF-A</span>, <span class="badge">SCI Q1</span>, <span class="badge">Corresponding Author</span>'

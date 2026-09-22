@@ -25,8 +25,9 @@ lang: zh
 {% comment %}
   论文按 front matter 中的结构化字段 author_role
   （first / cofirst / corresponding / coauthor）分组，
-  不再对 excerpt 做字符串匹配。新增论文时请在 front matter
-  加 author_role 字段；缺省按 coauthor 处理。
+  不再对 excerpt 做字符串匹配。首页统计读取 rankings
+  （CCF-A / CAAI-A / SCI-Q1）。新增论文时应同时填写这两个字段，
+  GitHub Pages 每次重新生成网站时会自动更新统计。
 {% endcomment %}
 
 <div class="publications-compact">

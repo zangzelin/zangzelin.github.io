@@ -3,6 +3,7 @@ title: "scHelix: Asymmetric Dual-Stream Integration via Explicit Gene-Level Dise
 collection: publications
 category: conferences
 author_role: cofirst
+rankings: [CCF-A, CAAI-A]
 author_roles:
   - cofirst
   - corresponding

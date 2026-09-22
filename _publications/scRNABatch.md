@@ -3,6 +3,7 @@ title: "Structure-preserving visualization for single-cell RNA-Seq profiles usin
 collection: publications
 category: manuscripts
 author_role: cofirst
+rankings: [SCI-Q1]
 permalink: /publication/2023-commbio-scrna
 excerpt: 'Yongjie Xu\*, **Zelin Zang\***, Jun Xia, Cheng Tan, Yulan Geng, Stan Z. Li, <i>Communications Biology</i>, 2023, <span class="badge">SCI Q1, IF=6.5</span>, <span class="badge">Co-first Author</span>'
 date: 2023-07-01

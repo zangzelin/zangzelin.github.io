@@ -3,6 +3,7 @@ title: "PhyloGen: Language Model-Enhanced Phylogenetic Inference via Graph Struc
 collection: publications
 category: conferences
 author_role: cofirst
+rankings: [CCF-A, CAAI-A]
 permalink: /publication/2024-12-01-phylogen
 excerpt: 'Chenrui Duan\*, **Zelin Zang\***, Siyuan Li, Yongjie Xu, Stan Z. Li, <i>Neural Information Processing Systems (NeurIPS)</i>, 2024, <span class="badge">CCF-A</span>, <span class="badge">Co-first Author</span>'
 date: 2024-12-01

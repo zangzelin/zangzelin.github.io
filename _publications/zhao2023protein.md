@@ -3,6 +3,7 @@ title: "Protein structure and folding pathway prediction based on remote homolog
 collection: publications
 category: manuscripts
 author_role: coauthor
+rankings: [SCI-Q1]
 permalink: /publication/2023-protein-structure
 excerpt: 'Kailong Zhao, Yuhao Xia, Fujin Zhang, <b>Zelin Zang</b>, Stan Z. Li, Guijun Zhang, <i>Communications biology</i>, 2023, <span class="badge">SCI Q1, IF=6.5</span>'
 date: 2023-01-01
