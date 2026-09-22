@@ -1,5 +1,5 @@
 {% comment %}
-  Publication statistics: CCF-A, CCF-B, SCI Q1 (card-style)
+  Publication statistics: CCF/CAAI-A, CCF-B, SCI Q1 (card-style)
   Include this in about.md and publications.html
 {% endcomment %}
 {% assign ccf_a_total = 0 %}
@@ -53,7 +53,7 @@
     {% assign pubs_other = pubs_other | plus: 1 %}
   {% endunless %}
 
-  {% if post.excerpt contains "CCF-A" %}
+  {% if post.excerpt contains "CCF-A" or post.excerpt contains "CAAI-A" %}
     {% assign ccf_a_total = ccf_a_total | plus: 1 %}
     {% if is_first %}
       {% assign ccf_a_first = ccf_a_first | plus: 1 %}
