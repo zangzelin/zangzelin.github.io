@@ -10,8 +10,13 @@ lang: zh
 
 <div class="openings-section">
   <h2><i class="fa fa-users" aria-hidden="true"></i> 招收类型</h2>
-  <p>我现任<strong>钱塘高等研究院（TIAS）助理教授</strong>，正在组建<strong>科学智能团队</strong>。</p>
-  <p>我正在积极招募<strong>实习生</strong>和<strong>博士生</strong>（与<strong>中国科学院自动化所</strong>、<strong>浙江大学</strong>或<strong>西湖大学</strong>联合培养）。</p>
+  <p>我现任<strong><a href="https://www.tias.ac.cn/">钱塘高等研究院（TIAS）</a>助理教授</strong>，正在组建<strong>科学智能团队</strong>，招聘以下岗位：</p>
+  <ul>
+    <li id="postdocs"><strong>博士后</strong></li>
+    <li id="phd"><strong>联合培养博士生</strong>（与中国科学院自动化所、浙江大学或西湖大学联合培养）</li>
+    <li id="ra"><strong>研究助理（RA）</strong></li>
+    <li id="interns"><strong>本科实习生</strong></li>
+  </ul>
 </div>
 
 <div class="openings-section">

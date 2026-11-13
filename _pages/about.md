@@ -14,7 +14,7 @@ redirect_from:
 
 {% include publication-stats.html %}
 
-I am an **Assistant Professor** at **Tsientang Institute for Advanced Study (TIAS)**, where I am building an **AI for Science team**.
+I am an **Assistant Professor** at [**Tsientang Institute for Advanced Study (TIAS)**](https://www.tias.ac.cn/), where I am building an **AI for Science team**. I am recruiting [**postdoctoral researchers**](/openings/#postdocs), [**jointly supervised PhD students**](/openings/#phd), [**research assistants (RAs)**](/openings/#ra), and [**undergraduate interns**](/openings/#interns).
 
 Previously, I was a Research Assistant Professor at **Hong Kong Institute of Innovation** and **Westlake University**, working with [Prof. Stan Z. Li (IEEE Fellow)](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ), [Prof. Zhen Lei (IEEE Fellow)](https://www.cbsr.ia.ac.cn/users/zlei/), and [Prof. Jiebo Luo (IEEE Fellow)](https://www.cs.rochester.edu/people/faculty/luo_jiebo/index.html).
 

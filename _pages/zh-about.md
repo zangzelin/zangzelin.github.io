@@ -15,7 +15,7 @@ redirect_from:
 
 {% include publication-stats.html %}
 
-我现任**钱塘高等研究院（TIAS）助理教授**，正在组建**科学智能团队**。
+我现任[**钱塘高等研究院（TIAS）**](https://www.tias.ac.cn/)**助理教授**，正在组建**科学智能团队**。现招聘[**博士后**](/zh/openings/#postdocs)、[**联合培养博士生**](/zh/openings/#phd)、[**研究助理（RA）**](/zh/openings/#ra)和[**本科实习生**](/zh/openings/#interns)。
 
 此前，我在**香港创新研究院（HKII）**和**西湖大学**担任研究助理教授，与[李子青教授（IEEE Fellow）](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)、[雷震教授（IEEE Fellow）](https://www.cbsr.ia.ac.cn/users/zlei/)和[罗杰波教授（IEEE Fellow）](https://www.cs.rochester.edu/people/faculty/luo_jiebo/index.html)合作。
 

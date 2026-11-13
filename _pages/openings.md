@@ -9,8 +9,13 @@ author_profile: true
 
 <div class="openings-section">
   <h2><i class="fa fa-users" aria-hidden="true"></i> Positions</h2>
-  <p>I am an <strong>Assistant Professor</strong> at <strong>Tsientang Institute for Advanced Study (TIAS)</strong>, where I am building an <strong>AI for Science team</strong>.</p>
-  <p>I am actively recruiting <strong>Interns</strong> and <strong>PhD Students</strong> (jointly trained with <strong>Institute of Automation-CAS</strong>, <strong>Zhejiang University</strong>, or <strong>Westlake University</strong>).</p>
+  <p>I am an <strong>Assistant Professor</strong> at <strong><a href="https://www.tias.ac.cn/">Tsientang Institute for Advanced Study (TIAS)</a></strong>, where I am building an <strong>AI for Science team</strong>. We are recruiting:</p>
+  <ul>
+    <li id="postdocs"><strong>Postdoctoral researchers</strong></li>
+    <li id="phd"><strong>Jointly supervised PhD students</strong> (with the Institute of Automation, CAS, Zhejiang University, or Westlake University)</li>
+    <li id="ra"><strong>Research assistants (RAs)</strong></li>
+    <li id="interns"><strong>Undergraduate interns</strong></li>
+  </ul>
 </div>
 
 <div class="openings-section">
@@ -27,7 +32,7 @@ author_profile: true
 <div class="openings-section">
   <h2><i class="fa fa-check-circle" aria-hidden="true"></i> What We Look For</h2>
   <ul>
-    <li>Self-motivated students with a strong interest in the directions above.</li>
+    <li>Self-motivated researchers and students with a strong interest in the directions above.</li>
     <li>Background in computer science, mathematics, biology, or related fields.</li>
     <li>Programming experience (Python / PyTorch preferred).</li>
     <li>Curiosity about open scientific problems and willingness to read and reproduce literature.</li>
