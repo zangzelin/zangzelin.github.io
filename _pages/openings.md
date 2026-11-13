@@ -12,7 +12,7 @@ author_profile: true
   <p>I am an <strong>Assistant Professor</strong> at <strong><a href="https://www.tias.ac.cn/">Tsientang Institute for Advanced Study (TIAS)</a></strong>, where I am building an <strong>AI for Science team</strong>. We are recruiting:</p>
   <ul>
     <li id="postdocs"><strong>Postdoctoral researchers</strong></li>
-    <li id="phd"><strong>Jointly supervised PhD students</strong> (with the Institute of Automation, CAS, Zhejiang University, or Westlake University)</li>
+    <li id="phd"><strong>Jointly supervised PhD students</strong> (with Zhejiang University and ShanghaiTech University). <a href="https://www.tias.ac.cn/cn/admissions.html#1">Official admissions information</a>; <a href="https://www.tias.ac.cn/cn/admissions/info/118.html">Zhejiang University–TIAS joint PhD admissions notice</a> (in Chinese).</li>
     <li id="ra"><strong>Research assistants (RAs)</strong></li>
     <li id="interns"><strong>Undergraduate interns</strong></li>
   </ul>

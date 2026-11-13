@@ -13,7 +13,7 @@ lang: zh
   <p>我现任<strong><a href="https://www.tias.ac.cn/">钱塘高等研究院（TIAS）</a>助理教授</strong>，正在组建<strong>科学智能团队</strong>，招聘以下岗位：</p>
   <ul>
     <li id="postdocs"><strong>博士后</strong></li>
-    <li id="phd"><strong>联合培养博士生</strong>（与中国科学院自动化所、浙江大学或西湖大学联合培养）</li>
+    <li id="phd"><strong>联合培养博士生</strong>（与浙江大学、上海科技大学联合培养）。<a href="https://www.tias.ac.cn/cn/admissions.html#1">官方招生信息</a>；<a href="https://www.tias.ac.cn/cn/admissions/info/118.html">浙江大学联培博士专项招生通知</a>。</li>
     <li id="ra"><strong>研究助理（RA）</strong></li>
     <li id="interns"><strong>本科实习生</strong></li>
   </ul>
