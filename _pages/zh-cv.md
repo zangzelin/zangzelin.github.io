@@ -12,7 +12,11 @@ redirect_from:
 
 工作经历
 ======
-*   **研究助理教授（Research Assistant Professor, RAP）** (2024 年 7 月 - 至今)
+*   **助理教授（Assistant Professor）** (2026 年 - 至今)
+    *   *钱塘高等研究院（TIAS）*
+    *   正在组建**科学智能团队**。
+
+*   **研究助理教授（Research Assistant Professor, RAP）** (2024 年 7 月 - 2026 年)
     *   *香港创新研究院（HKII）和西湖大学*
     *   **合作导师:** [李子青教授](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ)（IEEE Fellow）、雷震教授和骆杰波教授
     *   **研究方向:** 基础 AI、基础模型、深度流形学习、AI for Science、医学 AI

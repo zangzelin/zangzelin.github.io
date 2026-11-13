@@ -9,6 +9,7 @@ author_profile: true
 
 <div class="openings-section">
   <h2><i class="fa fa-users" aria-hidden="true"></i> Positions</h2>
+  <p>I am an <strong>Assistant Professor</strong> at <strong>Tsientang Institute for Advanced Study (TIAS)</strong>, where I am building an <strong>AI for Science team</strong>.</p>
   <p>I am actively recruiting <strong>Interns</strong> and <strong>PhD Students</strong> (jointly trained with <strong>Institute of Automation-CAS</strong>, <strong>Zhejiang University</strong>, or <strong>Westlake University</strong>).</p>
 </div>
 
@@ -36,7 +37,7 @@ author_profile: true
 <div class="openings-section">
   <h2><i class="fa fa-gift" aria-hidden="true"></i> What You Get</h2>
   <ul>
-    <li>Close one-on-one mentorship, working with <a href="https://scholar.google.com/citations?user=Y-nyLGIAAAAJ">Prof. Stan Z. Li</a>'s group ecosystem.</li>
+    <li>Close one-on-one mentorship and the opportunity to help build the AI for Science team at TIAS.</li>
     <li>Full support for attending top conferences (NeurIPS, ICML, ICLR, CVPR, KDD, etc.).</li>
     <li>Hands-on experience across AI fundamentals and real-world applications (life science, medicine).</li>
   </ul>

@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Zelin Zang's Academic Homepage"
 title_separator          : "-"
 name                     : &name "Zelin Zang"
-description              : &description "Zelin Zang's Academic Homepage — Research Assistant Professor at Hong Kong Institute of Innovation & Westlake University. Fundamental AI, Foundation Models, AI for Science & AI Scientists."   # site-wide default meta description
+description              : &description "Zelin Zang's Academic Homepage — Assistant Professor at Tsientang Institute for Advanced Study (TIAS), building an AI for Science team. Fundamental AI, Foundation Models & AI Scientists."   # site-wide default meta description
 url                      : https://zangzelin.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "zzl720.jpg"
   name             : "Zelin Zang"
   pronouns         : # example: "she/her"  
-  bio              : "Research Assistant Professor (RAP) at Hong Kong Institute of Innovation and Westlake University. Focusing on Fundamental AI, Foundation Models, AI for Science, AI Scientists, and Deep Manifold Learning."
-  location         : "Hong Kong"
-  employer         : "Hong Kong Institute of Innovation & Westlake University"
+  bio              : "Assistant Professor at Tsientang Institute for Advanced Study (TIAS). Building an AI for Science team, focusing on Fundamental AI, Foundation Models, AI Scientists, and Deep Manifold Learning."
+  location         : "Hangzhou, China"
+  employer         : "Tsientang Institute for Advanced Study (TIAS)"
   uri              : # URL
   email            : "zangzelin@gmail.com" 
 

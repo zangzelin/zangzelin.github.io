@@ -10,6 +10,7 @@ lang: zh
 
 <div class="openings-section">
   <h2><i class="fa fa-users" aria-hidden="true"></i> 招收类型</h2>
+  <p>我现任<strong>钱塘高等研究院（TIAS）助理教授</strong>，正在组建<strong>科学智能团队</strong>。</p>
   <p>我正在积极招募<strong>实习生</strong>和<strong>博士生</strong>（与<strong>中国科学院自动化所</strong>、<strong>浙江大学</strong>或<strong>西湖大学</strong>联合培养）。</p>
 </div>
 
@@ -37,7 +38,7 @@ lang: zh
 <div class="openings-section">
   <h2><i class="fa fa-gift" aria-hidden="true"></i> 你将获得</h2>
   <ul>
-    <li>一对一的紧密指导，融入 <a href="https://scholar.google.com/citations?user=Y-nyLGIAAAAJ">李子青教授</a> 课题组的科研生态。</li>
+    <li>一对一的紧密指导，参与钱塘高等研究院科学智能团队的建设。</li>
     <li>支持参加顶级学术会议（NeurIPS、ICML、ICLR、CVPR、KDD 等）。</li>
     <li>在 AI 基础理论与实际应用（生命科学、医学）交叉领域获得完整的研究训练。</li>
   </ul>
