@@ -13,7 +13,7 @@ Work Experience
 ======
 *   **Assistant Professor** (2026 - Present)
     *   *Tsientang Institute for Advanced Study (TIAS)*
-    *   Building an **AI for Science team**.
+    *   Building an **Agents & AI for Science team**.
 
 *   **Research Assistant Professor (RAP)** (Jul 2024 - 2026)
     *   *Hong Kong Institute of Innovation and Westlake University*

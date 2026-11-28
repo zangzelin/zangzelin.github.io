@@ -13,8 +13,8 @@ redirect_from:
 工作经历
 ======
 *   **助理教授（Assistant Professor）** (2026 年 - 至今)
-    *   *钱塘高等研究院（TIAS）*
-    *   正在组建**科学智能团队**。
+    *   *钱塘高等研究院（钱塘大学，TIAS）*
+    *   正在组建**智能体与科学智能团队**。
 
 *   **研究助理教授（Research Assistant Professor, RAP）** (2024 年 7 月 - 2026 年)
     *   *香港创新研究院（HKII）和西湖大学*
